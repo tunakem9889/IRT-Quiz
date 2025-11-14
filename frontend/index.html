@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adaptive Quiz - Bài kiểm tra thích ứng</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <!-- MathJax for rendering LaTeX in question stems and choices -->
+        <script>
+            window.MathJax = {
+                tex: {
+                    inlineMath: [['$', '$'], ['\\(', '\\)']],
+                    displayMath: [['$$','$$'], ['\\[','\\]']]
+                },
+                options: {
+                    skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+                }
+            };
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+</head>
+<body>
+    <!-- Loading Overlay -->
+    <div id="loading-overlay" class="loading-overlay hidden">
+        <div class="loading-spinner"></div>
+        <p>Đang xử lý...</p>
+    </div>
+
+    <!-- Header -->
+    <header class="app-header">
+        <div class="header-content">
+            <div class="logo-section">
+                <div class="logo-icon">📊</div>
+                <div>
+                    <h1>Adaptive Quiz</h1>
+                    <p class="subtitle">Bài kiểm tra thích ứng theo năng lực (IRT/CAT)</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="container">
+        <!-- Start Screen -->
+        <section id="start-screen" class="screen card start-card">
+            <div class="card-header">
+                <h2>Cấu hình bài kiểm tra</h2>
+                <p class="card-description">Thiết lập các thông số cho bài kiểm tra thích ứng</p>
+            </div>
+            <div class="card-body">
+                <div class="form-group">
+                    <label for="category-select" class="form-label">
+                        <span class="label-text">Danh mục câu hỏi</span>
+                        <span class="label-hint">Chọn môn muốn luyện tập</span>
+                    </label>
+                    <div class="input-wrapper">
+                        <select id="category-select" class="form-input">
+                            <option value="" disabled selected>Đang tải danh mục...</option>
+                        </select>
+                        <span class="input-icon">📚</span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="max-questions" class="form-label">
+                        <span class="label-text">Số câu tối đa</span>
+                        <span class="label-hint">Số lượng câu hỏi tối đa (3-50)</span>
+                    </label>
+                    <div class="input-wrapper">
+                        <input id="max-questions" type="number" min="3" max="50" value="10" class="form-input">
+                        <span class="input-icon">📝</span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="stop-se" class="form-label">
+                        <span class="label-text">Ngưỡng SE (dừng sớm)</span>
+                        <span class="label-hint">Độ chính xác đạt được để dừng (0.2-1.5)</span>
+                    </label>
+                    <div class="input-wrapper">
+                        <input id="stop-se" type="number" step="0.01" min="0.2" max="1.5" value="0.35" class="form-input">
+                        <span class="input-icon">🎯</span>
+                    </div>
+                </div>
+                <div class="info-box">
+                    <div class="info-icon">ℹ️</div>
+                    <div class="info-content">
+                        <strong>Thông tin:</strong> Hệ thống sẽ tự động dừng khi đạt độ chính xác mong muốn hoặc đạt số câu tối đa.
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer">
+                <button id="btn-start" class="btn btn-primary btn-large">
+                    <span class="btn-text">Bắt đầu làm bài</span>
+                    <span class="btn-icon">🚀</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- Quiz Screen -->
+        <section id="quiz-screen" class="screen card quiz-card hidden">
+            <!-- Progress Section -->
+            <div class="quiz-header">
+                <div class="progress-info">
+                    <div class="progress-text">
+                        <span class="progress-label">Tiến độ</span>
+                        <span class="progress-value" id="progress-display">0/0</span>
+                    </div>
+                    <div class="progress-bar-wrapper">
+                        <div class="progress-bar" id="progress-bar">
+                            <div class="progress-fill" id="progress-fill"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Question Grid - Moved here -->
+                <div class="question-grid-container">
+                    <div id="question-grid" class="question-grid"></div>
+                </div>
+                
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">📈</div>
+                        <div class="stat-content">
+                            <div class="stat-label">Khả năng (θ)</div>
+                            <div class="stat-value" id="theta-display">0.00</div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">📊</div>
+                        <div class="stat-content">
+                            <div class="stat-label">Sai số (SE)</div>
+                            <div class="stat-value" id="se-display">-</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Question Section -->
+            <div class="question-section">
+                <div class="question-number">
+                    Câu hỏi <span id="question-num">1</span>
+                </div>
+                <div id="question-area" class="question-area">
+                    <div id="stem" class="question-stem"></div>
+                    <div id="choices" class="choices-container"></div>
+                </div>
+            </div>
+
+            <!-- Actions -->
+            <div class="quiz-actions">
+                <button id="btn-skip" class="btn btn-secondary">
+                    <span class="btn-icon">⏭️</span>
+                    <span class="btn-text">Bỏ qua</span>
+                </button>
+                <button id="btn-submit" class="btn btn-primary" disabled>
+                    <span class="btn-text">Nộp đáp án</span>
+                    <span class="btn-icon">✓</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- Result Screen -->
+        <section id="result-screen" class="screen card result-card hidden">
+            <div class="result-header">
+                <div class="result-icon">🎉</div>
+                <h2>Kết quả bài kiểm tra</h2>
+                <p class="result-subtitle">Bạn đã hoàn thành bài kiểm tra!</p>
+            </div>
+
+            <div class="result-body">
+                <!-- Score Cards -->
+                <div class="result-stats">
+                    <div class="result-stat-card primary">
+                        <div class="result-stat-icon">📊</div>
+                        <div class="result-stat-content">
+                            <div class="result-stat-label">Khả năng (θ)</div>
+                            <div class="result-stat-value" id="final-theta">0.00</div>
+                            <div class="result-stat-desc">Ước lượng năng lực</div>
+                        </div>
+                    </div>
+                    <div class="result-stat-card">
+                        <div class="result-stat-icon">🎯</div>
+                        <div class="result-stat-content">
+                            <div class="result-stat-label">Sai số (SE)</div>
+                            <div class="result-stat-value" id="final-se">-</div>
+                            <div class="result-stat-desc">Độ chính xác</div>
+                        </div>
+                    </div>
+                    <div class="result-stat-card">
+                        <div class="result-stat-icon">✅</div>
+                        <div class="result-stat-content">
+                            <div class="result-stat-label">Câu đúng</div>
+                            <div class="result-stat-value" id="final-correct">-</div>
+                            <div class="result-stat-desc" id="final-correct-desc">-</div>
+                        </div>
+                    </div>
+                    <div class="result-stat-card">
+                        <div class="result-stat-icon">📝</div>
+                        <div class="result-stat-content">
+                            <div class="result-stat-label">Tổng câu</div>
+                            <div class="result-stat-value" id="final-total">-</div>
+                            <div class="result-stat-desc" id="final-total-desc">-</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Report Section -->
+                <div class="report-section">
+                    <h3>Báo cáo chi tiết</h3>
+                    <div id="report" class="report-content"></div>
+                </div>
+
+                <!-- Theta Visualization -->
+                <div class="theta-visualization">
+                    <h3>Biểu đồ năng lực</h3>
+                    <div class="theta-bar-container">
+                        <div class="theta-bar">
+                            <div class="theta-markers">
+                                <span>-3</span>
+                                <span>-2</span>
+                                <span>-1</span>
+                                <span>0</span>
+                                <span>1</span>
+                                <span>2</span>
+                                <span>3</span>
+                            </div>
+                            <div class="theta-bar-fill-wrapper">
+                                <div class="theta-bar-fill" id="theta-bar-fill"></div>
+                                <div class="theta-indicator" id="theta-indicator"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="result-footer">
+                <button id="btn-restart" class="btn btn-primary btn-large">
+                    <span class="btn-icon">🔄</span>
+                    <span class="btn-text">Làm lại</span>
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+        <div class="footer-content">
+            <span>Powered by IRT (2PL/3PL) — Adaptive Testing</span>
+        </div>
+    </footer>
+
+    <script src="./frontend.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+[
+  {
+    "item_id": "CHEM-ORG-001",
+    "stem": "Nguyên tố nào sau đây là thành phần chính của khí metan?",
+    "choices": ["Hydro", "Nitơ", "Carbon", "Oxy"],
+    "correct": 2,
+    "params": {"a": 1.0, "b": -0.3, "c": 0.18},
+    "content_tags": ["organic", "hydrocarbon"],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-INORG-001",
+    "stem": "Dung dịch nào sau đây có tính bazơ mạnh?",
+    "choices": ["HCl", "NaOH", "H2SO4", "CH3COOH"],
+    "correct": 1,
+    "params": {"a": 1.2, "b": -0.2, "c": 0.15},
+    "content_tags": ["base", "solution"],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-PERIOD-001",
+    "stem": "Nguyên tố nào nằm ở chu kỳ 3, nhóm IIA của bảng tuần hoàn?",
+    "choices": ["Magie", "Canxi", "Natri", "Nhôm"],
+    "correct": 0,
+    "params": {"a": 1.1, "b": -0.1, "c": 0.20},
+    "content_tags": ["periodic_table"],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-REACTION-001",
+    "stem": "Phản ứng trung hòa giữa axit và bazơ tạo ra sản phẩm chính là?",
+    "choices": ["Muối và nước", "Nước và khí", "Muối và khí", "Chỉ có nước"],
+    "correct": 0,
+    "params": {"a": 0.9, "b": -0.4, "c": 0.22},
+    "content_tags": ["acid_base", "reaction"],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-REDOX-001",
+    "stem": "Trong phản ứng oxi hóa - khử, chất nào nhận electron?",
+    "choices": ["Chất oxi hóa", "Chất khử", "Dung môi", "Chất xúc tác"],
+    "correct": 0,
+    "params": {"a": 1.3, "b": 0.1, "c": 0.18},
+    "content_tags": ["redox"],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-ORG-002",
+    "stem": "Hợp chất nào sau đây là ancol?",
+    "choices": ["CH3-CH2-OH", "CH3-CHO", "CH3-COOH", "CH3-O-CH3"],
+    "correct": 0,
+    "params": {"a": 1.4, "b": 0.3, "c": 0.25},
+    "content_tags": ["organic", "alcohol"],
+    "language": "vi"
+  }
+]

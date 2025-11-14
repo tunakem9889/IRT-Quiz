@@ -1,0 +1,61 @@
+[
+  {
+    "item_id": "HIST-VN-001",
+    "stem": "Chiến thắng Bạch Đằng lần thứ ba của dân tộc Việt Nam diễn ra vào năm nào?",
+    "choices": ["938", "981", "1288", "1427"],
+    "correct": 2,
+    "params": {"a": 1.1, "b": -0.1, "c": 0.22},
+    "content_tags": ["vietnam", "trande"],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-VN-002",
+    "stem": "Ai là người đọc Tuyên ngôn Độc lập ngày 2/9/1945?",
+    "choices": ["Phạm Văn Đồng", "Trường Chinh", "Hồ Chí Minh", "Võ Nguyên Giáp"],
+    "correct": 2,
+    "params": {"a": 1.3, "b": -0.2, "c": 0.20},
+    "content_tags": ["vietnam", "modern"],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-WORLD-001",
+    "stem": "Cuộc cách mạng công nghiệp lần thứ nhất bắt đầu ở quốc gia nào?",
+    "choices": ["Pháp", "Mỹ", "Anh", "Đức"],
+    "correct": 2,
+    "params": {"a": 1.0, "b": -0.3, "c": 0.18},
+    "content_tags": ["world", "industry"],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-WORLD-002",
+    "stem": "Sự kiện nào mở đầu Chiến tranh thế giới thứ hai?",
+    "choices": [
+      "Đức tấn công Ba Lan",
+      "Nhật tấn công Trân Châu Cảng",
+      "Đức chiếm Paris",
+      "Đức tấn công Liên Xô"
+    ],
+    "correct": 0,
+    "params": {"a": 1.2, "b": 0.1, "c": 0.21},
+    "content_tags": ["world", "ww2"],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-VN-003",
+    "stem": "Chiến dịch Điện Biên Phủ kết thúc thắng lợi vào năm nào?",
+    "choices": ["1952", "1954", "1956", "1958"],
+    "correct": 1,
+    "params": {"a": 1.4, "b": 0.3, "c": 0.18},
+    "content_tags": ["vietnam", "modern"],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-WORLD-003",
+    "stem": "Ai là người đề xướng học thuyết Tam quyền phân lập?",
+    "choices": ["John Locke", "Montesquieu", "Rousseau", "Voltaire"],
+    "correct": 1,
+    "params": {"a": 1.5, "b": 0.5, "c": 0.24},
+    "content_tags": ["world", "enlightenment"],
+    "language": "vi"
+  }
+]

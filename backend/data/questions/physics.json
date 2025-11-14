@@ -1,0 +1,126 @@
+[
+  {
+    "item_id": "PHYS-MECH-001",
+    "stem": "Đơn vị của lực trong hệ SI là?",
+    "choices": [
+      "Joule",
+      "Pascal",
+      "Newton",
+      "Watt"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.0,
+      "b": -0.5,
+      "c": 0.15
+    },
+    "content_tags": [
+      "mechanics",
+      "unit"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-MECH-002",
+    "stem": "Vận tốc là đạo hàm theo thời gian của đại lượng nào?",
+    "choices": [
+      "Gia tốc",
+      "Quãng đường",
+      "Lực",
+      "Khối lượng"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.2,
+      "b": -0.2,
+      "c": 0.18
+    },
+    "content_tags": [
+      "kinematics"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-ELEC-001",
+    "stem": "Điện trở tương đương của hai điện trở R mắc nối tiếp là?",
+    "choices": [
+      "R/2",
+      "R1 + R2",
+      "R1R2/(R1+R2)",
+      "2R"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.1,
+      "b": -0.1,
+      "c": 0.20
+    },
+    "content_tags": [
+      "electricity",
+      "circuit"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-OPT-001",
+    "stem": "Tia sáng đi từ môi trường chiết suất nhỏ sang lớn sẽ bị khúc xạ như thế nào?",
+    "choices": [
+      "Lệch xa pháp tuyến",
+      "Không bị lệch",
+      "Lệch lại gần pháp tuyến",
+      "Biến mất"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.9,
+      "b": -0.3,
+      "c": 0.22
+    },
+    "content_tags": [
+      "optics",
+      "refraction"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-THERM-001",
+    "stem": "Nhiệt lượng truyền cho một vật bằng tích của khối lượng, nhiệt dung riêng và đại lượng nào?",
+    "choices": [
+      "Thể tích",
+      "Độ tăng nhiệt độ",
+      "Khối lượng riêng",
+      "Áp suất"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.3,
+      "b": -0.1,
+      "c": 0.19
+    },
+    "content_tags": [
+      "thermodynamics"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-WAVE-001",
+    "stem": "Biên độ dao động của dao động điều hòa là?",
+    "choices": [
+      "Quãng đường vật đi được trong một chu kỳ",
+      "Khoảng cách lớn nhất vật lệch khỏi vị trí cân bằng",
+      "Số dao động vật thực hiện trong một giây",
+      "Chu kỳ dao động"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.4,
+      "b": 0.4,
+      "c": 0.20
+    },
+    "content_tags": [
+      "wave",
+      "oscillation"
+    ],
+    "language": "vi"
+  }
+]
