@@ -39,14 +39,9 @@
                     <h1>Adaptive Quiz</h1>
                     <p class="subtitle">Bài kiểm tra thích ứng theo năng lực (IRT/CAT)</p>
                 </div>
+
+                </div>
             </div>
-            <nav class="main-nav">
-                <ul class="nav-list">
-                    <li><a href="../home/index.html" class="nav-link">Trang chủ</a></li>
-                    <li><a href="../dashboard/index.html" class="nav-link">Dashboard</a></li>
-                    <li><a href="./index.html" class="nav-link active">Luyện tập</a></li>
-                </ul>
-            </nav>
         </div>
     </header>
 
@@ -108,65 +103,72 @@
 
         <!-- Quiz Screen -->
         <section id="quiz-screen" class="screen card quiz-card hidden">
-            <!-- Progress Section -->
-            <div class="quiz-header">
-                <div class="progress-info">
-                    <div class="progress-text">
-                        <span class="progress-label">Tiến độ</span>
-                        <span class="progress-value" id="progress-display">0/0</span>
-                    </div>
-                    <div class="progress-bar-wrapper">
-                        <div class="progress-bar" id="progress-bar">
-                            <div class="progress-fill" id="progress-fill"></div>
+            <div class="quiz-layout">
+                <!-- Main Content (Left) -->
+                <div class="quiz-main">
+                    <!-- Question Section -->
+                    <div class="question-section">
+                        <div class="question-number">
+                            Câu hỏi <span id="question-num">1</span>
+                            <span id="question-params" class="question-params"></span>
+                        </div>
+                        <div id="question-area" class="question-area">
+                            <div id="stem" class="question-stem"></div>
+                            <div id="choices" class="choices-container"></div>
                         </div>
                     </div>
-                </div>
-                
-                <!-- Question Grid -->
-                <div class="question-grid-container">
-                    <div id="question-grid" class="question-grid"></div>
-                </div>
-                
-                <div class="stats-grid">
-                    <div class="stat-card">
-                        <div class="stat-icon">📈</div>
-                        <div class="stat-content">
-                            <div class="stat-label">Khả năng (θ)</div>
-                            <div class="stat-value" id="theta-display">0.00</div>
-                        </div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-icon">📊</div>
-                        <div class="stat-content">
-                            <div class="stat-label">Sai số (SE)</div>
-                            <div class="stat-value" id="se-display">-</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-            <!-- Question Section -->
-            <div class="question-section">
-                <div class="question-number">
-                    Câu hỏi <span id="question-num">1</span>
-                    <span id="question-params" class="question-params"></span>
+                    <!-- Actions -->
+                    <div class="quiz-actions">
+                        <button id="btn-skip" class="btn btn-secondary">
+                            <span class="btn-icon">⏭️</span>
+                            <span class="btn-text">Bỏ qua</span>
+                        </button>
+                        <button id="btn-submit" class="btn btn-primary" disabled>
+                            <span class="btn-text">Nộp đáp án</span>
+                            <span class="btn-icon">✓</span>
+                        </button>
+                    </div>
                 </div>
-                <div id="question-area" class="question-area">
-                    <div id="stem" class="question-stem"></div>
-                    <div id="choices" class="choices-container"></div>
-                </div>
-            </div>
 
-            <!-- Actions -->
-            <div class="quiz-actions">
-                <button id="btn-skip" class="btn btn-secondary">
-                    <span class="btn-icon">⏭️</span>
-                    <span class="btn-text">Bỏ qua</span>
-                </button>
-                <button id="btn-submit" class="btn btn-primary" disabled>
-                    <span class="btn-text">Nộp đáp án</span>
-                    <span class="btn-icon">✓</span>
-                </button>
+                <!-- Sidebar (Right) -->
+                <div class="quiz-sidebar">
+                    <div class="sidebar-card">
+                        <h3>Tiến độ</h3>
+                        <div class="progress-info">
+                            <div class="progress-text">
+                                <span class="progress-value" id="progress-display">0/0</span>
+                            </div>
+                            <div class="progress-bar-wrapper">
+                                <div class="progress-bar" id="progress-bar">
+                                    <div class="progress-fill" id="progress-fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Question Grid -->
+                        <div class="question-grid-container">
+                            <div id="question-grid" class="question-grid"></div>
+                        </div>
+                    </div>
+
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-icon">📈</div>
+                            <div class="stat-content">
+                                <div class="stat-label">Khả năng (θ)</div>
+                                <div class="stat-value" id="theta-display">0.00</div>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">📊</div>
+                            <div class="stat-content">
+                                <div class="stat-label">Sai số (SE)</div>
+                                <div class="stat-value" id="se-display">-</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 

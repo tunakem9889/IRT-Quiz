@@ -1,61 +1,4202 @@
 [
   {
-    "item_id": "HIST-VN-001",
-    "stem": "Chiến thắng Bạch Đằng lần thứ ba của dân tộc Việt Nam diễn ra vào năm nào?",
-    "choices": ["938", "981", "1288", "1427"],
-    "correct": 2,
-    "params": {"a": 1.1, "b": -0.1, "c": 0.22},
-    "content_tags": ["vietnam", "trande"],
-    "language": "vi"
-  },
-  {
-    "item_id": "HIST-VN-002",
-    "stem": "Ai là người đọc Tuyên ngôn Độc lập ngày 2/9/1945?",
-    "choices": ["Phạm Văn Đồng", "Trường Chinh", "Hồ Chí Minh", "Võ Nguyên Giáp"],
-    "correct": 2,
-    "params": {"a": 1.3, "b": -0.2, "c": 0.20},
-    "content_tags": ["vietnam", "modern"],
-    "language": "vi"
-  },
-  {
-    "item_id": "HIST-WORLD-001",
-    "stem": "Cuộc cách mạng công nghiệp lần thứ nhất bắt đầu ở quốc gia nào?",
-    "choices": ["Pháp", "Mỹ", "Anh", "Đức"],
-    "correct": 2,
-    "params": {"a": 1.0, "b": -0.3, "c": 0.18},
-    "content_tags": ["world", "industry"],
-    "language": "vi"
-  },
-  {
-    "item_id": "HIST-WORLD-002",
-    "stem": "Sự kiện nào mở đầu Chiến tranh thế giới thứ hai?",
+    "item_id": "HIST-001",
+    "stem": "Trong sự kiện 'Chiến dịch Mậu Thân', chúng ta đã đối đầu với thế lực nào?",
     "choices": [
-      "Đức tấn công Ba Lan",
-      "Nhật tấn công Trân Châu Cảng",
-      "Đức chiếm Paris",
-      "Đức tấn công Liên Xô"
+      "Minh",
+      "Nam Hán",
+      "Mỹ",
+      "Pháp"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.59,
+      "b": -1.85,
+      "c": 0.14
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-002",
+    "stem": "Sự kiện 'Hội nghị Diên Hồng' diễn ra vào năm nào?",
+    "choices": [
+      "1939",
+      "1789",
+      "1284",
+      "1010"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.73,
+      "b": -1.04,
+      "c": 0.13
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-003",
+    "stem": "Sự kiện 'Nhà Nguyễn thành lập' diễn ra vào năm nào?",
+    "choices": [
+      "1802",
+      "1917",
+      "1945",
+      "1789"
     ],
     "correct": 0,
-    "params": {"a": 1.2, "b": 0.1, "c": 0.21},
-    "content_tags": ["world", "ww2"],
+    "params": {
+      "a": 1.87,
+      "b": -1.42,
+      "c": 0.14
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
     "language": "vi"
   },
   {
-    "item_id": "HIST-VN-003",
-    "stem": "Chiến dịch Điện Biên Phủ kết thúc thắng lợi vào năm nào?",
-    "choices": ["1952", "1954", "1956", "1958"],
-    "correct": 1,
-    "params": {"a": 1.4, "b": 0.3, "c": 0.18},
-    "content_tags": ["vietnam", "modern"],
+    "item_id": "HIST-004",
+    "stem": "Sự kiện 'Thành lập Liên Hợp Quốc' diễn ra tại đâu?",
+    "choices": [
+      "San Francisco",
+      "Mỹ",
+      "Hương Cảng",
+      "Hiroshima và Nagasaki"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.65,
+      "b": -2.42,
+      "c": 0.28
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
     "language": "vi"
   },
   {
-    "item_id": "HIST-WORLD-003",
-    "stem": "Ai là người đề xướng học thuyết Tam quyền phân lập?",
-    "choices": ["John Locke", "Montesquieu", "Rousseau", "Voltaire"],
+    "item_id": "HIST-005",
+    "stem": "Trong sự kiện 'Chiến thắng Điện Biên Phủ', chúng ta đã đối đầu với thế lực nào?",
+    "choices": [
+      "Pháp",
+      "Tống",
+      "Mỹ",
+      "Nguyên Mông"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.72,
+      "b": -2.09,
+      "c": 0.17
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-006",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Nhà Nguyễn thành lập'?",
+    "choices": [
+      "Thiên hoàng Minh Trị",
+      "Hồ Chí Minh",
+      "Nguyễn Ái Quốc",
+      "Nguyễn Ánh"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.2,
+      "b": -1.59,
+      "c": 0.12
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-007",
+    "stem": "Sự kiện 'Chiến thắng Điện Biên Phủ' diễn ra vào năm nào?",
+    "choices": [
+      "1954",
+      "1917",
+      "1418",
+      "1975"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.62,
+      "b": -2.29,
+      "c": 0.11
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-008",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Hội nghị Diên Hồng'?",
+    "choices": [
+      "Trần Thánh Tông",
+      "Lenin",
+      "Thiên hoàng Minh Trị",
+      "Trần Hưng Đạo"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.24,
+      "b": -1.71,
+      "c": 0.25
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-009",
+    "stem": "Trong sự kiện 'Chiến dịch Điện Biên Phủ trên không', chúng ta đã đối đầu với thế lực nào?",
+    "choices": [
+      "Thanh",
+      "Tống",
+      "Nguyên Mông",
+      "Mỹ"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.71,
+      "b": -1.73,
+      "c": 0.27
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-010",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Khởi nghĩa Lam Sơn'?",
+    "choices": [
+      "Trần Hưng Đạo",
+      "Nguyễn Ánh",
+      "Christopher Columbus",
+      "Lê Lợi"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.14,
+      "b": -0.67,
+      "c": 0.28
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-011",
+    "stem": "Sự kiện 'Giải phóng miền Nam' diễn ra vào năm nào?",
+    "choices": [
+      "1945",
+      "1975",
+      "1077",
+      "1789"
+    ],
     "correct": 1,
-    "params": {"a": 1.5, "b": 0.5, "c": 0.24},
-    "content_tags": ["world", "enlightenment"],
+    "params": {
+      "a": 1.74,
+      "b": -2.44,
+      "c": 0.1
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-012",
+    "stem": "Trong sự kiện 'Chiến thắng Điện Biên Phủ', chúng ta đã đối đầu với thế lực nào?",
+    "choices": [
+      "Tống",
+      "Pháp",
+      "Minh",
+      "Nguyên Mông"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.6,
+      "b": -1.46,
+      "c": 0.2
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-013",
+    "stem": "Trong sự kiện 'Chiến dịch Điện Biên Phủ trên không', chúng ta đã đối đầu với thế lực nào?",
+    "choices": [
+      "Nguyên Mông",
+      "Mỹ",
+      "Nam Hán",
+      "Thanh"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.34,
+      "b": -1.1,
+      "c": 0.25
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-014",
+    "stem": "Sự kiện 'Con người đặt chân lên Mặt Trăng' diễn ra vào năm nào?",
+    "choices": [
+      "1960",
+      "1945",
+      "1968",
+      "1969"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.71,
+      "b": -2.32,
+      "c": 0.16
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-015",
+    "stem": "Sự kiện 'Chiến dịch Điện Biên Phủ trên không' diễn ra vào năm nào?",
+    "choices": [
+      "1954",
+      "1972",
+      "1077",
+      "1917"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.44,
+      "b": -2.41,
+      "c": 0.2
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-016",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Cách mạng tháng Mười Nga'?",
+    "choices": [
+      "Lenin",
+      "Hồ Chí Minh",
+      "Lê Lợi",
+      "Võ Nguyên Giáp"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.37,
+      "b": -1.74,
+      "c": 0.25
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-017",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Cuộc cải cách Minh Trị'?",
+    "choices": [
+      "Hồ Chí Minh",
+      "Trần Hưng Đạo",
+      "Thiên hoàng Minh Trị",
+      "Lý Thái Tổ"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.61,
+      "b": -2.2,
+      "c": 0.15
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-018",
+    "stem": "Trong sự kiện 'Chiến thắng Như Nguyệt', chúng ta đã đối đầu với thế lực nào?",
+    "choices": [
+      "Nam Hán",
+      "Tống",
+      "Mỹ",
+      "Minh"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.74,
+      "b": -1.46,
+      "c": 0.18
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-019",
+    "stem": "Sự kiện 'Thành lập Đảng Cộng sản Việt Nam' diễn ra vào năm nào?",
+    "choices": [
+      "1418",
+      "1868",
+      "1492",
+      "1930"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.97,
+      "b": -1.12,
+      "c": 0.14
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-020",
+    "stem": "Sự kiện 'Cách mạng tư sản Pháp' diễn ra vào năm nào?",
+    "choices": [
+      "1802",
+      "1789",
+      "1969",
+      "1010"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.78,
+      "b": -2.29,
+      "c": 0.19
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-021",
+    "stem": "Sự kiện 'Mỹ ném bom nguyên tử xuống Nhật Bản' diễn ra vào năm nào?",
+    "choices": [
+      "1945",
+      "1077",
+      "1418",
+      "1492"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.96,
+      "b": -1.07,
+      "c": 0.24
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-022",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Chiến thắng Bạch Đằng lần 3'?",
+    "choices": [
+      "Trần Thánh Tông",
+      "Trần Hưng Đạo",
+      "Nguyễn Ánh",
+      "Thiên hoàng Minh Trị"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.62,
+      "b": -1.38,
+      "c": 0.2
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-023",
+    "stem": "Sự kiện 'Mỹ ném bom nguyên tử xuống Nhật Bản' diễn ra tại đâu?",
+    "choices": [
+      "San Francisco",
+      "Hiroshima và Nagasaki",
+      "Bến Tre",
+      "Mỹ"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.62,
+      "b": -2.18,
+      "c": 0.3
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-024",
+    "stem": "Sự kiện 'Chiến dịch Mậu Thân' diễn ra vào năm nào?",
+    "choices": [
+      "1789",
+      "1968",
+      "1914",
+      "1975"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.04,
+      "b": -2.17,
+      "c": 0.25
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-025",
+    "stem": "Trong sự kiện 'Chiến thắng Bạch Đằng lần 3', chúng ta đã đối đầu với thế lực nào?",
+    "choices": [
+      "Nguyên Mông",
+      "Minh",
+      "Mỹ",
+      "Pháp"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.51,
+      "b": -1.48,
+      "c": 0.19
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-026",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Chiến thắng Ngọc Hồi - Đống Đa'?",
+    "choices": [
+      "Nguyễn Ánh",
+      "Quang Trung",
+      "Lý Thái Tổ",
+      "Ngô Quyền"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.22,
+      "b": -1.79,
+      "c": 0.16
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-027",
+    "stem": "Sự kiện 'Chiến tranh thế giới thứ hai' diễn ra vào năm nào?",
+    "choices": [
+      "2001",
+      "1968",
+      "1939",
+      "1858"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.21,
+      "b": -2.12,
+      "c": 0.29
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-028",
+    "stem": "Sự kiện 'Chiến tranh thế giới thứ nhất' diễn ra vào năm nào?",
+    "choices": [
+      "1288",
+      "1945",
+      "1418",
+      "1914"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.41,
+      "b": -0.81,
+      "c": 0.19
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-029",
+    "stem": "Trong sự kiện 'Pháp nổ súng xâm lược Việt Nam', chúng ta đã đối đầu với thế lực nào?",
+    "choices": [
+      "Tống",
+      "Minh",
+      "Nguyên Mông",
+      "Pháp"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.89,
+      "b": -0.74,
+      "c": 0.15
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-030",
+    "stem": "Sự kiện 'Cách mạng tháng Tám' diễn ra vào năm nào?",
+    "choices": [
+      "1802",
+      "1868",
+      "1418",
+      "1945"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 0.54,
+      "b": -1.35,
+      "c": 0.14
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-031",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Hội nghị Diên Hồng'?",
+    "choices": [
+      "Trần Thánh Tông",
+      "Neil Armstrong",
+      "Thiên hoàng Minh Trị",
+      "Ngô Quyền"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.81,
+      "b": -0.78,
+      "c": 0.28
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-032",
+    "stem": "Trong sự kiện 'Chiến thắng Bạch Đằng lần 3', chúng ta đã đối đầu với thế lực nào?",
+    "choices": [
+      "Nguyên Mông",
+      "Mỹ",
+      "Pháp",
+      "Tống"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.68,
+      "b": -1.33,
+      "c": 0.18
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-033",
+    "stem": "Sự kiện 'Dời đô về Thăng Long' diễn ra vào năm nào?",
+    "choices": [
+      "1914",
+      "1010",
+      "1968",
+      "1960"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.01,
+      "b": -1.02,
+      "c": 0.14
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-034",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Cách mạng tháng Mười Nga'?",
+    "choices": [
+      "Trần Hưng Đạo",
+      "Trần Thánh Tông",
+      "Nguyễn Ánh",
+      "Lenin"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.19,
+      "b": -1.84,
+      "c": 0.29
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-035",
+    "stem": "Sự kiện 'Con người đặt chân lên Mặt Trăng' diễn ra vào năm nào?",
+    "choices": [
+      "1972",
+      "1284",
+      "1969",
+      "1492"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.95,
+      "b": -1.94,
+      "c": 0.16
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-036",
+    "stem": "Sự kiện 'Thành lập Liên Hợp Quốc' diễn ra tại đâu?",
+    "choices": [
+      "Bến Tre",
+      "Hiroshima và Nagasaki",
+      "Mỹ",
+      "San Francisco"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.71,
+      "b": -1.96,
+      "c": 0.2
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-037",
+    "stem": "Sự kiện 'Mỹ ném bom nguyên tử xuống Nhật Bản' diễn ra vào năm nào?",
+    "choices": [
+      "1972",
+      "1945",
+      "1284",
+      "1968"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.7,
+      "b": -2.31,
+      "c": 0.13
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-038",
+    "stem": "Sự kiện 'Cuộc cải cách Minh Trị' diễn ra vào năm nào?",
+    "choices": [
+      "1975",
+      "1868",
+      "1789",
+      "1954"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.72,
+      "b": -0.91,
+      "c": 0.14
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-039",
+    "stem": "Trong sự kiện 'Chiến dịch Điện Biên Phủ trên không', chúng ta đã đối đầu với thế lực nào?",
+    "choices": [
+      "Nam Hán",
+      "Tống",
+      "Mỹ",
+      "Pháp"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.53,
+      "b": -2.47,
+      "c": 0.13
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-040",
+    "stem": "Sự kiện 'Dời đô về Thăng Long' diễn ra vào năm nào?",
+    "choices": [
+      "1789",
+      "1914",
+      "1010",
+      "1930"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.49,
+      "b": -0.92,
+      "c": 0.21
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-041",
+    "stem": "Sự kiện 'Pháp nổ súng xâm lược Việt Nam' diễn ra vào năm nào?",
+    "choices": [
+      "1969",
+      "1802",
+      "1954",
+      "1858"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 0.77,
+      "b": -2.31,
+      "c": 0.29
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-042",
+    "stem": "Sự kiện 'Chiến dịch Điện Biên Phủ trên không' diễn ra vào năm nào?",
+    "choices": [
+      "2001",
+      "1789",
+      "1972",
+      "1010"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.44,
+      "b": -1.74,
+      "c": 0.24
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-043",
+    "stem": "Trong sự kiện 'Giải phóng miền Nam', chúng ta đã đối đầu với thế lực nào?",
+    "choices": [
+      "Pháp",
+      "Thanh",
+      "Nguyên Mông",
+      "Mỹ"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.68,
+      "b": -2.02,
+      "c": 0.12
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-044",
+    "stem": "Trong sự kiện 'Chiến dịch Điện Biên Phủ trên không', chúng ta đã đối đầu với thế lực nào?",
+    "choices": [
+      "Pháp",
+      "Nam Hán",
+      "Mỹ",
+      "Nguyên Mông"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.51,
+      "b": -0.6,
+      "c": 0.21
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-045",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Phát kiến địa lý tìm ra Châu Mỹ'?",
+    "choices": [
+      "Lê Lợi",
+      "Christopher Columbus",
+      "Ngô Quyền",
+      "Hồ Chí Minh"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.57,
+      "b": -0.67,
+      "c": 0.25
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-046",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Chiến thắng Điện Biên Phủ'?",
+    "choices": [
+      "Trần Hưng Đạo",
+      "Võ Nguyên Giáp",
+      "Lenin",
+      "Trần Thánh Tông"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.02,
+      "b": -1.5,
+      "c": 0.19
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-047",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Chiến thắng Ngọc Hồi - Đống Đa'?",
+    "choices": [
+      "Quang Trung",
+      "Nguyễn Ái Quốc",
+      "Hồ Chí Minh",
+      "Neil Armstrong"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.01,
+      "b": -1.51,
+      "c": 0.1
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-048",
+    "stem": "Sự kiện 'Chiến dịch Điện Biên Phủ trên không' diễn ra vào năm nào?",
+    "choices": [
+      "1968",
+      "1972",
+      "1914",
+      "1284"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.78,
+      "b": -1.03,
+      "c": 0.11
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-049",
+    "stem": "Trong sự kiện 'Chiến dịch Điện Biên Phủ trên không', chúng ta đã đối đầu với thế lực nào?",
+    "choices": [
+      "Mỹ",
+      "Pháp",
+      "Tống",
+      "Nam Hán"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.93,
+      "b": -0.65,
+      "c": 0.21
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-050",
+    "stem": "Sự kiện 'Giải phóng miền Nam' diễn ra vào năm nào?",
+    "choices": [
+      "1960",
+      "1945",
+      "1975",
+      "1492"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.09,
+      "b": -1.25,
+      "c": 0.19
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-051",
+    "stem": "Sự kiện 'Chiến thắng Bạch Đằng lần 3' diễn ra vào năm nào?",
+    "choices": [
+      "1288",
+      "1492",
+      "938",
+      "1939"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.57,
+      "b": -0.72,
+      "c": 0.17
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-052",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Dời đô về Thăng Long'?",
+    "choices": [
+      "Trần Hưng Đạo",
+      "Thiên hoàng Minh Trị",
+      "Hồ Chí Minh",
+      "Lý Thái Tổ"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.15,
+      "b": -1.33,
+      "c": 0.12
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-053",
+    "stem": "Sự kiện 'Sự kiện 11/9' diễn ra vào năm nào?",
+    "choices": [
+      "2001",
+      "1802",
+      "1945",
+      "1960"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.86,
+      "b": -1.22,
+      "c": 0.22
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-054",
+    "stem": "Sự kiện 'Cuộc cải cách Minh Trị' diễn ra vào năm nào?",
+    "choices": [
+      "1868",
+      "1789",
+      "1492",
+      "1960"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.07,
+      "b": -0.69,
+      "c": 0.23
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-055",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Con người đặt chân lên Mặt Trăng'?",
+    "choices": [
+      "Võ Nguyên Giáp",
+      "Trần Thánh Tông",
+      "Neil Armstrong",
+      "Lý Thái Tổ"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.71,
+      "b": -2.31,
+      "c": 0.21
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-056",
+    "stem": "Trong sự kiện 'Chiến thắng Điện Biên Phủ', chúng ta đã đối đầu với thế lực nào?",
+    "choices": [
+      "Nguyên Mông",
+      "Thanh",
+      "Nam Hán",
+      "Pháp"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.64,
+      "b": -1.0,
+      "c": 0.16
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-057",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Cuộc cải cách Minh Trị'?",
+    "choices": [
+      "Christopher Columbus",
+      "Ngô Quyền",
+      "Thiên hoàng Minh Trị",
+      "Lý Thường Kiệt"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.6,
+      "b": -0.88,
+      "c": 0.26
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-058",
+    "stem": "Sự kiện 'Chiến thắng Bạch Đằng' diễn ra vào năm nào?",
+    "choices": [
+      "938",
+      "1945",
+      "1930",
+      "1972"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.69,
+      "b": -1.89,
+      "c": 0.18
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-059",
+    "stem": "Sự kiện 'Pháp nổ súng xâm lược Việt Nam' diễn ra tại đâu?",
+    "choices": [
+      "Mỹ",
+      "Đà Nẵng",
+      "Hiroshima và Nagasaki",
+      "San Francisco"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.45,
+      "b": -2.32,
+      "c": 0.25
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-060",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Chiến thắng Ngọc Hồi - Đống Đa'?",
+    "choices": [
+      "Lenin",
+      "Ngô Quyền",
+      "Nguyễn Ái Quốc",
+      "Quang Trung"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.58,
+      "b": -1.65,
+      "c": 0.3
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-061",
+    "stem": "Sự kiện 'Dời đô về Thăng Long' diễn ra vào năm nào?",
+    "choices": [
+      "1789",
+      "1914",
+      "1010",
+      "1954"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.15,
+      "b": -0.11,
+      "c": 0.2
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-062",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Hội nghị Diên Hồng'?",
+    "choices": [
+      "Quang Trung",
+      "Lý Thái Tổ",
+      "Lenin",
+      "Trần Thánh Tông"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 0.65,
+      "b": -0.46,
+      "c": 0.21
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-063",
+    "stem": "Sự kiện 'Cách mạng tư sản Pháp' diễn ra vào năm nào?",
+    "choices": [
+      "1492",
+      "1917",
+      "1789",
+      "1969"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.78,
+      "b": 0.37,
+      "c": 0.27
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-064",
+    "stem": "Sự kiện 'Dời đô về Thăng Long' diễn ra vào năm nào?",
+    "choices": [
+      "1010",
+      "1975",
+      "1802",
+      "1789"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.17,
+      "b": -0.43,
+      "c": 0.22
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-065",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Thành lập Đảng Cộng sản Việt Nam'?",
+    "choices": [
+      "Nguyễn Ái Quốc",
+      "Christopher Columbus",
+      "Hồ Chí Minh",
+      "Neil Armstrong"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.21,
+      "b": 0.5,
+      "c": 0.1
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-066",
+    "stem": "Trong sự kiện 'Chiến thắng Ngọc Hồi - Đống Đa', chúng ta đã đối đầu với thế lực nào?",
+    "choices": [
+      "Thanh",
+      "Minh",
+      "Mỹ",
+      "Pháp"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.72,
+      "b": 0.06,
+      "c": 0.11
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-067",
+    "stem": "Sự kiện 'Hội nghị Diên Hồng' diễn ra vào năm nào?",
+    "choices": [
+      "938",
+      "1972",
+      "1917",
+      "1284"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.26,
+      "b": -0.11,
+      "c": 0.27
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-068",
+    "stem": "Sự kiện 'Chiến thắng Điện Biên Phủ' diễn ra vào năm nào?",
+    "choices": [
+      "1930",
+      "1288",
+      "1954",
+      "1492"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.65,
+      "b": 0.04,
+      "c": 0.21
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-069",
+    "stem": "Sự kiện 'Nhà Nguyễn thành lập' diễn ra vào năm nào?",
+    "choices": [
+      "1802",
+      "1972",
+      "1789",
+      "1954"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.05,
+      "b": -0.05,
+      "c": 0.13
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-070",
+    "stem": "Trong sự kiện 'Giải phóng miền Nam', chúng ta đã đối đầu với thế lực nào?",
+    "choices": [
+      "Nguyên Mông",
+      "Mỹ",
+      "Tống",
+      "Minh"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.38,
+      "b": 0.35,
+      "c": 0.15
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-071",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Chiến thắng Điện Biên Phủ'?",
+    "choices": [
+      "Lý Thái Tổ",
+      "Võ Nguyên Giáp",
+      "Lê Lợi",
+      "Ngô Quyền"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.92,
+      "b": 0.5,
+      "c": 0.22
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-072",
+    "stem": "Sự kiện 'Hội nghị Diên Hồng' diễn ra vào năm nào?",
+    "choices": [
+      "1945",
+      "1284",
+      "1914",
+      "1969"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.62,
+      "b": 0.39,
+      "c": 0.12
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-073",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Thành lập Đảng Cộng sản Việt Nam'?",
+    "choices": [
+      "Nguyễn Ái Quốc",
+      "Lý Thường Kiệt",
+      "Lê Lợi",
+      "Lenin"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.16,
+      "b": 0.14,
+      "c": 0.25
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-074",
+    "stem": "Trong sự kiện 'Chiến thắng Bạch Đằng lần 3', chúng ta đã đối đầu với thế lực nào?",
+    "choices": [
+      "Nguyên Mông",
+      "Mỹ",
+      "Minh",
+      "Tống"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.9,
+      "b": 0.12,
+      "c": 0.2
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-075",
+    "stem": "Trong sự kiện 'Chiến thắng Bạch Đằng lần 3', chúng ta đã đối đầu với thế lực nào?",
+    "choices": [
+      "Nguyên Mông",
+      "Mỹ",
+      "Pháp",
+      "Thanh"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.53,
+      "b": 0.47,
+      "c": 0.23
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-076",
+    "stem": "Sự kiện 'Thành lập Đảng Cộng sản Việt Nam' diễn ra tại đâu?",
+    "choices": [
+      "San Francisco",
+      "Hương Cảng",
+      "Hiroshima và Nagasaki",
+      "Bến Tre"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.37,
+      "b": -0.12,
+      "c": 0.29
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-077",
+    "stem": "Sự kiện 'Nhà Nguyễn thành lập' diễn ra vào năm nào?",
+    "choices": [
+      "1802",
+      "1930",
+      "1972",
+      "1010"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.46,
+      "b": -0.21,
+      "c": 0.22
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-078",
+    "stem": "Sự kiện 'Chiến tranh thế giới thứ hai' diễn ra vào năm nào?",
+    "choices": [
+      "1939",
+      "1945",
+      "1789",
+      "1968"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.15,
+      "b": -0.27,
+      "c": 0.29
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-079",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Cách mạng tháng Mười Nga'?",
+    "choices": [
+      "Neil Armstrong",
+      "Lý Thường Kiệt",
+      "Lenin",
+      "Võ Nguyên Giáp"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.83,
+      "b": 0.19,
+      "c": 0.15
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-080",
+    "stem": "Sự kiện 'Chiến tranh thế giới thứ nhất' diễn ra vào năm nào?",
+    "choices": [
+      "1968",
+      "1914",
+      "1930",
+      "2001"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.97,
+      "b": -0.33,
+      "c": 0.15
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-081",
+    "stem": "Sự kiện 'Sự kiện 11/9' diễn ra tại đâu?",
+    "choices": [
+      "Hiroshima và Nagasaki",
+      "Mỹ",
+      "Đà Nẵng",
+      "San Francisco"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.53,
+      "b": -0.21,
+      "c": 0.15
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-082",
+    "stem": "Trong sự kiện 'Chiến dịch Điện Biên Phủ trên không', chúng ta đã đối đầu với thế lực nào?",
+    "choices": [
+      "Nguyên Mông",
+      "Thanh",
+      "Mỹ",
+      "Minh"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.67,
+      "b": -0.0,
+      "c": 0.18
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-083",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Cuộc cải cách Minh Trị'?",
+    "choices": [
+      "Hồ Chí Minh",
+      "Lenin",
+      "Thiên hoàng Minh Trị",
+      "Lê Lợi"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.89,
+      "b": -0.32,
+      "c": 0.11
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-084",
+    "stem": "Sự kiện 'Thành lập Liên Hợp Quốc' diễn ra vào năm nào?",
+    "choices": [
+      "1789",
+      "1945",
+      "938",
+      "1802"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.22,
+      "b": -0.37,
+      "c": 0.22
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-085",
+    "stem": "Sự kiện 'Nhà Nguyễn thành lập' diễn ra vào năm nào?",
+    "choices": [
+      "1802",
+      "1954",
+      "1945",
+      "1288"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.57,
+      "b": -0.47,
+      "c": 0.11
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-086",
+    "stem": "Sự kiện 'Phong trào Đồng Khởi' diễn ra vào năm nào?",
+    "choices": [
+      "1954",
+      "1917",
+      "1960",
+      "1969"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.93,
+      "b": -0.45,
+      "c": 0.28
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-087",
+    "stem": "Sự kiện 'Thành lập Liên Hợp Quốc' diễn ra tại đâu?",
+    "choices": [
+      "Đà Nẵng",
+      "Hiroshima và Nagasaki",
+      "Hương Cảng",
+      "San Francisco"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 0.65,
+      "b": 0.14,
+      "c": 0.24
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-088",
+    "stem": "Sự kiện 'Pháp nổ súng xâm lược Việt Nam' diễn ra tại đâu?",
+    "choices": [
+      "Bến Tre",
+      "San Francisco",
+      "Hiroshima và Nagasaki",
+      "Đà Nẵng"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 0.74,
+      "b": 0.44,
+      "c": 0.23
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-089",
+    "stem": "Sự kiện 'Phong trào Đồng Khởi' diễn ra vào năm nào?",
+    "choices": [
+      "1077",
+      "1789",
+      "1945",
+      "1960"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.79,
+      "b": 0.26,
+      "c": 0.15
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-090",
+    "stem": "Sự kiện 'Chiến tranh thế giới thứ hai' diễn ra vào năm nào?",
+    "choices": [
+      "1969",
+      "1284",
+      "1939",
+      "1975"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.74,
+      "b": -0.27,
+      "c": 0.18
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-091",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Cách mạng tháng Mười Nga'?",
+    "choices": [
+      "Lenin",
+      "Trần Hưng Đạo",
+      "Thiên hoàng Minh Trị",
+      "Võ Nguyên Giáp"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.4,
+      "b": 0.02,
+      "c": 0.2
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-092",
+    "stem": "Trong sự kiện 'Chiến thắng Như Nguyệt', chúng ta đã đối đầu với thế lực nào?",
+    "choices": [
+      "Nguyên Mông",
+      "Mỹ",
+      "Nam Hán",
+      "Tống"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.63,
+      "b": 0.1,
+      "c": 0.28
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-093",
+    "stem": "Sự kiện 'Pháp nổ súng xâm lược Việt Nam' diễn ra tại đâu?",
+    "choices": [
+      "Bến Tre",
+      "San Francisco",
+      "Đà Nẵng",
+      "Mỹ"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.64,
+      "b": 0.22,
+      "c": 0.2
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-094",
+    "stem": "Sự kiện 'Chiến tranh thế giới thứ hai' diễn ra vào năm nào?",
+    "choices": [
+      "1945",
+      "1939",
+      "1868",
+      "1802"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.96,
+      "b": 0.38,
+      "c": 0.25
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-095",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Chiến thắng Điện Biên Phủ'?",
+    "choices": [
+      "Christopher Columbus",
+      "Lý Thái Tổ",
+      "Võ Nguyên Giáp",
+      "Thiên hoàng Minh Trị"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.07,
+      "b": 0.36,
+      "c": 0.26
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-096",
+    "stem": "Sự kiện 'Hội nghị Diên Hồng' diễn ra vào năm nào?",
+    "choices": [
+      "1418",
+      "1284",
+      "1288",
+      "1917"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.72,
+      "b": 0.42,
+      "c": 0.16
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-097",
+    "stem": "Sự kiện 'Cách mạng tháng Mười Nga' diễn ra vào năm nào?",
+    "choices": [
+      "1917",
+      "1975",
+      "1945",
+      "1288"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.71,
+      "b": -0.27,
+      "c": 0.16
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-098",
+    "stem": "Sự kiện 'Thành lập Đảng Cộng sản Việt Nam' diễn ra tại đâu?",
+    "choices": [
+      "Bến Tre",
+      "Hương Cảng",
+      "San Francisco",
+      "Hiroshima và Nagasaki"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.07,
+      "b": -0.11,
+      "c": 0.16
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-099",
+    "stem": "Sự kiện 'Chiến tranh thế giới thứ nhất' diễn ra vào năm nào?",
+    "choices": [
+      "1789",
+      "1972",
+      "1954",
+      "1914"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 0.72,
+      "b": 0.06,
+      "c": 0.26
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-100",
+    "stem": "Sự kiện 'Chiến thắng Bạch Đằng lần 3' diễn ra vào năm nào?",
+    "choices": [
+      "1288",
+      "1010",
+      "1969",
+      "1945"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.18,
+      "b": -0.12,
+      "c": 0.17
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-101",
+    "stem": "Trong sự kiện 'Pháp nổ súng xâm lược Việt Nam', chúng ta đã đối đầu với thế lực nào?",
+    "choices": [
+      "Tống",
+      "Minh",
+      "Pháp",
+      "Mỹ"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.61,
+      "b": -0.5,
+      "c": 0.22
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-102",
+    "stem": "Trong sự kiện 'Chiến thắng Điện Biên Phủ', chúng ta đã đối đầu với thế lực nào?",
+    "choices": [
+      "Pháp",
+      "Minh",
+      "Tống",
+      "Thanh"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.62,
+      "b": -0.27,
+      "c": 0.14
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-103",
+    "stem": "Sự kiện 'Cách mạng tháng Mười Nga' diễn ra vào năm nào?",
+    "choices": [
+      "1945",
+      "1492",
+      "1914",
+      "1917"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.23,
+      "b": 0.27,
+      "c": 0.12
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-104",
+    "stem": "Sự kiện 'Cách mạng tháng Mười Nga' diễn ra vào năm nào?",
+    "choices": [
+      "1945",
+      "1914",
+      "1802",
+      "1917"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.23,
+      "b": -0.01,
+      "c": 0.12
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-105",
+    "stem": "Trong sự kiện 'Chiến thắng Ngọc Hồi - Đống Đa', chúng ta đã đối đầu với thế lực nào?",
+    "choices": [
+      "Nam Hán",
+      "Pháp",
+      "Thanh",
+      "Mỹ"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.35,
+      "b": 0.2,
+      "c": 0.25
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-106",
+    "stem": "Sự kiện 'Chiến tranh thế giới thứ hai' diễn ra vào năm nào?",
+    "choices": [
+      "1975",
+      "1969",
+      "1492",
+      "1939"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.69,
+      "b": -0.3,
+      "c": 0.18
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-107",
+    "stem": "Sự kiện 'Chiến thắng Bạch Đằng lần 3' diễn ra vào năm nào?",
+    "choices": [
+      "1789",
+      "1288",
+      "1858",
+      "1945"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.82,
+      "b": 0.44,
+      "c": 0.15
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-108",
+    "stem": "Sự kiện 'Dời đô về Thăng Long' diễn ra vào năm nào?",
+    "choices": [
+      "1284",
+      "2001",
+      "1010",
+      "1077"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.35,
+      "b": -0.19,
+      "c": 0.1
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-109",
+    "stem": "Trong sự kiện 'Chiến thắng Bạch Đằng lần 3', chúng ta đã đối đầu với thế lực nào?",
+    "choices": [
+      "Nguyên Mông",
+      "Mỹ",
+      "Pháp",
+      "Thanh"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.55,
+      "b": -0.05,
+      "c": 0.15
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-110",
+    "stem": "Trong sự kiện 'Chiến thắng Điện Biên Phủ', chúng ta đã đối đầu với thế lực nào?",
+    "choices": [
+      "Pháp",
+      "Minh",
+      "Nam Hán",
+      "Nguyên Mông"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.56,
+      "b": -0.47,
+      "c": 0.23
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-111",
+    "stem": "Sự kiện 'Phong trào Đồng Khởi' diễn ra vào năm nào?",
+    "choices": [
+      "1789",
+      "1284",
+      "1010",
+      "1960"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.08,
+      "b": 0.33,
+      "c": 0.17
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-112",
+    "stem": "Sự kiện 'Cách mạng tư sản Pháp' diễn ra vào năm nào?",
+    "choices": [
+      "1492",
+      "1789",
+      "1939",
+      "1868"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.49,
+      "b": 0.32,
+      "c": 0.18
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-113",
+    "stem": "Trong sự kiện 'Chiến dịch Điện Biên Phủ trên không', chúng ta đã đối đầu với thế lực nào?",
+    "choices": [
+      "Tống",
+      "Nguyên Mông",
+      "Thanh",
+      "Mỹ"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.4,
+      "b": -0.27,
+      "c": 0.19
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-114",
+    "stem": "Sự kiện 'Nhà Nguyễn thành lập' diễn ra vào năm nào?",
+    "choices": [
+      "1284",
+      "1972",
+      "1802",
+      "1789"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.53,
+      "b": 0.1,
+      "c": 0.19
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-115",
+    "stem": "Sự kiện 'Con người đặt chân lên Mặt Trăng' diễn ra vào năm nào?",
+    "choices": [
+      "1288",
+      "1284",
+      "1969",
+      "1917"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.31,
+      "b": -0.0,
+      "c": 0.15
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-116",
+    "stem": "Sự kiện 'Chiến thắng Bạch Đằng lần 3' diễn ra vào năm nào?",
+    "choices": [
+      "1288",
+      "1972",
+      "1945",
+      "1868"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.89,
+      "b": 0.17,
+      "c": 0.18
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-117",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Chiến thắng Ngọc Hồi - Đống Đa'?",
+    "choices": [
+      "Võ Nguyên Giáp",
+      "Quang Trung",
+      "Lê Lợi",
+      "Lenin"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.77,
+      "b": 0.35,
+      "c": 0.27
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-118",
+    "stem": "Sự kiện 'Mỹ ném bom nguyên tử xuống Nhật Bản' diễn ra vào năm nào?",
+    "choices": [
+      "1492",
+      "1858",
+      "1945",
+      "1418"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.94,
+      "b": 0.49,
+      "c": 0.18
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-119",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Hội nghị Diên Hồng'?",
+    "choices": [
+      "Trần Thánh Tông",
+      "Quang Trung",
+      "Lý Thái Tổ",
+      "Lê Lợi"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.99,
+      "b": -0.45,
+      "c": 0.15
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-120",
+    "stem": "Sự kiện 'Sự kiện 11/9' diễn ra tại đâu?",
+    "choices": [
+      "Hương Cảng",
+      "Mỹ",
+      "Hiroshima và Nagasaki",
+      "Đà Nẵng"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.67,
+      "b": 0.28,
+      "c": 0.17
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-121",
+    "stem": "Sự kiện 'Cuộc cải cách Minh Trị' diễn ra vào năm nào?",
+    "choices": [
+      "938",
+      "1917",
+      "1945",
+      "1868"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.3,
+      "b": 0.2,
+      "c": 0.27
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-122",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Cuộc cải cách Minh Trị'?",
+    "choices": [
+      "Thiên hoàng Minh Trị",
+      "Trần Hưng Đạo",
+      "Neil Armstrong",
+      "Nguyễn Ánh"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.39,
+      "b": -0.02,
+      "c": 0.19
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-123",
+    "stem": "Sự kiện 'Chiến thắng Ngọc Hồi - Đống Đa' diễn ra vào năm nào?",
+    "choices": [
+      "1939",
+      "1969",
+      "1945",
+      "1789"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 0.68,
+      "b": -0.23,
+      "c": 0.15
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-124",
+    "stem": "Trong sự kiện 'Chiến thắng Như Nguyệt', chúng ta đã đối đầu với thế lực nào?",
+    "choices": [
+      "Pháp",
+      "Mỹ",
+      "Minh",
+      "Tống"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 0.61,
+      "b": -0.29,
+      "c": 0.12
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-125",
+    "stem": "Sự kiện 'Con người đặt chân lên Mặt Trăng' diễn ra vào năm nào?",
+    "choices": [
+      "1802",
+      "1972",
+      "1969",
+      "1968"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.14,
+      "b": -0.35,
+      "c": 0.14
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-126",
+    "stem": "Sự kiện 'Cách mạng tư sản Pháp' diễn ra vào năm nào?",
+    "choices": [
+      "2001",
+      "1802",
+      "1789",
+      "1968"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.24,
+      "b": -0.24,
+      "c": 0.29
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-127",
+    "stem": "Sự kiện 'Chiến tranh thế giới thứ hai' diễn ra vào năm nào?",
+    "choices": [
+      "1975",
+      "1939",
+      "1972",
+      "1789"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.75,
+      "b": -0.33,
+      "c": 0.14
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-128",
+    "stem": "Sự kiện 'Khởi nghĩa Lam Sơn' diễn ra vào năm nào?",
+    "choices": [
+      "1968",
+      "1917",
+      "1960",
+      "1418"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.5,
+      "b": 0.02,
+      "c": 0.2
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-129",
+    "stem": "Trong sự kiện 'Giải phóng miền Nam', chúng ta đã đối đầu với thế lực nào?",
+    "choices": [
+      "Nguyên Mông",
+      "Nam Hán",
+      "Mỹ",
+      "Thanh"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.73,
+      "b": -0.39,
+      "c": 0.12
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-130",
+    "stem": "Sự kiện 'Chiến tranh thế giới thứ hai' diễn ra vào năm nào?",
+    "choices": [
+      "1939",
+      "1802",
+      "1868",
+      "1975"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.39,
+      "b": 0.17,
+      "c": 0.14
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-131",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Hội nghị Diên Hồng'?",
+    "choices": [
+      "Ngô Quyền",
+      "Trần Thánh Tông",
+      "Võ Nguyên Giáp",
+      "Christopher Columbus"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.2,
+      "b": -0.28,
+      "c": 0.14
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-132",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Dời đô về Thăng Long'?",
+    "choices": [
+      "Nguyễn Ánh",
+      "Lý Thường Kiệt",
+      "Lý Thái Tổ",
+      "Thiên hoàng Minh Trị"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.77,
+      "b": 0.0,
+      "c": 0.26
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-133",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Hội nghị Diên Hồng'?",
+    "choices": [
+      "Nguyễn Ánh",
+      "Trần Hưng Đạo",
+      "Trần Thánh Tông",
+      "Christopher Columbus"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.12,
+      "b": -0.21,
+      "c": 0.27
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-134",
+    "stem": "Sự kiện 'Cách mạng tư sản Pháp' diễn ra vào năm nào?",
+    "choices": [
+      "1789",
+      "1945",
+      "1858",
+      "938"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.91,
+      "b": -0.06,
+      "c": 0.14
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-135",
+    "stem": "Sự kiện 'Sự kiện 11/9' diễn ra tại đâu?",
+    "choices": [
+      "Mỹ",
+      "Đà Nẵng",
+      "San Francisco",
+      "Hiroshima và Nagasaki"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.66,
+      "b": 0.12,
+      "c": 0.3
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-136",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Chiến thắng Bạch Đằng lần 3'?",
+    "choices": [
+      "Trần Hưng Đạo",
+      "Nguyễn Ánh",
+      "Võ Nguyên Giáp",
+      "Nguyễn Ái Quốc"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.4,
+      "b": -0.36,
+      "c": 0.27
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-137",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Chiến thắng Điện Biên Phủ'?",
+    "choices": [
+      "Võ Nguyên Giáp",
+      "Neil Armstrong",
+      "Trần Thánh Tông",
+      "Lê Lợi"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.01,
+      "b": -0.2,
+      "c": 0.21
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-138",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Con người đặt chân lên Mặt Trăng'?",
+    "choices": [
+      "Neil Armstrong",
+      "Trần Thánh Tông",
+      "Nguyễn Ánh",
+      "Võ Nguyên Giáp"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.84,
+      "b": 0.32,
+      "c": 0.15
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-139",
+    "stem": "Trong sự kiện 'Chiến dịch Mậu Thân', chúng ta đã đối đầu với thế lực nào?",
+    "choices": [
+      "Mỹ",
+      "Minh",
+      "Tống",
+      "Nguyên Mông"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.76,
+      "b": 0.2,
+      "c": 0.12
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-140",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Hội nghị Diên Hồng'?",
+    "choices": [
+      "Neil Armstrong",
+      "Lý Thường Kiệt",
+      "Trần Thánh Tông",
+      "Quang Trung"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.45,
+      "b": 0.42,
+      "c": 0.29
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-141",
+    "stem": "Trong sự kiện 'Giải phóng miền Nam', chúng ta đã đối đầu với thế lực nào?",
+    "choices": [
+      "Minh",
+      "Thanh",
+      "Mỹ",
+      "Pháp"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.09,
+      "b": 1.7,
+      "c": 0.13
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-142",
+    "stem": "Sự kiện 'Cách mạng tháng Mười Nga' diễn ra vào năm nào?",
+    "choices": [
+      "1975",
+      "1917",
+      "1930",
+      "1945"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.94,
+      "b": 1.61,
+      "c": 0.19
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-143",
+    "stem": "Sự kiện 'Chiến thắng Bạch Đằng' diễn ra vào năm nào?",
+    "choices": [
+      "1954",
+      "938",
+      "1789",
+      "1972"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.76,
+      "b": 1.84,
+      "c": 0.2
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-144",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Chiến thắng Điện Biên Phủ'?",
+    "choices": [
+      "Lê Lợi",
+      "Lý Thái Tổ",
+      "Thiên hoàng Minh Trị",
+      "Võ Nguyên Giáp"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.35,
+      "b": 1.38,
+      "c": 0.19
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-145",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Cuộc cải cách Minh Trị'?",
+    "choices": [
+      "Trần Hưng Đạo",
+      "Neil Armstrong",
+      "Thiên hoàng Minh Trị",
+      "Trần Thánh Tông"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.55,
+      "b": 2.27,
+      "c": 0.1
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-146",
+    "stem": "Sự kiện 'Cuộc cải cách Minh Trị' diễn ra vào năm nào?",
+    "choices": [
+      "1868",
+      "1960",
+      "1917",
+      "1954"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.43,
+      "b": 0.94,
+      "c": 0.25
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-147",
+    "stem": "Sự kiện 'Chiến thắng Như Nguyệt' diễn ra vào năm nào?",
+    "choices": [
+      "1077",
+      "1914",
+      "1789",
+      "1945"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.7,
+      "b": 2.29,
+      "c": 0.17
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-148",
+    "stem": "Trong sự kiện 'Chiến thắng Điện Biên Phủ', chúng ta đã đối đầu với thế lực nào?",
+    "choices": [
+      "Pháp",
+      "Mỹ",
+      "Tống",
+      "Nam Hán"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.72,
+      "b": 1.16,
+      "c": 0.13
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-149",
+    "stem": "Sự kiện 'Chiến dịch Điện Biên Phủ trên không' diễn ra vào năm nào?",
+    "choices": [
+      "1972",
+      "1858",
+      "1284",
+      "1077"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.87,
+      "b": 1.5,
+      "c": 0.13
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-150",
+    "stem": "Sự kiện 'Chiến tranh thế giới thứ hai' diễn ra vào năm nào?",
+    "choices": [
+      "1939",
+      "1868",
+      "1917",
+      "1945"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.58,
+      "b": 1.33,
+      "c": 0.23
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-151",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Cuộc cải cách Minh Trị'?",
+    "choices": [
+      "Lý Thường Kiệt",
+      "Thiên hoàng Minh Trị",
+      "Võ Nguyên Giáp",
+      "Neil Armstrong"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.77,
+      "b": 0.62,
+      "c": 0.29
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-152",
+    "stem": "Trong sự kiện 'Giải phóng miền Nam', chúng ta đã đối đầu với thế lực nào?",
+    "choices": [
+      "Mỹ",
+      "Nguyên Mông",
+      "Thanh",
+      "Nam Hán"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.47,
+      "b": 0.54,
+      "c": 0.13
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-153",
+    "stem": "Sự kiện 'Phong trào Đồng Khởi' diễn ra tại đâu?",
+    "choices": [
+      "Bến Tre",
+      "San Francisco",
+      "Mỹ",
+      "Đà Nẵng"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.94,
+      "b": 2.11,
+      "c": 0.21
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-154",
+    "stem": "Sự kiện 'Dời đô về Thăng Long' diễn ra vào năm nào?",
+    "choices": [
+      "1960",
+      "1969",
+      "938",
+      "1010"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.98,
+      "b": 1.18,
+      "c": 0.24
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-155",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Phát kiến địa lý tìm ra Châu Mỹ'?",
+    "choices": [
+      "Christopher Columbus",
+      "Lenin",
+      "Lê Lợi",
+      "Neil Armstrong"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.97,
+      "b": 1.87,
+      "c": 0.3
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-156",
+    "stem": "Sự kiện 'Phát kiến địa lý tìm ra Châu Mỹ' diễn ra vào năm nào?",
+    "choices": [
+      "1868",
+      "1284",
+      "1954",
+      "1492"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 0.58,
+      "b": 0.55,
+      "c": 0.12
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-157",
+    "stem": "Sự kiện 'Chiến dịch Điện Biên Phủ trên không' diễn ra vào năm nào?",
+    "choices": [
+      "1972",
+      "1968",
+      "1954",
+      "1284"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.9,
+      "b": 1.51,
+      "c": 0.25
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-158",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Chiến thắng Bạch Đằng'?",
+    "choices": [
+      "Ngô Quyền",
+      "Hồ Chí Minh",
+      "Nguyễn Ái Quốc",
+      "Neil Armstrong"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.97,
+      "b": 1.32,
+      "c": 0.12
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-159",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Dời đô về Thăng Long'?",
+    "choices": [
+      "Lý Thái Tổ",
+      "Ngô Quyền",
+      "Nguyễn Ánh",
+      "Lý Thường Kiệt"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.15,
+      "b": 0.73,
+      "c": 0.14
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-160",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Cuộc cải cách Minh Trị'?",
+    "choices": [
+      "Christopher Columbus",
+      "Thiên hoàng Minh Trị",
+      "Lê Lợi",
+      "Trần Thánh Tông"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.72,
+      "b": 0.76,
+      "c": 0.16
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-161",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Chiến thắng Điện Biên Phủ'?",
+    "choices": [
+      "Lê Lợi",
+      "Lý Thường Kiệt",
+      "Trần Hưng Đạo",
+      "Võ Nguyên Giáp"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.14,
+      "b": 2.32,
+      "c": 0.12
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-162",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Chiến thắng Ngọc Hồi - Đống Đa'?",
+    "choices": [
+      "Neil Armstrong",
+      "Ngô Quyền",
+      "Quang Trung",
+      "Nguyễn Ái Quốc"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.8,
+      "b": 2.45,
+      "c": 0.16
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-163",
+    "stem": "Sự kiện 'Phát kiến địa lý tìm ra Châu Mỹ' diễn ra vào năm nào?",
+    "choices": [
+      "1868",
+      "2001",
+      "1492",
+      "1789"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.57,
+      "b": 1.46,
+      "c": 0.18
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-164",
+    "stem": "Trong sự kiện 'Pháp nổ súng xâm lược Việt Nam', chúng ta đã đối đầu với thế lực nào?",
+    "choices": [
+      "Mỹ",
+      "Pháp",
+      "Tống",
+      "Nam Hán"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.46,
+      "b": 1.79,
+      "c": 0.22
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-165",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Dời đô về Thăng Long'?",
+    "choices": [
+      "Lê Lợi",
+      "Trần Thánh Tông",
+      "Lý Thái Tổ",
+      "Neil Armstrong"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.84,
+      "b": 1.75,
+      "c": 0.17
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-166",
+    "stem": "Sự kiện 'Hội nghị Diên Hồng' diễn ra vào năm nào?",
+    "choices": [
+      "1284",
+      "1492",
+      "1945",
+      "1802"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.78,
+      "b": 0.7,
+      "c": 0.26
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-167",
+    "stem": "Trong sự kiện 'Khởi nghĩa Lam Sơn', chúng ta đã đối đầu với thế lực nào?",
+    "choices": [
+      "Pháp",
+      "Thanh",
+      "Mỹ",
+      "Minh"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.57,
+      "b": 1.54,
+      "c": 0.16
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-168",
+    "stem": "Sự kiện 'Chiến thắng Ngọc Hồi - Đống Đa' diễn ra vào năm nào?",
+    "choices": [
+      "1945",
+      "1917",
+      "1789",
+      "1492"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.62,
+      "b": 0.59,
+      "c": 0.2
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-169",
+    "stem": "Sự kiện 'Thành lập Liên Hợp Quốc' diễn ra vào năm nào?",
+    "choices": [
+      "1954",
+      "1945",
+      "1939",
+      "1802"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.11,
+      "b": 1.92,
+      "c": 0.24
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-170",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Chiến thắng Điện Biên Phủ'?",
+    "choices": [
+      "Nguyễn Ánh",
+      "Võ Nguyên Giáp",
+      "Trần Thánh Tông",
+      "Hồ Chí Minh"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.99,
+      "b": 1.79,
+      "c": 0.29
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-171",
+    "stem": "Sự kiện 'Chiến thắng Ngọc Hồi - Đống Đa' diễn ra vào năm nào?",
+    "choices": [
+      "1789",
+      "1917",
+      "1954",
+      "1914"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.36,
+      "b": 0.57,
+      "c": 0.19
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-172",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Hội nghị Diên Hồng'?",
+    "choices": [
+      "Thiên hoàng Minh Trị",
+      "Trần Thánh Tông",
+      "Nguyễn Ánh",
+      "Quang Trung"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.57,
+      "b": 0.51,
+      "c": 0.13
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-173",
+    "stem": "Sự kiện 'Dời đô về Thăng Long' diễn ra vào năm nào?",
+    "choices": [
+      "1284",
+      "1010",
+      "1802",
+      "1077"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.96,
+      "b": 0.71,
+      "c": 0.2
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-174",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Dời đô về Thăng Long'?",
+    "choices": [
+      "Nguyễn Ánh",
+      "Lý Thái Tổ",
+      "Neil Armstrong",
+      "Võ Nguyên Giáp"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.5,
+      "b": 2.04,
+      "c": 0.29
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-175",
+    "stem": "Sự kiện 'Dời đô về Thăng Long' diễn ra vào năm nào?",
+    "choices": [
+      "1930",
+      "2001",
+      "1492",
+      "1010"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 0.78,
+      "b": 1.62,
+      "c": 0.12
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-176",
+    "stem": "Trong sự kiện 'Chiến dịch Điện Biên Phủ trên không', chúng ta đã đối đầu với thế lực nào?",
+    "choices": [
+      "Pháp",
+      "Nguyên Mông",
+      "Mỹ",
+      "Nam Hán"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.42,
+      "b": 1.51,
+      "c": 0.11
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-177",
+    "stem": "Sự kiện 'Phong trào Đồng Khởi' diễn ra vào năm nào?",
+    "choices": [
+      "1789",
+      "1969",
+      "1960",
+      "1945"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.66,
+      "b": 1.17,
+      "c": 0.17
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-178",
+    "stem": "Sự kiện 'Thành lập Đảng Cộng sản Việt Nam' diễn ra vào năm nào?",
+    "choices": [
+      "1968",
+      "1939",
+      "1288",
+      "1930"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.67,
+      "b": 2.04,
+      "c": 0.29
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-179",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Nhà Nguyễn thành lập'?",
+    "choices": [
+      "Nguyễn Ánh",
+      "Thiên hoàng Minh Trị",
+      "Lenin",
+      "Lý Thái Tổ"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.63,
+      "b": 0.64,
+      "c": 0.15
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-180",
+    "stem": "Sự kiện 'Sự kiện 11/9' diễn ra tại đâu?",
+    "choices": [
+      "San Francisco",
+      "Hương Cảng",
+      "Mỹ",
+      "Hiroshima và Nagasaki"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.54,
+      "b": 2.02,
+      "c": 0.17
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-181",
+    "stem": "Sự kiện 'Cách mạng tháng Mười Nga' diễn ra vào năm nào?",
+    "choices": [
+      "1917",
+      "1802",
+      "1418",
+      "2001"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.76,
+      "b": 2.12,
+      "c": 0.18
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-182",
+    "stem": "Sự kiện 'Cách mạng tháng Tám' diễn ra vào năm nào?",
+    "choices": [
+      "1945",
+      "1789",
+      "1968",
+      "1077"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.91,
+      "b": 1.56,
+      "c": 0.19
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-183",
+    "stem": "Sự kiện 'Hội nghị Diên Hồng' diễn ra vào năm nào?",
+    "choices": [
+      "1975",
+      "1284",
+      "1945",
+      "1789"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.12,
+      "b": 0.6,
+      "c": 0.21
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-184",
+    "stem": "Sự kiện 'Khởi nghĩa Lam Sơn' diễn ra vào năm nào?",
+    "choices": [
+      "1960",
+      "1418",
+      "1954",
+      "1789"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.87,
+      "b": 1.48,
+      "c": 0.19
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-185",
+    "stem": "Sự kiện 'Giải phóng miền Nam' diễn ra vào năm nào?",
+    "choices": [
+      "1975",
+      "1969",
+      "1802",
+      "1492"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.17,
+      "b": 0.6,
+      "c": 0.18
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-186",
+    "stem": "Sự kiện 'Chiến tranh thế giới thứ hai' diễn ra vào năm nào?",
+    "choices": [
+      "1972",
+      "1939",
+      "938",
+      "1960"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.74,
+      "b": 1.51,
+      "c": 0.27
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-187",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Phát kiến địa lý tìm ra Châu Mỹ'?",
+    "choices": [
+      "Nguyễn Ái Quốc",
+      "Christopher Columbus",
+      "Nguyễn Ánh",
+      "Trần Thánh Tông"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.65,
+      "b": 1.16,
+      "c": 0.11
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-188",
+    "stem": "Sự kiện 'Phong trào Đồng Khởi' diễn ra tại đâu?",
+    "choices": [
+      "Hiroshima và Nagasaki",
+      "Hương Cảng",
+      "Bến Tre",
+      "Mỹ"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.06,
+      "b": 1.55,
+      "c": 0.14
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-189",
+    "stem": "Trong sự kiện 'Chiến dịch Mậu Thân', chúng ta đã đối đầu với thế lực nào?",
+    "choices": [
+      "Nam Hán",
+      "Pháp",
+      "Minh",
+      "Mỹ"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.88,
+      "b": 1.33,
+      "c": 0.11
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-190",
+    "stem": "Sự kiện 'Chiến thắng Ngọc Hồi - Đống Đa' diễn ra vào năm nào?",
+    "choices": [
+      "1972",
+      "1789",
+      "1492",
+      "1945"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.25,
+      "b": 1.96,
+      "c": 0.1
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-191",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Chiến thắng Bạch Đằng lần 3'?",
+    "choices": [
+      "Trần Hưng Đạo",
+      "Lý Thường Kiệt",
+      "Neil Armstrong",
+      "Ngô Quyền"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.98,
+      "b": 2.1,
+      "c": 0.19
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-192",
+    "stem": "Sự kiện 'Khởi nghĩa Lam Sơn' diễn ra vào năm nào?",
+    "choices": [
+      "1492",
+      "1010",
+      "1418",
+      "1954"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.99,
+      "b": 1.94,
+      "c": 0.15
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-193",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Phát kiến địa lý tìm ra Châu Mỹ'?",
+    "choices": [
+      "Trần Thánh Tông",
+      "Lý Thái Tổ",
+      "Nguyễn Ái Quốc",
+      "Christopher Columbus"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.58,
+      "b": 1.24,
+      "c": 0.11
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-194",
+    "stem": "Trong sự kiện 'Khởi nghĩa Lam Sơn', chúng ta đã đối đầu với thế lực nào?",
+    "choices": [
+      "Nguyên Mông",
+      "Nam Hán",
+      "Minh",
+      "Pháp"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.62,
+      "b": 0.89,
+      "c": 0.18
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-195",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Dời đô về Thăng Long'?",
+    "choices": [
+      "Lê Lợi",
+      "Christopher Columbus",
+      "Thiên hoàng Minh Trị",
+      "Lý Thái Tổ"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.08,
+      "b": 2.13,
+      "c": 0.18
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-196",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Cách mạng tháng Tám'?",
+    "choices": [
+      "Hồ Chí Minh",
+      "Christopher Columbus",
+      "Trần Thánh Tông",
+      "Lý Thường Kiệt"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.43,
+      "b": 1.4,
+      "c": 0.29
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-197",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Hội nghị Diên Hồng'?",
+    "choices": [
+      "Võ Nguyên Giáp",
+      "Hồ Chí Minh",
+      "Trần Thánh Tông",
+      "Christopher Columbus"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.82,
+      "b": 1.87,
+      "c": 0.15
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-198",
+    "stem": "Nhân vật nào gắn liền với sự kiện 'Dời đô về Thăng Long'?",
+    "choices": [
+      "Hồ Chí Minh",
+      "Christopher Columbus",
+      "Nguyễn Ái Quốc",
+      "Lý Thái Tổ"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.68,
+      "b": 1.97,
+      "c": 0.14
+    },
+    "content_tags": [
+      "Lịch sử Việt Nam",
+      "Trung đại/Cận đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-199",
+    "stem": "Sự kiện 'Con người đặt chân lên Mặt Trăng' diễn ra vào năm nào?",
+    "choices": [
+      "1789",
+      "1945",
+      "1077",
+      "1969"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 0.54,
+      "b": 0.76,
+      "c": 0.12
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "HIST-200",
+    "stem": "Sự kiện 'Phong trào Đồng Khởi' diễn ra vào năm nào?",
+    "choices": [
+      "1960",
+      "1802",
+      "1969",
+      "1930"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.19,
+      "b": 2.15,
+      "c": 0.26
+    },
+    "content_tags": [
+      "Lịch sử Thế giới",
+      "Hiện đại"
+    ],
     "language": "vi"
   }
 ]

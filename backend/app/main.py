@@ -12,6 +12,7 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
 from . import irt
+from . import db
 from .schemas import (
     QuizConfig,
     QuizResult,
@@ -25,8 +26,7 @@ from .schemas import (
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
-QUESTIONS_PATH = DATA_DIR / "questions.json"
-QUESTIONS_DIR = DATA_DIR / "questions"
+
 
 app = FastAPI(
     title="Adaptive Quiz API",
@@ -42,41 +42,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-def load_question_collections() -> Dict[str, List[Question]]:
-    """Load question banks grouped by category."""
-    collections: Dict[str, List[Question]] = {}
-
-    if QUESTIONS_DIR.is_dir():
-        for path in sorted(QUESTIONS_DIR.glob("*.json")):
-            category = path.stem.lower()
-            with path.open("r", encoding="utf-8") as f:
-                raw_items = json.load(f)
-            questions: List[Question] = []
-            for item in raw_items:
-                question_data = dict(item)
-                question_data.setdefault("category", category)
-                questions.append(Question(**question_data))
-            if questions:
-                collections[category] = questions
-    elif QUESTIONS_PATH.is_file():
-        with QUESTIONS_PATH.open("r", encoding="utf-8") as f:
-            raw_items = json.load(f)
-        if raw_items:
-            collections["general"] = [
-                Question(**{**item, "category": item.get("category", "general")})
-                for item in raw_items
-            ]
-
-    if not collections:
-        raise RuntimeError(
-            "Không tìm thấy dữ liệu câu hỏi. Vui lòng kiểm tra thư mục 'data/questions'."
-        )
-
-    return collections
-
-
-QUESTION_COLLECTIONS = load_question_collections()
-QUESTION_CATEGORIES = sorted(QUESTION_COLLECTIONS.keys())
 CATEGORY_DISPLAY_NAMES = {
     "math": "Toán",
     "chemistry": "Hóa",
@@ -89,16 +54,35 @@ def get_question_bank(category: Optional[str]) -> List[Question]:
     """Return question bank for a specific category or default."""
     if category:
         normalized = category.lower()
-        if normalized not in QUESTION_COLLECTIONS:
-            valid = ", ".join(QUESTION_CATEGORIES)
-            raise HTTPException(
-                status_code=404,
-                detail=f"Danh mục '{category}' không tồn tại. Các danh mục hợp lệ: {valid}.",
-            )
-        return QUESTION_COLLECTIONS[normalized]
+        questions = db.get_questions_by_category(normalized)
+        if not questions:
+            # Check if category exists in DB at all
+            all_cats = db.get_all_categories()
+            if normalized not in all_cats:
+                valid = ", ".join(all_cats)
+                raise HTTPException(
+                    status_code=404,
+                    detail=f"Danh mục '{category}' không tồn tại. Các danh mục hợp lệ: {valid}.",
+                )
+        return questions
 
-    default_category = QUESTION_CATEGORIES[0]
-    return QUESTION_COLLECTIONS[default_category]
+    # Default to first available category if none specified
+    all_cats = db.get_all_categories()
+    if not all_cats:
+         raise HTTPException(status_code=500, detail="No questions found in database.")
+    
+    default_category = all_cats[0]
+    return db.get_questions_by_category(default_category)
+
+CATEGORY_DISPLAY_NAMES = {
+    "math": "Toán",
+    "chemistry": "Hóa",
+    "physics": "Lý",
+    "history": "Lịch sử",
+}
+
+
+
 
 
 class QuizSession:
@@ -196,16 +180,20 @@ async def root():
 async def start_quiz(request: StartQuizRequest = StartQuizRequest()):
     session_id = str(uuid.uuid4())
     config = request.config or QuizConfig()
-    category = request.category.lower() if request.category else QUESTION_CATEGORIES[0]
-    if category not in QUESTION_COLLECTIONS:
-        valid = ", ".join(QUESTION_CATEGORIES)
+    all_cats = db.get_all_categories()
+    category = request.category.lower() if request.category else (all_cats[0] if all_cats else "general")
+    
+    # Validate category
+    if category not in all_cats:
+        valid = ", ".join(all_cats)
         raise HTTPException(
             status_code=404,
             detail=f"Danh mục '{category}' không tồn tại. Các danh mục hợp lệ: {valid}.",
         )
 
-    question_bank = QUESTION_COLLECTIONS[category]
+    question_bank = db.get_questions_by_category(category)
     session = QuizSession(session_id, config, category)
+
 
     question = select_next_item(session.theta, session.asked_ids, question_bank)
     if not question:
@@ -236,9 +224,8 @@ async def submit_answer(request: SubmitAnswerRequest):
         raise HTTPException(status_code=404, detail="Session not found")
 
     session = QuizSession.from_dict(sessions[request.session_id])
-    question_bank = QUESTION_COLLECTIONS.get(
-        session.category, QUESTION_COLLECTIONS[QUESTION_CATEGORIES[0]]
-    )
+    question_bank = get_question_bank(session.category)
+
 
     if not session.current_item:
         raise HTTPException(status_code=400, detail="No current question")
@@ -359,18 +346,56 @@ async def get_questions(category: Optional[str] = None):
         bank = get_question_bank(category)
         return [q.model_dump() for q in bank]
 
-    questions: List[Question] = []
-    for bank in QUESTION_COLLECTIONS.values():
-        questions.extend(bank)
+    questions = db.get_all_questions()
     return [q.model_dump() for q in questions]
+
 
 
 @app.get("/api/categories")
 async def get_categories():
+    categories = db.get_all_categories()
     return [
         {"id": key, "name": CATEGORY_DISPLAY_NAMES.get(key, key.title())}
-        for key in QUESTION_CATEGORIES
+        for key in categories
     ]
+
+
+@app.post("/api/questions", response_model=Question)
+async def create_question(question: Question):
+    try:
+        db.insert_question(question)
+        return question
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.put("/api/questions/{item_id}", response_model=Question)
+async def update_question(item_id: str, question: Question):
+    if item_id != question.item_id:
+        raise HTTPException(status_code=400, detail="Item ID mismatch")
+    
+    try:
+        # Check if exists first (optional but good practice, though update handles it gracefully usually)
+        # For simplicity, we just try to update. 
+        # Note: db.update_question doesn't return anything, so we assume success if no error.
+        # Ideally we should check if row count affected > 0
+        # Ideally we should check if row count affected > 0
+        db.update_question(question)
+        return question
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.delete("/api/questions/{item_id}")
+async def delete_question(item_id: str):
+    try:
+        db.delete_question(item_id)
+        return {"message": "Question deleted successfully"}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
 
 
 if __name__ == "__main__":

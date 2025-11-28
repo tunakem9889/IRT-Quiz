@@ -1,2225 +1,4001 @@
 [
   {
-    "item_id": "CHEM-GEN-001",
-    "stem": "Ký hiệu hóa học của Hidro là gì?",
+    "item_id": "CHEM-001",
+    "stem": "Đốt cháy hoàn toàn 1.35 mol metan (CH4) cần dùng bao nhiêu lít khí O2 (đktc)?",
     "choices": [
-      "He",
-      "H",
-      "Ho",
-      "Hi"
-    ],
-    "correct": 1,
-    "params": {
-      "a": 0.92,
-      "b": -2.5,
-      "c": 0.24
-    },
-    "content_tags": [
-      "basic",
-      "elements"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-002",
-    "stem": "Ký hiệu hóa học của Oxi là gì?",
-    "choices": [
-      "O",
-      "Ox",
-      "Om",
-      "Oi"
+      "60.48 lít",
+      "84.30 lít",
+      "85.48 lít",
+      "78.54 lít"
     ],
     "correct": 0,
     "params": {
-      "a": 0.99,
-      "b": -2.4,
-      "c": 0.19
+      "a": 0.96,
+      "b": -2.28,
+      "c": 0.13
     },
     "content_tags": [
-      "basic",
-      "elements"
+      "Hữu cơ"
     ],
     "language": "vi"
   },
   {
-    "item_id": "CHEM-GEN-003",
-    "stem": "Nước có công thức hóa học là gì?",
+    "item_id": "CHEM-002",
+    "stem": "Công thức phân tử của etanol là gì?",
     "choices": [
-      "HO",
-      "H2O",
-      "H2O2",
-      "HO2"
+      "CH4O",
+      "C3H8O",
+      "C2H4O",
+      "C2H6O"
     ],
-    "correct": 1,
+    "correct": 3,
     "params": {
-      "a": 0.88,
-      "b": -2.3,
-      "c": 0.21
-    },
-    "content_tags": [
-      "basic",
-      "compounds"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-004",
-    "stem": "Khí nào duy trì sự cháy?",
-    "choices": [
-      "Nitơ",
-      "Oxi",
-      "Cacbonic",
-      "Hidro"
-    ],
-    "correct": 1,
-    "params": {
-      "a": 1.36,
-      "b": -2.2,
-      "c": 0.21
-    },
-    "content_tags": [
-      "basic",
-      "properties"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-005",
-    "stem": "Kim loại nào ở thể lỏng ở điều kiện thường?",
-    "choices": [
-      "Sắt",
-      "Đồng",
-      "Thủy ngân",
-      "Nhôm"
-    ],
-    "correct": 2,
-    "params": {
-      "a": 1.01,
-      "b": -2.1,
-      "c": 0.22
-    },
-    "content_tags": [
-      "basic",
-      "metals"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-006",
-    "stem": "Muối ăn có công thức là gì?",
-    "choices": [
-      "NaCl",
-      "KCl",
-      "Na2SO4",
-      "CaCl2"
-    ],
-    "correct": 0,
-    "params": {
-      "a": 1.48,
-      "b": -2.0,
-      "c": 0.21
-    },
-    "content_tags": [
-      "basic",
-      "compounds"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-007",
-    "stem": "Khí nào làm đục nước vôi trong?",
-    "choices": [
-      "O2",
-      "N2",
-      "CO2",
-      "H2"
-    ],
-    "correct": 2,
-    "params": {
-      "a": 1.24,
-      "b": -1.9,
-      "c": 0.17
-    },
-    "content_tags": [
-      "inorganic",
-      "reaction"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-008",
-    "stem": "Axit có trong dạ dày người là gì?",
-    "choices": [
-      "H2SO4",
-      "HCl",
-      "HNO3",
-      "CH3COOH"
-    ],
-    "correct": 1,
-    "params": {
-      "a": 0.81,
-      "b": -1.8,
-      "c": 0.25
-    },
-    "content_tags": [
-      "basic",
-      "acids"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-009",
-    "stem": "pH < 7 môi trường là gì?",
-    "choices": [
-      "Axit",
-      "Bazơ",
-      "Trung tính",
-      "Không xác định"
-    ],
-    "correct": 0,
-    "params": {
-      "a": 0.9,
-      "b": -1.7,
-      "c": 0.19
-    },
-    "content_tags": [
-      "basic",
-      "ph"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-010",
-    "stem": "pH > 7 môi trường là gì?",
-    "choices": [
-      "Axit",
-      "Bazơ",
-      "Trung tính",
-      "Không xác định"
-    ],
-    "correct": 1,
-    "params": {
-      "a": 1.03,
-      "b": -1.7,
-      "c": 0.23
-    },
-    "content_tags": [
-      "basic",
-      "ph"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-011",
-    "stem": "pH = 7 môi trường là gì?",
-    "choices": [
-      "Axit",
-      "Bazơ",
-      "Trung tính",
-      "Không xác định"
-    ],
-    "correct": 2,
-    "params": {
-      "a": 1.27,
-      "b": -1.7,
-      "c": 0.16
-    },
-    "content_tags": [
-      "basic",
-      "ph"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-012",
-    "stem": "Quỳ tím chuyển màu gì trong axit?",
-    "choices": [
-      "Xanh",
-      "Đỏ",
-      "Vàng",
-      "Không màu"
-    ],
-    "correct": 1,
-    "params": {
-      "a": 1.08,
-      "b": -1.6,
-      "c": 0.25
-    },
-    "content_tags": [
-      "basic",
-      "indicators"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-013",
-    "stem": "Quỳ tím chuyển màu gì trong bazơ?",
-    "choices": [
-      "Xanh",
-      "Đỏ",
-      "Vàng",
-      "Không màu"
-    ],
-    "correct": 0,
-    "params": {
-      "a": 0.8,
-      "b": -1.6,
+      "a": 0.91,
+      "b": -1.55,
       "c": 0.2
     },
     "content_tags": [
-      "basic",
-      "indicators"
+      "Hữu cơ"
     ],
     "language": "vi"
   },
   {
-    "item_id": "CHEM-GEN-014",
-    "stem": "Kim loại nào dẫn điện tốt nhất?",
+    "item_id": "CHEM-003",
+    "stem": "Đốt cháy hoàn toàn 1.01 mol metan (CH4) cần dùng bao nhiêu lít khí O2 (đktc)?",
     "choices": [
-      "Vàng",
-      "Bạc",
-      "Đồng",
-      "Nhôm"
+      "62.81 lít",
+      "67.44 lít",
+      "45.25 lít",
+      "58.25 lít"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.96,
+      "b": -1.32,
+      "c": 0.21
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-004",
+    "stem": "pH của dung dịch HCl 0.0M là bao nhiêu?",
+    "choices": [
+      "14.13",
+      "10.00",
+      "11.29",
+      "14.81"
     ],
     "correct": 1,
     "params": {
-      "a": 0.96,
-      "b": -1.5,
+      "a": 1.64,
+      "b": -1.48,
       "c": 0.15
     },
     "content_tags": [
-      "metals",
-      "properties"
+      "Hóa lý"
     ],
     "language": "vi"
   },
   {
-    "item_id": "CHEM-GEN-015",
-    "stem": "Nguyên tử khối của Cacbon là bao nhiêu?",
+    "item_id": "CHEM-005",
+    "stem": "Đốt cháy hoàn toàn 0.94 mol metan (CH4) cần dùng bao nhiêu lít khí O2 (đktc)?",
     "choices": [
-      "12",
-      "14",
-      "16",
-      "1"
+      "25.02 lít",
+      "35.43 lít",
+      "55.12 lít",
+      "42.11 lít"
     ],
-    "correct": 0,
+    "correct": 3,
     "params": {
-      "a": 0.91,
-      "b": -1.4,
+      "a": 0.69,
+      "b": -1.46,
       "c": 0.23
     },
     "content_tags": [
-      "basic",
-      "atomic_mass"
+      "Hữu cơ"
     ],
     "language": "vi"
   },
   {
-    "item_id": "CHEM-GEN-016",
-    "stem": "Nguyên tử khối của Oxi là bao nhiêu?",
+    "item_id": "CHEM-006",
+    "stem": "pH của dung dịch HCl 0.1M là bao nhiêu?",
     "choices": [
-      "12",
-      "14",
-      "16",
-      "32"
-    ],
-    "correct": 2,
-    "params": {
-      "a": 1.44,
-      "b": -1.4,
-      "c": 0.16
-    },
-    "content_tags": [
-      "basic",
-      "atomic_mass"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-017",
-    "stem": "Hóa trị của Oxi trong hợp chất thường là?",
-    "choices": [
-      "I",
-      "II",
-      "III",
-      "IV"
-    ],
-    "correct": 1,
-    "params": {
-      "a": 1.46,
-      "b": -1.3,
-      "c": 0.17
-    },
-    "content_tags": [
-      "basic",
-      "valence"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-018",
-    "stem": "Hóa trị của Hidro trong hợp chất thường là?",
-    "choices": [
-      "I",
-      "II",
-      "III",
-      "IV"
+      "1.00",
+      "0.54",
+      "0.72",
+      "0.82"
     ],
     "correct": 0,
     "params": {
-      "a": 0.81,
-      "b": -1.3,
-      "c": 0.19
-    },
-    "content_tags": [
-      "basic",
-      "valence"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-019",
-    "stem": "Khí nhẹ nhất là khí nào?",
-    "choices": [
-      "Oxi",
-      "Metan",
-      "Hidro",
-      "Heli"
-    ],
-    "correct": 2,
-    "params": {
-      "a": 0.97,
-      "b": -1.2,
+      "a": 1.22,
+      "b": -2.01,
       "c": 0.2
     },
     "content_tags": [
-      "basic",
-      "gases"
+      "Hóa lý"
     ],
     "language": "vi"
   },
   {
-    "item_id": "CHEM-GEN-020",
-    "stem": "Thành phần chính của không khí là khí nào?",
+    "item_id": "CHEM-007",
+    "stem": "Thủy phân hoàn toàn 26.4 gam etyl axetat (CH3COOC2H5) trong môi trường kiềm dư. Khối lượng muối CH3COONa thu được là bao nhiêu? (M_este=88, M_muoi=82)",
     "choices": [
-      "Oxi",
-      "Nitơ",
-      "Cacbonic",
-      "Argon"
+      "18.06 gam",
+      "28.83 gam",
+      "24.60 gam",
+      "14.71 gam"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.42,
+      "b": -1.17,
+      "c": 0.23
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-008",
+    "stem": "Một phản ứng hóa học có hệ số nhiệt độ van't Hoff là 2. Nếu tăng nhiệt độ thêm 10 độ C thì tốc độ phản ứng tăng lên bao nhiêu lần?",
+    "choices": [
+      "1.26 lần",
+      "2.32 lần",
+      "2.00 lần",
+      "1.68 lần"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.5,
+      "b": -1.38,
+      "c": 0.22
+    },
+    "content_tags": [
+      "Hóa lý"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-009",
+    "stem": "Khối lượng mol của H2SO4 là bao nhiêu?",
+    "choices": [
+      "134.01 g/mol",
+      "98.00 g/mol",
+      "144.52 g/mol",
+      "114.41 g/mol"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.23,
+      "b": -0.83,
+      "c": 0.3
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-010",
+    "stem": "Khối lượng mol của H2SO4 là bao nhiêu?",
+    "choices": [
+      "51.10 g/mol",
+      "133.88 g/mol",
+      "55.86 g/mol",
+      "98.00 g/mol"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.98,
+      "b": -1.73,
+      "c": 0.24
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-011",
+    "stem": "Khối lượng mol của H2SO4 là bao nhiêu?",
+    "choices": [
+      "118.06 g/mol",
+      "73.53 g/mol",
+      "98.00 g/mol",
+      "50.00 g/mol"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.18,
+      "b": -1.56,
+      "c": 0.15
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-012",
+    "stem": "Công thức phân tử của etanol là gì?",
+    "choices": [
+      "C2H4O",
+      "CH4O",
+      "C2H6O",
+      "C3H8O"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.59,
+      "b": -0.9,
+      "c": 0.18
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-013",
+    "stem": "pH của dung dịch HCl 0.1M là bao nhiêu?",
+    "choices": [
+      "1.31",
+      "1.12",
+      "1.00",
+      "0.56"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.06,
+      "b": -0.93,
+      "c": 0.29
+    },
+    "content_tags": [
+      "Hóa lý"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-014",
+    "stem": "Cho 1.42 mol NaOH tác dụng vừa đủ với dung dịch HCl. Khối lượng muối NaCl thu được là bao nhiêu? (Na=23, Cl=35.5)",
+    "choices": [
+      "59.69 gam",
+      "52.64 gam",
+      "95.26 gam",
+      "83.07 gam"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.18,
+      "b": -1.66,
+      "c": 0.14
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-015",
+    "stem": "Thủy phân hoàn toàn 26.4 gam etyl axetat (CH3COOC2H5) trong môi trường kiềm dư. Khối lượng muối CH3COONa thu được là bao nhiêu? (M_este=88, M_muoi=82)",
+    "choices": [
+      "32.61 gam",
+      "24.60 gam",
+      "21.50 gam",
+      "28.56 gam"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.71,
+      "b": -1.37,
+      "c": 0.27
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-016",
+    "stem": "Kim loại nào sau đây là kim loại kiềm?",
+    "choices": [
+      "Al",
+      "Ca",
+      "Na",
+      "Fe"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.6,
+      "b": -2.09,
+      "c": 0.21
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-017",
+    "stem": "Công thức phân tử của etanol là gì?",
+    "choices": [
+      "C2H6O",
+      "CH4O",
+      "C2H4O",
+      "C3H8O"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.87,
+      "b": -1.15,
+      "c": 0.14
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-018",
+    "stem": "pH của dung dịch HCl 0.1M là bao nhiêu?",
+    "choices": [
+      "0.68",
+      "1.31",
+      "1.00",
+      "1.37"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.63,
+      "b": -1.13,
+      "c": 0.13
+    },
+    "content_tags": [
+      "Hóa lý"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-019",
+    "stem": "Một phản ứng hóa học có hệ số nhiệt độ van't Hoff là 2. Nếu tăng nhiệt độ thêm 10 độ C thì tốc độ phản ứng tăng lên bao nhiêu lần?",
+    "choices": [
+      "2.56 lần",
+      "1.31 lần",
+      "2.00 lần",
+      "2.66 lần"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.67,
+      "b": -1.25,
+      "c": 0.28
+    },
+    "content_tags": [
+      "Hóa lý"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-020",
+    "stem": "Hòa tan hoàn toàn 11.2 gam Fe bằng dung dịch HCl dư, thu được V lít khí H2 (đktc). Giá trị của V là bao nhiêu? (Fe=56)",
+    "choices": [
+      "4.48 lít",
+      "4.03 lít",
+      "3.44 lít",
+      "5.39 lít"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.57,
+      "b": -2.4,
+      "c": 0.23
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-021",
+    "stem": "Khối lượng mol của H2SO4 là bao nhiêu?",
+    "choices": [
+      "122.01 g/mol",
+      "74.06 g/mol",
+      "83.82 g/mol",
+      "98.00 g/mol"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.61,
+      "b": -1.07,
+      "c": 0.25
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-022",
+    "stem": "Thủy phân hoàn toàn 26.4 gam etyl axetat (CH3COOC2H5) trong môi trường kiềm dư. Khối lượng muối CH3COONa thu được là bao nhiêu? (M_este=88, M_muoi=82)",
+    "choices": [
+      "14.12 gam",
+      "31.65 gam",
+      "14.89 gam",
+      "24.60 gam"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 0.93,
+      "b": -1.93,
+      "c": 0.1
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-023",
+    "stem": "Thủy phân hoàn toàn 17.6 gam etyl axetat (CH3COOC2H5) trong môi trường kiềm dư. Khối lượng muối CH3COONa thu được là bao nhiêu? (M_este=88, M_muoi=82)",
+    "choices": [
+      "21.81 gam",
+      "11.03 gam",
+      "8.46 gam",
+      "16.40 gam"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 0.94,
+      "b": -0.91,
+      "c": 0.24
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-024",
+    "stem": "Hòa tan hoàn toàn 16.8 gam Fe bằng dung dịch HCl dư, thu được V lít khí H2 (đktc). Giá trị của V là bao nhiêu? (Fe=56)",
+    "choices": [
+      "9.08 lít",
+      "6.72 lít",
+      "7.52 lít",
+      "3.38 lít"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.55,
+      "b": -0.66,
+      "c": 0.12
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-025",
+    "stem": "pH của dung dịch HCl 0.0M là bao nhiêu?",
+    "choices": [
+      "10.00",
+      "5.94",
+      "13.36",
+      "8.85"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.61,
+      "b": -1.35,
+      "c": 0.25
+    },
+    "content_tags": [
+      "Hóa lý"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-026",
+    "stem": "Công thức phân tử của etanol là gì?",
+    "choices": [
+      "C3H8O",
+      "C2H6O",
+      "CH4O",
+      "C2H4O"
     ],
     "correct": 1,
     "params": {
       "a": 1.25,
-      "b": -1.1,
-      "c": 0.16
+      "b": -1.43,
+      "c": 0.18
     },
     "content_tags": [
-      "basic",
-      "air"
+      "Hữu cơ"
     ],
     "language": "vi"
   },
   {
-    "item_id": "CHEM-GEN-021",
-    "stem": "Phản ứng giữa axit và bazơ gọi là phản ứng gì?",
+    "item_id": "CHEM-027",
+    "stem": "Đốt cháy hoàn toàn 1.44 mol metan (CH4) cần dùng bao nhiêu lít khí O2 (đktc)?",
     "choices": [
-      "Oxi hóa khử",
-      "Trung hòa",
-      "Thế",
-      "Phân hủy"
+      "44.20 lít",
+      "57.00 lít",
+      "82.46 lít",
+      "64.51 lít"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 0.77,
+      "b": -1.12,
+      "c": 0.19
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-028",
+    "stem": "Kim loại nào sau đây là kim loại kiềm?",
+    "choices": [
+      "Ca",
+      "Na",
+      "Fe",
+      "Al"
     ],
     "correct": 1,
     "params": {
-      "a": 1.4,
-      "b": -0.9,
+      "a": 2.0,
+      "b": -1.11,
       "c": 0.22
     },
     "content_tags": [
-      "reaction",
-      "types"
+      "Vô cơ"
     ],
     "language": "vi"
   },
   {
-    "item_id": "CHEM-GEN-022",
-    "stem": "Sắt tác dụng với HCl sinh ra khí gì?",
+    "item_id": "CHEM-029",
+    "stem": "Một phản ứng hóa học có hệ số nhiệt độ van't Hoff là 2. Nếu tăng nhiệt độ thêm 10 độ C thì tốc độ phản ứng tăng lên bao nhiêu lần?",
     "choices": [
-      "O2",
-      "Cl2",
-      "H2",
-      "SO2"
+      "2.00 lần",
+      "2.64 lần",
+      "2.65 lần",
+      "2.84 lần"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.07,
+      "b": -1.68,
+      "c": 0.2
+    },
+    "content_tags": [
+      "Hóa lý"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-030",
+    "stem": "Đốt cháy hoàn toàn 0.14 mol metan (CH4) cần dùng bao nhiêu lít khí O2 (đktc)?",
+    "choices": [
+      "8.66 lít",
+      "5.01 lít",
+      "6.99 lít",
+      "6.27 lít"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 0.86,
+      "b": -2.12,
+      "c": 0.17
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-031",
+    "stem": "Đốt cháy hoàn toàn 1.11 mol metan (CH4) cần dùng bao nhiêu lít khí O2 (đktc)?",
+    "choices": [
+      "31.38 lít",
+      "49.73 lít",
+      "26.01 lít",
+      "59.90 lít"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.85,
+      "b": -2.24,
+      "c": 0.1
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-032",
+    "stem": "Đốt cháy hoàn toàn 0.67 mol metan (CH4) cần dùng bao nhiêu lít khí O2 (đktc)?",
+    "choices": [
+      "39.90 lít",
+      "30.02 lít",
+      "15.72 lít",
+      "18.51 lít"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.07,
+      "b": -2.17,
+      "c": 0.25
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-033",
+    "stem": "Cho 0.72 mol NaOH tác dụng vừa đủ với dung dịch HCl. Khối lượng muối NaCl thu được là bao nhiêu? (Na=23, Cl=35.5)",
+    "choices": [
+      "23.07 gam",
+      "29.07 gam",
+      "42.12 gam",
+      "50.48 gam"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.18,
+      "b": -1.61,
+      "c": 0.28
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-034",
+    "stem": "Cho 0.66 mol NaOH tác dụng vừa đủ với dung dịch HCl. Khối lượng muối NaCl thu được là bao nhiêu? (Na=23, Cl=35.5)",
+    "choices": [
+      "23.68 gam",
+      "55.21 gam",
+      "38.61 gam",
+      "19.40 gam"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.68,
+      "b": -0.83,
+      "c": 0.1
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-035",
+    "stem": "Cho 0.34 mol NaOH tác dụng vừa đủ với dung dịch HCl. Khối lượng muối NaCl thu được là bao nhiêu? (Na=23, Cl=35.5)",
+    "choices": [
+      "22.88 gam",
+      "16.19 gam",
+      "15.66 gam",
+      "19.89 gam"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.5,
+      "b": -0.51,
+      "c": 0.14
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-036",
+    "stem": "Công thức phân tử của etanol là gì?",
+    "choices": [
+      "C2H4O",
+      "C2H6O",
+      "CH4O",
+      "C3H8O"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.93,
+      "b": -1.19,
+      "c": 0.16
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-037",
+    "stem": "Thủy phân hoàn toàn 17.6 gam etyl axetat (CH3COOC2H5) trong môi trường kiềm dư. Khối lượng muối CH3COONa thu được là bao nhiêu? (M_este=88, M_muoi=82)",
+    "choices": [
+      "23.47 gam",
+      "13.14 gam",
+      "16.40 gam",
+      "23.65 gam"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.12,
+      "b": -1.05,
+      "c": 0.2
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-038",
+    "stem": "Công thức phân tử của etanol là gì?",
+    "choices": [
+      "C3H8O",
+      "CH4O",
+      "C2H4O",
+      "C2H6O"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 0.87,
+      "b": -1.63,
+      "c": 0.23
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-039",
+    "stem": "Kim loại nào sau đây là kim loại kiềm?",
+    "choices": [
+      "Al",
+      "Ca",
+      "Fe",
+      "Na"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 0.83,
+      "b": -1.03,
+      "c": 0.11
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-040",
+    "stem": "pH của dung dịch HCl 0.01M là bao nhiêu?",
+    "choices": [
+      "2.00",
+      "2.31",
+      "1.19",
+      "1.68"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.81,
+      "b": -0.75,
+      "c": 0.14
+    },
+    "content_tags": [
+      "Hóa lý"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-041",
+    "stem": "Một phản ứng hóa học có hệ số nhiệt độ van't Hoff là 2. Nếu tăng nhiệt độ thêm 10 độ C thì tốc độ phản ứng tăng lên bao nhiêu lần?",
+    "choices": [
+      "1.64 lần",
+      "2.35 lần",
+      "2.00 lần",
+      "1.78 lần"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.68,
+      "b": -2.1,
+      "c": 0.27
+    },
+    "content_tags": [
+      "Hóa lý"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-042",
+    "stem": "Công thức phân tử của etanol là gì?",
+    "choices": [
+      "C2H4O",
+      "C2H6O",
+      "C3H8O",
+      "CH4O"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.16,
+      "b": -1.95,
+      "c": 0.12
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-043",
+    "stem": "Thủy phân hoàn toàn 26.4 gam etyl axetat (CH3COOC2H5) trong môi trường kiềm dư. Khối lượng muối CH3COONa thu được là bao nhiêu? (M_este=88, M_muoi=82)",
+    "choices": [
+      "19.66 gam",
+      "17.85 gam",
+      "30.16 gam",
+      "24.60 gam"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.0,
+      "b": -0.61,
+      "c": 0.23
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-044",
+    "stem": "Hòa tan hoàn toàn 5.6 gam Fe bằng dung dịch HCl dư, thu được V lít khí H2 (đktc). Giá trị của V là bao nhiêu? (Fe=56)",
+    "choices": [
+      "2.24 lít",
+      "1.96 lít",
+      "2.57 lít",
+      "2.86 lít"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.8,
+      "b": -1.72,
+      "c": 0.19
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-045",
+    "stem": "Đốt cháy hoàn toàn 0.81 mol metan (CH4) cần dùng bao nhiêu lít khí O2 (đktc)?",
+    "choices": [
+      "47.97 lít",
+      "36.29 lít",
+      "40.15 lít",
+      "30.01 lít"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.51,
+      "b": -1.12,
+      "c": 0.25
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-046",
+    "stem": "Kim loại nào sau đây là kim loại kiềm?",
+    "choices": [
+      "Ca",
+      "Al",
+      "Fe",
+      "Na"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 0.56,
+      "b": -0.95,
+      "c": 0.29
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-047",
+    "stem": "Hòa tan hoàn toàn 16.8 gam Fe bằng dung dịch HCl dư, thu được V lít khí H2 (đktc). Giá trị của V là bao nhiêu? (Fe=56)",
+    "choices": [
+      "6.72 lít",
+      "7.93 lít",
+      "4.30 lít",
+      "7.43 lít"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.75,
+      "b": -1.05,
+      "c": 0.19
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-048",
+    "stem": "Công thức phân tử của etanol là gì?",
+    "choices": [
+      "C3H8O",
+      "C2H4O",
+      "CH4O",
+      "C2H6O"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.84,
+      "b": -1.51,
+      "c": 0.18
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-049",
+    "stem": "pH của dung dịch HCl 0.0M là bao nhiêu?",
+    "choices": [
+      "7.86",
+      "10.00",
+      "5.10",
+      "6.61"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.85,
+      "b": -1.33,
+      "c": 0.2
+    },
+    "content_tags": [
+      "Hóa lý"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-050",
+    "stem": "pH của dung dịch HCl 0.0M là bao nhiêu?",
+    "choices": [
+      "12.95",
+      "10.00",
+      "12.41",
+      "7.77"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.89,
+      "b": -1.67,
+      "c": 0.24
+    },
+    "content_tags": [
+      "Hóa lý"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-051",
+    "stem": "Một phản ứng hóa học có hệ số nhiệt độ van't Hoff là 2. Nếu tăng nhiệt độ thêm 10 độ C thì tốc độ phản ứng tăng lên bao nhiêu lần?",
+    "choices": [
+      "2.00 lần",
+      "1.01 lần",
+      "2.69 lần",
+      "2.35 lần"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.99,
+      "b": -1.08,
+      "c": 0.12
+    },
+    "content_tags": [
+      "Hóa lý"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-052",
+    "stem": "Hòa tan hoàn toàn 5.6 gam Fe bằng dung dịch HCl dư, thu được V lít khí H2 (đktc). Giá trị của V là bao nhiêu? (Fe=56)",
+    "choices": [
+      "2.24 lít",
+      "3.04 lít",
+      "2.63 lít",
+      "1.44 lít"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.2,
+      "b": -1.94,
+      "c": 0.15
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-053",
+    "stem": "Khối lượng mol của H2SO4 là bao nhiêu?",
+    "choices": [
+      "69.21 g/mol",
+      "79.76 g/mol",
+      "98.00 g/mol",
+      "109.87 g/mol"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.56,
+      "b": -2.29,
+      "c": 0.23
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-054",
+    "stem": "Thủy phân hoàn toàn 35.2 gam etyl axetat (CH3COOC2H5) trong môi trường kiềm dư. Khối lượng muối CH3COONa thu được là bao nhiêu? (M_este=88, M_muoi=82)",
+    "choices": [
+      "25.25 gam",
+      "27.24 gam",
+      "37.46 gam",
+      "32.80 gam"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 0.83,
+      "b": -1.04,
+      "c": 0.15
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-055",
+    "stem": "Để trung hòa 85 ml dung dịch NaOH 0.1M cần dùng bao nhiêu ml dung dịch HCl 0.1M?",
+    "choices": [
+      "104.02 ml",
+      "103.93 ml",
+      "85.00 ml",
+      "59.77 ml"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.89,
+      "b": -2.22,
+      "c": 0.19
+    },
+    "content_tags": [
+      "Hóa phân tích"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-056",
+    "stem": "Công thức phân tử của etanol là gì?",
+    "choices": [
+      "C3H8O",
+      "C2H6O",
+      "C2H4O",
+      "CH4O"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.34,
+      "b": -1.28,
+      "c": 0.16
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-057",
+    "stem": "Cho 1.52 mol NaOH tác dụng vừa đủ với dung dịch HCl. Khối lượng muối NaCl thu được là bao nhiêu? (Na=23, Cl=35.5)",
+    "choices": [
+      "44.92 gam",
+      "88.92 gam",
+      "72.97 gam",
+      "101.13 gam"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.66,
+      "b": -1.88,
+      "c": 0.12
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-058",
+    "stem": "pH của dung dịch HCl 0.0M là bao nhiêu?",
+    "choices": [
+      "5.76",
+      "6.74",
+      "13.89",
+      "10.00"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 0.93,
+      "b": -2.03,
+      "c": 0.19
+    },
+    "content_tags": [
+      "Hóa lý"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-059",
+    "stem": "Hòa tan hoàn toàn 5.6 gam Fe bằng dung dịch HCl dư, thu được V lít khí H2 (đktc). Giá trị của V là bao nhiêu? (Fe=56)",
+    "choices": [
+      "1.99 lít",
+      "2.98 lít",
+      "2.24 lít",
+      "1.78 lít"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.77,
+      "b": -1.19,
+      "c": 0.18
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-060",
+    "stem": "Cho 1.71 mol NaOH tác dụng vừa đủ với dung dịch HCl. Khối lượng muối NaCl thu được là bao nhiêu? (Na=23, Cl=35.5)",
+    "choices": [
+      "100.03 gam",
+      "75.59 gam",
+      "61.02 gam",
+      "50.98 gam"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.3,
+      "b": -1.81,
+      "c": 0.11
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-061",
+    "stem": "Cho 1.84 mol NaOH tác dụng vừa đủ với dung dịch HCl. Khối lượng muối NaCl thu được là bao nhiêu? (Na=23, Cl=35.5)",
+    "choices": [
+      "93.94 gam",
+      "59.64 gam",
+      "107.64 gam",
+      "146.97 gam"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.89,
+      "b": 0.02,
+      "c": 0.19
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-062",
+    "stem": "Đốt cháy hoàn toàn 1.07 mol metan (CH4) cần dùng bao nhiêu lít khí O2 (đktc)?",
+    "choices": [
+      "59.54 lít",
+      "27.44 lít",
+      "38.45 lít",
+      "47.94 lít"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 0.64,
+      "b": 0.27,
+      "c": 0.25
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-063",
+    "stem": "Thủy phân hoàn toàn 8.8 gam etyl axetat (CH3COOC2H5) trong môi trường kiềm dư. Khối lượng muối CH3COONa thu được là bao nhiêu? (M_este=88, M_muoi=82)",
+    "choices": [
+      "9.84 gam",
+      "5.94 gam",
+      "8.20 gam",
+      "6.94 gam"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.59,
+      "b": 0.27,
+      "c": 0.26
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-064",
+    "stem": "Đốt cháy hoàn toàn 1.45 mol metan (CH4) cần dùng bao nhiêu lít khí O2 (đktc)?",
+    "choices": [
+      "53.97 lít",
+      "40.75 lít",
+      "64.96 lít",
+      "73.31 lít"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.85,
+      "b": -0.33,
+      "c": 0.23
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-065",
+    "stem": "Khối lượng mol của H2SO4 là bao nhiêu?",
+    "choices": [
+      "121.81 g/mol",
+      "108.13 g/mol",
+      "55.59 g/mol",
+      "98.00 g/mol"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 0.52,
+      "b": -0.04,
+      "c": 0.2
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-066",
+    "stem": "Kim loại nào sau đây là kim loại kiềm?",
+    "choices": [
+      "Na",
+      "Al",
+      "Ca",
+      "Fe"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.25,
+      "b": -0.35,
+      "c": 0.17
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-067",
+    "stem": "pH của dung dịch HCl 0.01M là bao nhiêu?",
+    "choices": [
+      "2.20",
+      "2.72",
+      "2.33",
+      "2.00"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 0.77,
+      "b": 0.16,
+      "c": 0.21
+    },
+    "content_tags": [
+      "Hóa lý"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-068",
+    "stem": "Khối lượng mol của H2SO4 là bao nhiêu?",
+    "choices": [
+      "125.13 g/mol",
+      "108.36 g/mol",
+      "98.00 g/mol",
+      "135.97 g/mol"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.52,
+      "b": 0.42,
+      "c": 0.15
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-069",
+    "stem": "Hòa tan hoàn toàn 11.2 gam Fe bằng dung dịch HCl dư, thu được V lít khí H2 (đktc). Giá trị của V là bao nhiêu? (Fe=56)",
+    "choices": [
+      "5.36 lít",
+      "3.22 lít",
+      "4.48 lít",
+      "5.76 lít"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.23,
+      "b": -0.21,
+      "c": 0.28
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-070",
+    "stem": "Để trung hòa 88 ml dung dịch NaOH 0.1M cần dùng bao nhiêu ml dung dịch HCl 0.1M?",
+    "choices": [
+      "49.62 ml",
+      "88.00 ml",
+      "59.39 ml",
+      "121.81 ml"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.78,
+      "b": 0.09,
+      "c": 0.29
+    },
+    "content_tags": [
+      "Hóa phân tích"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-071",
+    "stem": "Thủy phân hoàn toàn 26.4 gam etyl axetat (CH3COOC2H5) trong môi trường kiềm dư. Khối lượng muối CH3COONa thu được là bao nhiêu? (M_este=88, M_muoi=82)",
+    "choices": [
+      "21.09 gam",
+      "36.40 gam",
+      "18.06 gam",
+      "24.60 gam"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.07,
+      "b": 0.24,
+      "c": 0.3
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-072",
+    "stem": "Kim loại nào sau đây là kim loại kiềm?",
+    "choices": [
+      "Ca",
+      "Al",
+      "Fe",
+      "Na"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.92,
+      "b": -0.09,
+      "c": 0.21
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-073",
+    "stem": "Thủy phân hoàn toàn 44.0 gam etyl axetat (CH3COOC2H5) trong môi trường kiềm dư. Khối lượng muối CH3COONa thu được là bao nhiêu? (M_este=88, M_muoi=82)",
+    "choices": [
+      "33.43 gam",
+      "47.07 gam",
+      "55.61 gam",
+      "41.00 gam"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.85,
+      "b": 0.49,
+      "c": 0.27
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-074",
+    "stem": "Khối lượng mol của H2SO4 là bao nhiêu?",
+    "choices": [
+      "98.00 g/mol",
+      "145.13 g/mol",
+      "81.62 g/mol",
+      "56.46 g/mol"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.5,
+      "b": -0.45,
+      "c": 0.2
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-075",
+    "stem": "Để trung hòa 80 ml dung dịch NaOH 0.1M cần dùng bao nhiêu ml dung dịch HCl 0.1M?",
+    "choices": [
+      "57.59 ml",
+      "80.00 ml",
+      "89.69 ml",
+      "56.41 ml"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.02,
+      "b": 0.01,
+      "c": 0.23
+    },
+    "content_tags": [
+      "Hóa phân tích"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-076",
+    "stem": "Cho 1.12 mol NaOH tác dụng vừa đủ với dung dịch HCl. Khối lượng muối NaCl thu được là bao nhiêu? (Na=23, Cl=35.5)",
+    "choices": [
+      "41.59 gam",
+      "82.69 gam",
+      "87.73 gam",
+      "65.52 gam"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.62,
+      "b": 0.19,
+      "c": 0.18
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-077",
+    "stem": "Đốt cháy hoàn toàn 1.3 mol metan (CH4) cần dùng bao nhiêu lít khí O2 (đktc)?",
+    "choices": [
+      "58.24 lít",
+      "86.69 lít",
+      "83.78 lít",
+      "39.95 lít"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.74,
+      "b": 0.27,
+      "c": 0.27
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-078",
+    "stem": "Khối lượng mol của H2SO4 là bao nhiêu?",
+    "choices": [
+      "126.65 g/mol",
+      "56.50 g/mol",
+      "72.43 g/mol",
+      "98.00 g/mol"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.18,
+      "b": 0.1,
+      "c": 0.23
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-079",
+    "stem": "Cho 0.86 mol NaOH tác dụng vừa đủ với dung dịch HCl. Khối lượng muối NaCl thu được là bao nhiêu? (Na=23, Cl=35.5)",
+    "choices": [
+      "35.67 gam",
+      "40.81 gam",
+      "66.55 gam",
+      "50.31 gam"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 0.84,
+      "b": -0.16,
+      "c": 0.14
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-080",
+    "stem": "Công thức phân tử của etanol là gì?",
+    "choices": [
+      "CH4O",
+      "C2H4O",
+      "C2H6O",
+      "C3H8O"
     ],
     "correct": 2,
     "params": {
       "a": 0.82,
-      "b": -0.8,
+      "b": 0.05,
+      "c": 0.19
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-081",
+    "stem": "pH của dung dịch HCl 0.0M là bao nhiêu?",
+    "choices": [
+      "5.03",
+      "5.51",
+      "7.87",
+      "10.00"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.94,
+      "b": 0.13,
       "c": 0.18
     },
     "content_tags": [
-      "inorganic",
-      "reaction"
+      "Hóa lý"
     ],
     "language": "vi"
   },
   {
-    "item_id": "CHEM-GEN-023",
-    "stem": "Công thức của axit sunfuric là?",
+    "item_id": "CHEM-082",
+    "stem": "Kim loại nào sau đây là kim loại kiềm?",
     "choices": [
-      "HCl",
-      "HNO3",
-      "H2SO4",
-      "H2S"
+      "Fe",
+      "Na",
+      "Ca",
+      "Al"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.74,
+      "b": 0.2,
+      "c": 0.28
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-083",
+    "stem": "Để trung hòa 62 ml dung dịch NaOH 0.1M cần dùng bao nhiêu ml dung dịch HCl 0.1M?",
+    "choices": [
+      "81.53 ml",
+      "38.78 ml",
+      "78.04 ml",
+      "62.00 ml"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.45,
+      "b": -0.48,
+      "c": 0.2
+    },
+    "content_tags": [
+      "Hóa phân tích"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-084",
+    "stem": "Đốt cháy hoàn toàn 1.48 mol metan (CH4) cần dùng bao nhiêu lít khí O2 (đktc)?",
+    "choices": [
+      "86.84 lít",
+      "91.98 lít",
+      "66.30 lít",
+      "54.04 lít"
     ],
     "correct": 2,
     "params": {
-      "a": 1.42,
-      "b": -0.7,
-      "c": 0.21
+      "a": 0.71,
+      "b": 0.5,
+      "c": 0.1
     },
     "content_tags": [
-      "acids",
-      "formula"
+      "Hữu cơ"
     ],
     "language": "vi"
   },
   {
-    "item_id": "CHEM-GEN-024",
-    "stem": "Công thức của axit clohidric là?",
+    "item_id": "CHEM-085",
+    "stem": "Một phản ứng hóa học có hệ số nhiệt độ van't Hoff là 2. Nếu tăng nhiệt độ thêm 10 độ C thì tốc độ phản ứng tăng lên bao nhiêu lần?",
     "choices": [
-      "HCl",
-      "HNO3",
-      "H2SO4",
-      "H2S"
+      "1.27 lần",
+      "1.54 lần",
+      "2.00 lần",
+      "2.50 lần"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.89,
+      "b": 0.34,
+      "c": 0.15
+    },
+    "content_tags": [
+      "Hóa lý"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-086",
+    "stem": "Đốt cháy hoàn toàn 1.12 mol metan (CH4) cần dùng bao nhiêu lít khí O2 (đktc)?",
+    "choices": [
+      "50.18 lít",
+      "31.48 lít",
+      "34.52 lít",
+      "32.15 lít"
     ],
     "correct": 0,
     "params": {
-      "a": 1.29,
-      "b": -0.7,
-      "c": 0.17
+      "a": 1.91,
+      "b": -0.13,
+      "c": 0.11
     },
     "content_tags": [
-      "acids",
-      "formula"
+      "Hữu cơ"
     ],
     "language": "vi"
   },
   {
-    "item_id": "CHEM-GEN-025",
-    "stem": "Vôi sống có công thức là?",
+    "item_id": "CHEM-087",
+    "stem": "Công thức phân tử của etanol là gì?",
     "choices": [
-      "Ca(OH)2",
-      "CaCO3",
-      "CaO",
-      "CaCl2"
+      "C2H6O",
+      "C2H4O",
+      "CH4O",
+      "C3H8O"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.27,
+      "b": 0.24,
+      "c": 0.21
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-088",
+    "stem": "Một phản ứng hóa học có hệ số nhiệt độ van't Hoff là 2. Nếu tăng nhiệt độ thêm 10 độ C thì tốc độ phản ứng tăng lên bao nhiêu lần?",
+    "choices": [
+      "1.39 lần",
+      "2.76 lần",
+      "1.37 lần",
+      "2.00 lần"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.49,
+      "b": 0.25,
+      "c": 0.14
+    },
+    "content_tags": [
+      "Hóa lý"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-089",
+    "stem": "Khối lượng mol của H2SO4 là bao nhiêu?",
+    "choices": [
+      "86.29 g/mol",
+      "112.10 g/mol",
+      "98.00 g/mol",
+      "125.44 g/mol"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.1,
+      "b": -0.44,
+      "c": 0.14
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-090",
+    "stem": "Kim loại nào sau đây là kim loại kiềm?",
+    "choices": [
+      "Ca",
+      "Na",
+      "Al",
+      "Fe"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.3,
+      "b": 0.23,
+      "c": 0.25
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-091",
+    "stem": "pH của dung dịch HCl 0.0M là bao nhiêu?",
+    "choices": [
+      "5.18",
+      "10.00",
+      "12.76",
+      "11.55"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.08,
+      "b": 0.32,
+      "c": 0.13
+    },
+    "content_tags": [
+      "Hóa lý"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-092",
+    "stem": "Công thức phân tử của etanol là gì?",
+    "choices": [
+      "C3H8O",
+      "C2H4O",
+      "C2H6O",
+      "CH4O"
     ],
     "correct": 2,
     "params": {
       "a": 1.28,
-      "b": -0.6,
-      "c": 0.17
+      "b": -0.41,
+      "c": 0.12
     },
     "content_tags": [
-      "inorganic",
-      "compounds"
+      "Hữu cơ"
     ],
     "language": "vi"
   },
   {
-    "item_id": "CHEM-GEN-026",
-    "stem": "Đá vôi có thành phần chính là?",
-    "choices": [
-      "Ca(OH)2",
-      "CaCO3",
-      "CaO",
-      "CaCl2"
-    ],
-    "correct": 1,
-    "params": {
-      "a": 1.3,
-      "b": -0.6,
-      "c": 0.22
-    },
-    "content_tags": [
-      "inorganic",
-      "compounds"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-027",
-    "stem": "Kim loại nào không tác dụng với H2SO4 loãng?",
+    "item_id": "CHEM-093",
+    "stem": "Kim loại nào sau đây là kim loại kiềm?",
     "choices": [
       "Fe",
-      "Zn",
-      "Cu",
-      "Mg"
+      "Ca",
+      "Na",
+      "Al"
     ],
     "correct": 2,
     "params": {
-      "a": 1.42,
-      "b": -0.5,
-      "c": 0.16
+      "a": 1.28,
+      "b": -0.11,
+      "c": 0.13
     },
     "content_tags": [
-      "metals",
-      "reactivity"
+      "Vô cơ"
     ],
     "language": "vi"
   },
   {
-    "item_id": "CHEM-REACTION-001",
-    "stem": "Phản ứng trung hòa giữa axit và bazơ tạo ra sản phẩm chính là?",
+    "item_id": "CHEM-094",
+    "stem": "Để trung hòa 97 ml dung dịch NaOH 0.1M cần dùng bao nhiêu ml dung dịch HCl 0.1M?",
     "choices": [
-      "Muối và nước",
-      "Nước và khí",
-      "Muối và khí",
-      "Chỉ có nước"
+      "97.00 ml",
+      "141.04 ml",
+      "50.59 ml",
+      "76.61 ml"
     ],
     "correct": 0,
     "params": {
-      "a": 0.9,
-      "b": -0.4,
-      "c": 0.22
+      "a": 0.53,
+      "b": -0.23,
+      "c": 0.13
     },
     "content_tags": [
-      "acid_base",
-      "reaction"
+      "Hóa phân tích"
     ],
     "language": "vi"
   },
   {
-    "item_id": "CHEM-GEN-028",
-    "stem": "Dung dịch làm quỳ tím hóa đỏ là?",
+    "item_id": "CHEM-095",
+    "stem": "Cho 0.32 mol NaOH tác dụng vừa đủ với dung dịch HCl. Khối lượng muối NaCl thu được là bao nhiêu? (Na=23, Cl=35.5)",
     "choices": [
-      "NaOH",
-      "NaCl",
-      "HCl",
-      "K2SO4"
+      "18.72 gam",
+      "25.16 gam",
+      "13.60 gam",
+      "25.79 gam"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.73,
+      "b": 0.12,
+      "c": 0.3
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-096",
+    "stem": "Cho 0.16 mol NaOH tác dụng vừa đủ với dung dịch HCl. Khối lượng muối NaCl thu được là bao nhiêu? (Na=23, Cl=35.5)",
+    "choices": [
+      "10.56 gam",
+      "10.76 gam",
+      "9.36 gam",
+      "8.21 gam"
     ],
     "correct": 2,
     "params": {
-      "a": 1.42,
-      "b": -0.4,
-      "c": 0.22
-    },
-    "content_tags": [
-      "acids",
-      "indicators"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-029",
-    "stem": "Dung dịch làm quỳ tím hóa xanh là?",
-    "choices": [
-      "NaOH",
-      "NaCl",
-      "HCl",
-      "H2SO4"
-    ],
-    "correct": 0,
-    "params": {
-      "a": 0.94,
-      "b": -0.4,
+      "a": 1.71,
+      "b": 0.26,
       "c": 0.23
     },
     "content_tags": [
-      "bases",
-      "indicators"
+      "Vô cơ"
     ],
     "language": "vi"
   },
   {
-    "item_id": "CHEM-ORG-001",
-    "stem": "Nguyên tố nào sau đây là thành phần chính của khí metan?",
+    "item_id": "CHEM-097",
+    "stem": "Công thức phân tử của etanol là gì?",
     "choices": [
-      "Hydro",
-      "Nitơ",
-      "Carbon",
-      "Oxy"
+      "C2H6O",
+      "C3H8O",
+      "C2H4O",
+      "CH4O"
     ],
-    "correct": 2,
+    "correct": 0,
     "params": {
-      "a": 1.0,
-      "b": -0.3,
-      "c": 0.18
-    },
-    "content_tags": [
-      "organic",
-      "hydrocarbon"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-030",
-    "stem": "Chất nào sau đây là oxit axit?",
-    "choices": [
-      "CaO",
-      "Na2O",
-      "CO2",
-      "MgO"
-    ],
-    "correct": 2,
-    "params": {
-      "a": 1.05,
-      "b": -0.3,
-      "c": 0.16
-    },
-    "content_tags": [
-      "oxides",
-      "classification"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-031",
-    "stem": "Chất nào sau đây là oxit bazơ?",
-    "choices": [
-      "SO2",
-      "CO2",
-      "CaO",
-      "P2O5"
-    ],
-    "correct": 2,
-    "params": {
-      "a": 1.22,
-      "b": -0.3,
+      "a": 1.85,
+      "b": -0.38,
       "c": 0.22
     },
     "content_tags": [
-      "oxides",
-      "classification"
+      "Hữu cơ"
     ],
     "language": "vi"
   },
   {
-    "item_id": "CHEM-INORG-001",
-    "stem": "Dung dịch nào sau đây có tính bazơ mạnh?",
+    "item_id": "CHEM-098",
+    "stem": "Hòa tan hoàn toàn 5.6 gam Fe bằng dung dịch HCl dư, thu được V lít khí H2 (đktc). Giá trị của V là bao nhiêu? (Fe=56)",
     "choices": [
-      "HCl",
-      "NaOH",
-      "H2SO4",
-      "CH3COOH"
-    ],
-    "correct": 1,
-    "params": {
-      "a": 1.2,
-      "b": -0.2,
-      "c": 0.15
-    },
-    "content_tags": [
-      "base",
-      "solution"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-032",
-    "stem": "Metan có công thức là?",
-    "choices": [
-      "CH4",
-      "C2H4",
-      "C2H2",
-      "C6H6"
-    ],
-    "correct": 0,
-    "params": {
-      "a": 1.24,
-      "b": -0.2,
-      "c": 0.19
-    },
-    "content_tags": [
-      "organic",
-      "hydrocarbon"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-033",
-    "stem": "Etilen có công thức là?",
-    "choices": [
-      "CH4",
-      "C2H4",
-      "C2H2",
-      "C6H6"
-    ],
-    "correct": 1,
-    "params": {
-      "a": 0.82,
-      "b": -0.2,
-      "c": 0.21
-    },
-    "content_tags": [
-      "organic",
-      "hydrocarbon"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-034",
-    "stem": "Axetilen có công thức là?",
-    "choices": [
-      "CH4",
-      "C2H4",
-      "C2H2",
-      "C6H6"
-    ],
-    "correct": 2,
-    "params": {
-      "a": 0.95,
-      "b": -0.2,
-      "c": 0.25
-    },
-    "content_tags": [
-      "organic",
-      "hydrocarbon"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-035",
-    "stem": "Benzen có công thức là?",
-    "choices": [
-      "CH4",
-      "C2H4",
-      "C2H2",
-      "C6H6"
+      "1.36 lít",
+      "2.61 lít",
+      "1.81 lít",
+      "2.24 lít"
     ],
     "correct": 3,
     "params": {
-      "a": 1.08,
-      "b": -0.2,
-      "c": 0.16
+      "a": 0.62,
+      "b": -0.17,
+      "c": 0.17
     },
     "content_tags": [
-      "organic",
-      "hydrocarbon"
+      "Vô cơ"
     ],
     "language": "vi"
   },
   {
-    "item_id": "CHEM-PERIOD-001",
-    "stem": "Nguyên tố nào nằm ở chu kỳ 3, nhóm IIA của bảng tuần hoàn?",
+    "item_id": "CHEM-099",
+    "stem": "Cho 1.64 mol NaOH tác dụng vừa đủ với dung dịch HCl. Khối lượng muối NaCl thu được là bao nhiêu? (Na=23, Cl=35.5)",
     "choices": [
-      "Magie",
-      "Canxi",
-      "Natri",
-      "Nhôm"
+      "95.94 gam",
+      "121.39 gam",
+      "82.10 gam",
+      "133.55 gam"
     ],
     "correct": 0,
     "params": {
-      "a": 1.1,
-      "b": -0.1,
+      "a": 0.61,
+      "b": -0.12,
+      "c": 0.24
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-100",
+    "stem": "Đốt cháy hoàn toàn 0.74 mol metan (CH4) cần dùng bao nhiêu lít khí O2 (đktc)?",
+    "choices": [
+      "33.15 lít",
+      "37.80 lít",
+      "38.29 lít",
+      "37.74 lít"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.27,
+      "b": -0.32,
       "c": 0.2
     },
     "content_tags": [
-      "periodic_table"
+      "Hữu cơ"
     ],
     "language": "vi"
   },
   {
-    "item_id": "CHEM-GEN-036",
-    "stem": "Rượu etylic có công thức là?",
+    "item_id": "CHEM-101",
+    "stem": "Hòa tan hoàn toàn 5.6 gam Fe bằng dung dịch HCl dư, thu được V lít khí H2 (đktc). Giá trị của V là bao nhiêu? (Fe=56)",
     "choices": [
-      "CH3OH",
-      "C2H5OH",
-      "CH3COOH",
-      "C6H12O6"
+      "1.29 lít",
+      "1.66 lít",
+      "2.24 lít",
+      "2.91 lít"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.87,
+      "b": 0.19,
+      "c": 0.14
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-102",
+    "stem": "pH của dung dịch HCl 0.0M là bao nhiêu?",
+    "choices": [
+      "14.00",
+      "13.49",
+      "10.00",
+      "14.11"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.64,
+      "b": 0.28,
+      "c": 0.21
+    },
+    "content_tags": [
+      "Hóa lý"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-103",
+    "stem": "Cho 0.57 mol NaOH tác dụng vừa đủ với dung dịch HCl. Khối lượng muối NaCl thu được là bao nhiêu? (Na=23, Cl=35.5)",
+    "choices": [
+      "18.88 gam",
+      "33.34 gam",
+      "49.00 gam",
+      "39.64 gam"
     ],
     "correct": 1,
     "params": {
-      "a": 1.26,
-      "b": -0.1,
-      "c": 0.25
+      "a": 0.85,
+      "b": -0.48,
+      "c": 0.2
     },
     "content_tags": [
-      "organic",
-      "alcohol"
+      "Vô cơ"
     ],
     "language": "vi"
   },
   {
-    "item_id": "CHEM-GEN-037",
-    "stem": "Giấm ăn là dung dịch của axit nào?",
+    "item_id": "CHEM-104",
+    "stem": "Hòa tan hoàn toàn 22.4 gam Fe bằng dung dịch HCl dư, thu được V lít khí H2 (đktc). Giá trị của V là bao nhiêu? (Fe=56)",
     "choices": [
-      "HCl",
-      "H2SO4",
-      "CH3COOH",
-      "HNO3"
+      "11.00 lít",
+      "11.26 lít",
+      "13.26 lít",
+      "8.96 lít"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 0.7,
+      "b": 0.24,
+      "c": 0.27
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-105",
+    "stem": "Cho 0.48 mol NaOH tác dụng vừa đủ với dung dịch HCl. Khối lượng muối NaCl thu được là bao nhiêu? (Na=23, Cl=35.5)",
+    "choices": [
+      "36.88 gam",
+      "25.11 gam",
+      "28.08 gam",
+      "24.05 gam"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.57,
+      "b": -0.24,
+      "c": 0.12
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-106",
+    "stem": "Cho 0.7 mol NaOH tác dụng vừa đủ với dung dịch HCl. Khối lượng muối NaCl thu được là bao nhiêu? (Na=23, Cl=35.5)",
+    "choices": [
+      "45.11 gam",
+      "24.30 gam",
+      "25.16 gam",
+      "40.95 gam"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.28,
+      "b": -0.2,
+      "c": 0.24
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-107",
+    "stem": "Cho 1.94 mol NaOH tác dụng vừa đủ với dung dịch HCl. Khối lượng muối NaCl thu được là bao nhiêu? (Na=23, Cl=35.5)",
+    "choices": [
+      "56.77 gam",
+      "113.49 gam",
+      "160.31 gam",
+      "65.08 gam"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.09,
+      "b": -0.13,
+      "c": 0.26
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-108",
+    "stem": "Đốt cháy hoàn toàn 0.12 mol metan (CH4) cần dùng bao nhiêu lít khí O2 (đktc)?",
+    "choices": [
+      "3.79 lít",
+      "5.38 lít",
+      "7.63 lít",
+      "2.89 lít"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.34,
+      "b": -0.1,
+      "c": 0.13
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-109",
+    "stem": "Đốt cháy hoàn toàn 0.64 mol metan (CH4) cần dùng bao nhiêu lít khí O2 (đktc)?",
+    "choices": [
+      "31.95 lít",
+      "24.53 lít",
+      "19.65 lít",
+      "28.67 lít"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 0.83,
+      "b": 0.48,
+      "c": 0.13
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-110",
+    "stem": "Đốt cháy hoàn toàn 1.22 mol metan (CH4) cần dùng bao nhiêu lít khí O2 (đktc)?",
+    "choices": [
+      "80.22 lít",
+      "32.50 lít",
+      "72.20 lít",
+      "54.66 lít"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.77,
+      "b": 0.44,
+      "c": 0.22
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-111",
+    "stem": "Kim loại nào sau đây là kim loại kiềm?",
+    "choices": [
+      "Al",
+      "Na",
+      "Fe",
+      "Ca"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.48,
+      "b": -0.3,
+      "c": 0.19
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-112",
+    "stem": "Để trung hòa 67 ml dung dịch NaOH 0.1M cần dùng bao nhiêu ml dung dịch HCl 0.1M?",
+    "choices": [
+      "85.66 ml",
+      "97.80 ml",
+      "67.00 ml",
+      "75.32 ml"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.61,
+      "b": -0.04,
+      "c": 0.28
+    },
+    "content_tags": [
+      "Hóa phân tích"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-113",
+    "stem": "Kim loại nào sau đây là kim loại kiềm?",
+    "choices": [
+      "Al",
+      "Ca",
+      "Fe",
+      "Na"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 0.79,
+      "b": -0.19,
+      "c": 0.11
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-114",
+    "stem": "pH của dung dịch HCl 0.0M là bao nhiêu?",
+    "choices": [
+      "7.63",
+      "10.00",
+      "13.79",
+      "6.12"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.27,
+      "b": 0.0,
+      "c": 0.26
+    },
+    "content_tags": [
+      "Hóa lý"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-115",
+    "stem": "Khối lượng mol của H2SO4 là bao nhiêu?",
+    "choices": [
+      "113.52 g/mol",
+      "139.35 g/mol",
+      "98.00 g/mol",
+      "135.75 g/mol"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.69,
+      "b": -0.05,
+      "c": 0.27
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-116",
+    "stem": "Kim loại nào sau đây là kim loại kiềm?",
+    "choices": [
+      "Al",
+      "Ca",
+      "Na",
+      "Fe"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.93,
+      "b": 0.14,
+      "c": 0.13
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-117",
+    "stem": "Cho 1.72 mol NaOH tác dụng vừa đủ với dung dịch HCl. Khối lượng muối NaCl thu được là bao nhiêu? (Na=23, Cl=35.5)",
+    "choices": [
+      "133.29 gam",
+      "117.38 gam",
+      "100.62 gam",
+      "75.61 gam"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.77,
+      "b": -0.09,
+      "c": 0.24
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-118",
+    "stem": "Thủy phân hoàn toàn 26.4 gam etyl axetat (CH3COOC2H5) trong môi trường kiềm dư. Khối lượng muối CH3COONa thu được là bao nhiêu? (M_este=88, M_muoi=82)",
+    "choices": [
+      "31.28 gam",
+      "14.32 gam",
+      "24.60 gam",
+      "21.91 gam"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.12,
+      "b": 0.02,
+      "c": 0.25
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-119",
+    "stem": "Để trung hòa 59 ml dung dịch NaOH 0.1M cần dùng bao nhiêu ml dung dịch HCl 0.1M?",
+    "choices": [
+      "42.50 ml",
+      "59.00 ml",
+      "77.61 ml",
+      "48.11 ml"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.88,
+      "b": 0.43,
+      "c": 0.1
+    },
+    "content_tags": [
+      "Hóa phân tích"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-120",
+    "stem": "Để trung hòa 45 ml dung dịch NaOH 0.1M cần dùng bao nhiêu ml dung dịch HCl 0.1M?",
+    "choices": [
+      "34.80 ml",
+      "38.65 ml",
+      "45.00 ml",
+      "66.70 ml"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.7,
+      "b": 0.04,
+      "c": 0.2
+    },
+    "content_tags": [
+      "Hóa phân tích"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-121",
+    "stem": "Kim loại nào sau đây là kim loại kiềm?",
+    "choices": [
+      "Fe",
+      "Al",
+      "Ca",
+      "Na"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 0.88,
+      "b": -0.11,
+      "c": 0.16
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-122",
+    "stem": "Công thức phân tử của etanol là gì?",
+    "choices": [
+      "C2H4O",
+      "C3H8O",
+      "CH4O",
+      "C2H6O"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.32,
+      "b": 0.18,
+      "c": 0.23
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-123",
+    "stem": "Cho 1.61 mol NaOH tác dụng vừa đủ với dung dịch HCl. Khối lượng muối NaCl thu được là bao nhiêu? (Na=23, Cl=35.5)",
+    "choices": [
+      "94.19 gam",
+      "58.00 gam",
+      "82.36 gam",
+      "57.55 gam"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.96,
+      "b": -0.35,
+      "c": 0.22
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-124",
+    "stem": "Thủy phân hoàn toàn 35.2 gam etyl axetat (CH3COOC2H5) trong môi trường kiềm dư. Khối lượng muối CH3COONa thu được là bao nhiêu? (M_este=88, M_muoi=82)",
+    "choices": [
+      "26.06 gam",
+      "32.80 gam",
+      "18.52 gam",
+      "26.37 gam"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.98,
+      "b": -0.09,
+      "c": 0.18
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-125",
+    "stem": "Đốt cháy hoàn toàn 0.64 mol metan (CH4) cần dùng bao nhiêu lít khí O2 (đktc)?",
+    "choices": [
+      "15.53 lít",
+      "39.72 lít",
+      "28.67 lít",
+      "14.48 lít"
     ],
     "correct": 2,
     "params": {
       "a": 0.88,
-      "b": -0.1,
-      "c": 0.21
+      "b": -0.46,
+      "c": 0.24
     },
     "content_tags": [
-      "organic",
-      "acids"
+      "Hữu cơ"
     ],
     "language": "vi"
   },
   {
-    "item_id": "CHEM-GEN-038",
-    "stem": "Glucozơ có công thức là?",
+    "item_id": "CHEM-126",
+    "stem": "Đốt cháy hoàn toàn 0.51 mol metan (CH4) cần dùng bao nhiêu lít khí O2 (đktc)?",
     "choices": [
-      "C12H22O11",
-      "C6H12O6",
-      "(C6H10O5)n",
-      "CH3COOH"
+      "13.15 lít",
+      "19.30 lít",
+      "22.85 lít",
+      "13.18 lít"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.87,
+      "b": -0.09,
+      "c": 0.11
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-127",
+    "stem": "Công thức phân tử của etanol là gì?",
+    "choices": [
+      "C2H6O",
+      "CH4O",
+      "C3H8O",
+      "C2H4O"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.38,
+      "b": -0.19,
+      "c": 0.28
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-128",
+    "stem": "pH của dung dịch HCl 0.0M là bao nhiêu?",
+    "choices": [
+      "5.70",
+      "10.00",
+      "13.27",
+      "7.88"
     ],
     "correct": 1,
     "params": {
-      "a": 1.47,
-      "b": 0.0,
-      "c": 0.22
+      "a": 1.6,
+      "b": 0.33,
+      "c": 0.16
     },
     "content_tags": [
-      "organic",
-      "carbohydrates"
+      "Hóa lý"
     ],
     "language": "vi"
   },
   {
-    "item_id": "CHEM-GEN-039",
-    "stem": "Saccarozơ có công thức là?",
+    "item_id": "CHEM-129",
+    "stem": "Khối lượng mol của H2SO4 là bao nhiêu?",
     "choices": [
-      "C12H22O11",
-      "C6H12O6",
-      "(C6H10O5)n",
-      "CH3COOH"
+      "125.85 g/mol",
+      "74.60 g/mol",
+      "118.09 g/mol",
+      "98.00 g/mol"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 0.87,
+      "b": -0.4,
+      "c": 0.27
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-130",
+    "stem": "Công thức phân tử của etanol là gì?",
+    "choices": [
+      "C2H4O",
+      "C2H6O",
+      "CH4O",
+      "C3H8O"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.28,
+      "b": -0.13,
+      "c": 0.29
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-131",
+    "stem": "Khối lượng mol của H2SO4 là bao nhiêu?",
+    "choices": [
+      "134.96 g/mol",
+      "124.65 g/mol",
+      "98.00 g/mol",
+      "68.58 g/mol"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.79,
+      "b": -0.02,
+      "c": 0.22
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-132",
+    "stem": "Thủy phân hoàn toàn 8.8 gam etyl axetat (CH3COOC2H5) trong môi trường kiềm dư. Khối lượng muối CH3COONa thu được là bao nhiêu? (M_este=88, M_muoi=82)",
+    "choices": [
+      "8.20 gam",
+      "6.96 gam",
+      "12.10 gam",
+      "10.56 gam"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.29,
+      "b": 0.32,
+      "c": 0.22
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-133",
+    "stem": "Một phản ứng hóa học có hệ số nhiệt độ van't Hoff là 2. Nếu tăng nhiệt độ thêm 10 độ C thì tốc độ phản ứng tăng lên bao nhiêu lần?",
+    "choices": [
+      "2.42 lần",
+      "1.20 lần",
+      "2.00 lần",
+      "1.49 lần"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.83,
+      "b": -0.49,
+      "c": 0.19
+    },
+    "content_tags": [
+      "Hóa lý"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-134",
+    "stem": "Cho 1.99 mol NaOH tác dụng vừa đủ với dung dịch HCl. Khối lượng muối NaCl thu được là bao nhiêu? (Na=23, Cl=35.5)",
+    "choices": [
+      "98.04 gam",
+      "134.14 gam",
+      "89.50 gam",
+      "116.42 gam"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.33,
+      "b": 0.42,
+      "c": 0.17
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-135",
+    "stem": "Cho 0.73 mol NaOH tác dụng vừa đủ với dung dịch HCl. Khối lượng muối NaCl thu được là bao nhiêu? (Na=23, Cl=35.5)",
+    "choices": [
+      "61.54 gam",
+      "47.25 gam",
+      "50.53 gam",
+      "42.70 gam"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.56,
+      "b": 0.1,
+      "c": 0.12
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-136",
+    "stem": "Thủy phân hoàn toàn 17.6 gam etyl axetat (CH3COOC2H5) trong môi trường kiềm dư. Khối lượng muối CH3COONa thu được là bao nhiêu? (M_este=88, M_muoi=82)",
+    "choices": [
+      "10.28 gam",
+      "16.40 gam",
+      "18.55 gam",
+      "10.95 gam"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.65,
+      "b": -0.1,
+      "c": 0.18
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-137",
+    "stem": "Đốt cháy hoàn toàn 0.81 mol metan (CH4) cần dùng bao nhiêu lít khí O2 (đktc)?",
+    "choices": [
+      "49.99 lít",
+      "51.44 lít",
+      "18.82 lít",
+      "36.29 lít"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.46,
+      "b": -0.19,
+      "c": 0.27
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-138",
+    "stem": "Khối lượng mol của H2SO4 là bao nhiêu?",
+    "choices": [
+      "98.00 g/mol",
+      "82.89 g/mol",
+      "125.65 g/mol",
+      "134.14 g/mol"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.99,
+      "b": 0.45,
+      "c": 0.22
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-139",
+    "stem": "Kim loại nào sau đây là kim loại kiềm?",
+    "choices": [
+      "Al",
+      "Ca",
+      "Na",
+      "Fe"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.81,
+      "b": -0.24,
+      "c": 0.17
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-140",
+    "stem": "Để trung hòa 44 ml dung dịch NaOH 0.1M cần dùng bao nhiêu ml dung dịch HCl 0.1M?",
+    "choices": [
+      "44.00 ml",
+      "52.84 ml",
+      "56.71 ml",
+      "22.47 ml"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.52,
+      "b": -0.12,
+      "c": 0.26
+    },
+    "content_tags": [
+      "Hóa phân tích"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-141",
+    "stem": "Khối lượng mol của H2SO4 là bao nhiêu?",
+    "choices": [
+      "114.30 g/mol",
+      "87.00 g/mol",
+      "145.97 g/mol",
+      "98.00 g/mol"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 0.79,
+      "b": 0.96,
+      "c": 0.23
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-142",
+    "stem": "Hòa tan hoàn toàn 16.8 gam Fe bằng dung dịch HCl dư, thu được V lít khí H2 (đktc). Giá trị của V là bao nhiêu? (Fe=56)",
+    "choices": [
+      "9.05 lít",
+      "5.14 lít",
+      "8.87 lít",
+      "6.72 lít"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.24,
+      "b": 1.0,
+      "c": 0.22
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-143",
+    "stem": "Thủy phân hoàn toàn 17.6 gam etyl axetat (CH3COOC2H5) trong môi trường kiềm dư. Khối lượng muối CH3COONa thu được là bao nhiêu? (M_este=88, M_muoi=82)",
+    "choices": [
+      "10.21 gam",
+      "16.40 gam",
+      "11.64 gam",
+      "21.11 gam"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.99,
+      "b": 2.43,
+      "c": 0.3
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-144",
+    "stem": "Để trung hòa 68 ml dung dịch NaOH 0.1M cần dùng bao nhiêu ml dung dịch HCl 0.1M?",
+    "choices": [
+      "68.00 ml",
+      "91.10 ml",
+      "56.90 ml",
+      "49.02 ml"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.54,
+      "b": 1.62,
+      "c": 0.12
+    },
+    "content_tags": [
+      "Hóa phân tích"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-145",
+    "stem": "Thủy phân hoàn toàn 44.0 gam etyl axetat (CH3COOC2H5) trong môi trường kiềm dư. Khối lượng muối CH3COONa thu được là bao nhiêu? (M_este=88, M_muoi=82)",
+    "choices": [
+      "48.67 gam",
+      "35.59 gam",
+      "41.00 gam",
+      "34.78 gam"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.54,
+      "b": 2.32,
+      "c": 0.2
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-146",
+    "stem": "Khối lượng mol của H2SO4 là bao nhiêu?",
+    "choices": [
+      "109.65 g/mol",
+      "71.98 g/mol",
+      "131.39 g/mol",
+      "98.00 g/mol"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.85,
+      "b": 1.19,
+      "c": 0.2
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-147",
+    "stem": "pH của dung dịch HCl 0.0M là bao nhiêu?",
+    "choices": [
+      "8.86",
+      "10.00",
+      "11.80",
+      "13.76"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.68,
+      "b": 0.89,
+      "c": 0.14
+    },
+    "content_tags": [
+      "Hóa lý"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-148",
+    "stem": "Hòa tan hoàn toàn 16.8 gam Fe bằng dung dịch HCl dư, thu được V lít khí H2 (đktc). Giá trị của V là bao nhiêu? (Fe=56)",
+    "choices": [
+      "8.60 lít",
+      "6.72 lít",
+      "3.49 lít",
+      "5.35 lít"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.54,
+      "b": 1.15,
+      "c": 0.24
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-149",
+    "stem": "Hòa tan hoàn toàn 16.8 gam Fe bằng dung dịch HCl dư, thu được V lít khí H2 (đktc). Giá trị của V là bao nhiêu? (Fe=56)",
+    "choices": [
+      "8.71 lít",
+      "8.69 lít",
+      "6.72 lít",
+      "3.62 lít"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.61,
+      "b": 1.9,
+      "c": 0.29
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-150",
+    "stem": "Khối lượng mol của H2SO4 là bao nhiêu?",
+    "choices": [
+      "124.93 g/mol",
+      "116.73 g/mol",
+      "52.06 g/mol",
+      "98.00 g/mol"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.96,
+      "b": 0.71,
+      "c": 0.15
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-151",
+    "stem": "pH của dung dịch HCl 0.1M là bao nhiêu?",
+    "choices": [
+      "0.83",
+      "1.22",
+      "1.00",
+      "1.37"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.65,
+      "b": 0.88,
+      "c": 0.28
+    },
+    "content_tags": [
+      "Hóa lý"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-152",
+    "stem": "pH của dung dịch HCl 0.0M là bao nhiêu?",
+    "choices": [
+      "12.02",
+      "10.00",
+      "5.66",
+      "12.37"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.77,
+      "b": 2.12,
+      "c": 0.15
+    },
+    "content_tags": [
+      "Hóa lý"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-153",
+    "stem": "Thủy phân hoàn toàn 35.2 gam etyl axetat (CH3COOC2H5) trong môi trường kiềm dư. Khối lượng muối CH3COONa thu được là bao nhiêu? (M_este=88, M_muoi=82)",
+    "choices": [
+      "26.55 gam",
+      "32.80 gam",
+      "42.23 gam",
+      "21.02 gam"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.77,
+      "b": 0.91,
+      "c": 0.21
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-154",
+    "stem": "pH của dung dịch HCl 0.01M là bao nhiêu?",
+    "choices": [
+      "1.69",
+      "1.74",
+      "2.00",
+      "1.11"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.64,
+      "b": 0.62,
+      "c": 0.22
+    },
+    "content_tags": [
+      "Hóa lý"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-155",
+    "stem": "Cho 0.11 mol NaOH tác dụng vừa đủ với dung dịch HCl. Khối lượng muối NaCl thu được là bao nhiêu? (Na=23, Cl=35.5)",
+    "choices": [
+      "7.76 gam",
+      "6.43 gam",
+      "4.29 gam",
+      "7.41 gam"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.17,
+      "b": 1.02,
+      "c": 0.21
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-156",
+    "stem": "Kim loại nào sau đây là kim loại kiềm?",
+    "choices": [
+      "Na",
+      "Fe",
+      "Al",
+      "Ca"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.84,
+      "b": 0.85,
+      "c": 0.17
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-157",
+    "stem": "Đốt cháy hoàn toàn 0.79 mol metan (CH4) cần dùng bao nhiêu lít khí O2 (đktc)?",
+    "choices": [
+      "46.64 lít",
+      "49.44 lít",
+      "50.21 lít",
+      "35.39 lít"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 0.97,
+      "b": 1.65,
+      "c": 0.23
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-158",
+    "stem": "Cho 1.54 mol NaOH tác dụng vừa đủ với dung dịch HCl. Khối lượng muối NaCl thu được là bao nhiêu? (Na=23, Cl=35.5)",
+    "choices": [
+      "61.30 gam",
+      "107.49 gam",
+      "90.09 gam",
+      "79.60 gam"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.84,
+      "b": 2.5,
+      "c": 0.29
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-159",
+    "stem": "Công thức phân tử của etanol là gì?",
+    "choices": [
+      "C2H6O",
+      "C2H4O",
+      "C3H8O",
+      "CH4O"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.79,
+      "b": 2.17,
+      "c": 0.24
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-160",
+    "stem": "Khối lượng mol của H2SO4 là bao nhiêu?",
+    "choices": [
+      "60.08 g/mol",
+      "64.94 g/mol",
+      "111.29 g/mol",
+      "98.00 g/mol"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.55,
+      "b": 2.49,
+      "c": 0.2
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-161",
+    "stem": "Một phản ứng hóa học có hệ số nhiệt độ van't Hoff là 2. Nếu tăng nhiệt độ thêm 10 độ C thì tốc độ phản ứng tăng lên bao nhiêu lần?",
+    "choices": [
+      "2.60 lần",
+      "2.00 lần",
+      "2.90 lần",
+      "1.59 lần"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.4,
+      "b": 0.51,
+      "c": 0.3
+    },
+    "content_tags": [
+      "Hóa lý"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-162",
+    "stem": "Một phản ứng hóa học có hệ số nhiệt độ van't Hoff là 2. Nếu tăng nhiệt độ thêm 10 độ C thì tốc độ phản ứng tăng lên bao nhiêu lần?",
+    "choices": [
+      "2.21 lần",
+      "2.35 lần",
+      "2.22 lần",
+      "2.00 lần"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.27,
+      "b": 2.06,
+      "c": 0.23
+    },
+    "content_tags": [
+      "Hóa lý"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-163",
+    "stem": "Một phản ứng hóa học có hệ số nhiệt độ van't Hoff là 2. Nếu tăng nhiệt độ thêm 10 độ C thì tốc độ phản ứng tăng lên bao nhiêu lần?",
+    "choices": [
+      "2.00 lần",
+      "2.54 lần",
+      "2.21 lần",
+      "2.39 lần"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.95,
+      "b": 1.24,
+      "c": 0.16
+    },
+    "content_tags": [
+      "Hóa lý"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-164",
+    "stem": "Cho 1.42 mol NaOH tác dụng vừa đủ với dung dịch HCl. Khối lượng muối NaCl thu được là bao nhiêu? (Na=23, Cl=35.5)",
+    "choices": [
+      "83.07 gam",
+      "98.33 gam",
+      "58.16 gam",
+      "110.94 gam"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.87,
+      "b": 2.11,
+      "c": 0.21
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-165",
+    "stem": "Hòa tan hoàn toàn 5.6 gam Fe bằng dung dịch HCl dư, thu được V lít khí H2 (đktc). Giá trị của V là bao nhiêu? (Fe=56)",
+    "choices": [
+      "3.26 lít",
+      "2.87 lít",
+      "2.24 lít",
+      "3.17 lít"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.97,
+      "b": 1.62,
+      "c": 0.19
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-166",
+    "stem": "Để trung hòa 81 ml dung dịch NaOH 0.1M cần dùng bao nhiêu ml dung dịch HCl 0.1M?",
+    "choices": [
+      "66.85 ml",
+      "81.00 ml",
+      "115.90 ml",
+      "117.28 ml"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.79,
+      "b": 1.72,
+      "c": 0.23
+    },
+    "content_tags": [
+      "Hóa phân tích"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-167",
+    "stem": "Hòa tan hoàn toàn 16.8 gam Fe bằng dung dịch HCl dư, thu được V lít khí H2 (đktc). Giá trị của V là bao nhiêu? (Fe=56)",
+    "choices": [
+      "9.09 lít",
+      "4.85 lít",
+      "3.92 lít",
+      "6.72 lít"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.55,
+      "b": 0.87,
+      "c": 0.14
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-168",
+    "stem": "Một phản ứng hóa học có hệ số nhiệt độ van't Hoff là 2. Nếu tăng nhiệt độ thêm 10 độ C thì tốc độ phản ứng tăng lên bao nhiêu lần?",
+    "choices": [
+      "2.71 lần",
+      "2.00 lần",
+      "2.47 lần",
+      "1.02 lần"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.54,
+      "b": 0.99,
+      "c": 0.22
+    },
+    "content_tags": [
+      "Hóa lý"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-169",
+    "stem": "Một phản ứng hóa học có hệ số nhiệt độ van't Hoff là 2. Nếu tăng nhiệt độ thêm 10 độ C thì tốc độ phản ứng tăng lên bao nhiêu lần?",
+    "choices": [
+      "2.68 lần",
+      "1.29 lần",
+      "1.40 lần",
+      "2.00 lần"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.09,
+      "b": 1.64,
+      "c": 0.19
+    },
+    "content_tags": [
+      "Hóa lý"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-170",
+    "stem": "Cho 0.41 mol NaOH tác dụng vừa đủ với dung dịch HCl. Khối lượng muối NaCl thu được là bao nhiêu? (Na=23, Cl=35.5)",
+    "choices": [
+      "26.39 gam",
+      "23.98 gam",
+      "33.55 gam",
+      "28.88 gam"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.63,
+      "b": 1.6,
+      "c": 0.14
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-171",
+    "stem": "Hòa tan hoàn toàn 22.4 gam Fe bằng dung dịch HCl dư, thu được V lít khí H2 (đktc). Giá trị của V là bao nhiêu? (Fe=56)",
+    "choices": [
+      "8.96 lít",
+      "6.20 lít",
+      "5.35 lít",
+      "6.58 lít"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.8,
+      "b": 2.34,
+      "c": 0.18
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-172",
+    "stem": "Một phản ứng hóa học có hệ số nhiệt độ van't Hoff là 2. Nếu tăng nhiệt độ thêm 10 độ C thì tốc độ phản ứng tăng lên bao nhiêu lần?",
+    "choices": [
+      "1.57 lần",
+      "2.00 lần",
+      "2.33 lần",
+      "2.21 lần"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.78,
+      "b": 0.8,
+      "c": 0.24
+    },
+    "content_tags": [
+      "Hóa lý"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-173",
+    "stem": "Cho 1.56 mol NaOH tác dụng vừa đủ với dung dịch HCl. Khối lượng muối NaCl thu được là bao nhiêu? (Na=23, Cl=35.5)",
+    "choices": [
+      "59.44 gam",
+      "91.26 gam",
+      "111.37 gam",
+      "66.54 gam"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.51,
+      "b": 0.56,
+      "c": 0.25
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-174",
+    "stem": "Kim loại nào sau đây là kim loại kiềm?",
+    "choices": [
+      "Fe",
+      "Na",
+      "Ca",
+      "Al"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.71,
+      "b": 1.09,
+      "c": 0.15
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-175",
+    "stem": "pH của dung dịch HCl 0.0M là bao nhiêu?",
+    "choices": [
+      "7.28",
+      "13.48",
+      "10.00",
+      "11.65"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.89,
+      "b": 2.18,
+      "c": 0.17
+    },
+    "content_tags": [
+      "Hóa lý"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-176",
+    "stem": "Một phản ứng hóa học có hệ số nhiệt độ van't Hoff là 2. Nếu tăng nhiệt độ thêm 10 độ C thì tốc độ phản ứng tăng lên bao nhiêu lần?",
+    "choices": [
+      "1.04 lần",
+      "1.40 lần",
+      "2.00 lần",
+      "1.80 lần"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.94,
+      "b": 2.27,
+      "c": 0.21
+    },
+    "content_tags": [
+      "Hóa lý"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-177",
+    "stem": "Thủy phân hoàn toàn 35.2 gam etyl axetat (CH3COOC2H5) trong môi trường kiềm dư. Khối lượng muối CH3COONa thu được là bao nhiêu? (M_este=88, M_muoi=82)",
+    "choices": [
+      "21.70 gam",
+      "32.80 gam",
+      "43.87 gam",
+      "25.41 gam"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.62,
+      "b": 1.67,
+      "c": 0.27
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-178",
+    "stem": "Kim loại nào sau đây là kim loại kiềm?",
+    "choices": [
+      "Al",
+      "Ca",
+      "Na",
+      "Fe"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.84,
+      "b": 2.39,
+      "c": 0.2
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-179",
+    "stem": "Hòa tan hoàn toàn 22.4 gam Fe bằng dung dịch HCl dư, thu được V lít khí H2 (đktc). Giá trị của V là bao nhiêu? (Fe=56)",
+    "choices": [
+      "8.96 lít",
+      "7.15 lít",
+      "13.15 lít",
+      "7.33 lít"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.31,
+      "b": 2.38,
+      "c": 0.25
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-180",
+    "stem": "Để trung hòa 15 ml dung dịch NaOH 0.1M cần dùng bao nhiêu ml dung dịch HCl 0.1M?",
+    "choices": [
+      "17.11 ml",
+      "15.00 ml",
+      "12.92 ml",
+      "10.81 ml"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.65,
+      "b": 2.13,
+      "c": 0.23
+    },
+    "content_tags": [
+      "Hóa phân tích"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-181",
+    "stem": "Kim loại nào sau đây là kim loại kiềm?",
+    "choices": [
+      "Ca",
+      "Na",
+      "Al",
+      "Fe"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.44,
+      "b": 0.52,
+      "c": 0.11
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-182",
+    "stem": "Để trung hòa 57 ml dung dịch NaOH 0.1M cần dùng bao nhiêu ml dung dịch HCl 0.1M?",
+    "choices": [
+      "44.91 ml",
+      "57.00 ml",
+      "78.91 ml",
+      "76.46 ml"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.72,
+      "b": 2.42,
+      "c": 0.15
+    },
+    "content_tags": [
+      "Hóa phân tích"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-183",
+    "stem": "Khối lượng mol của H2SO4 là bao nhiêu?",
+    "choices": [
+      "139.18 g/mol",
+      "132.92 g/mol",
+      "61.49 g/mol",
+      "98.00 g/mol"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.39,
+      "b": 1.22,
+      "c": 0.14
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-184",
+    "stem": "Công thức phân tử của etanol là gì?",
+    "choices": [
+      "C3H8O",
+      "CH4O",
+      "C2H6O",
+      "C2H4O"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.8,
+      "b": 2.17,
+      "c": 0.11
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-185",
+    "stem": "Kim loại nào sau đây là kim loại kiềm?",
+    "choices": [
+      "Ca",
+      "Al",
+      "Fe",
+      "Na"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 0.59,
+      "b": 1.18,
+      "c": 0.3
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-186",
+    "stem": "Kim loại nào sau đây là kim loại kiềm?",
+    "choices": [
+      "Na",
+      "Fe",
+      "Ca",
+      "Al"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.95,
+      "b": 0.61,
+      "c": 0.23
+    },
+    "content_tags": [
+      "Vô cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-187",
+    "stem": "Đốt cháy hoàn toàn 1.41 mol metan (CH4) cần dùng bao nhiêu lít khí O2 (đktc)?",
+    "choices": [
+      "50.27 lít",
+      "39.99 lít",
+      "76.98 lít",
+      "63.17 lít"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.37,
+      "b": 1.64,
+      "c": 0.23
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-188",
+    "stem": "Kim loại nào sau đây là kim loại kiềm?",
+    "choices": [
+      "Na",
+      "Fe",
+      "Al",
+      "Ca"
     ],
     "correct": 0,
     "params": {
       "a": 0.82,
-      "b": 0.0,
-      "c": 0.18
+      "b": 2.07,
+      "c": 0.23
     },
     "content_tags": [
-      "organic",
-      "carbohydrates"
+      "Vô cơ"
     ],
     "language": "vi"
   },
   {
-    "item_id": "CHEM-GEN-040",
-    "stem": "Tinh bột có công thức là?",
+    "item_id": "CHEM-189",
+    "stem": "Để trung hòa 64 ml dung dịch NaOH 0.1M cần dùng bao nhiêu ml dung dịch HCl 0.1M?",
     "choices": [
-      "C12H22O11",
-      "C6H12O6",
-      "(C6H10O5)n",
-      "CH3COOH"
-    ],
-    "correct": 2,
-    "params": {
-      "a": 1.46,
-      "b": 0.0,
-      "c": 0.18
-    },
-    "content_tags": [
-      "organic",
-      "carbohydrates"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-REDOX-001",
-    "stem": "Trong phản ứng oxi hóa - khử, chất nào nhận electron?",
-    "choices": [
-      "Chất oxi hóa",
-      "Chất khử",
-      "Dung môi",
-      "Chất xúc tác"
-    ],
-    "correct": 0,
-    "params": {
-      "a": 1.3,
-      "b": 0.1,
-      "c": 0.18
-    },
-    "content_tags": [
-      "redox"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-041",
-    "stem": "Số Avogadro có giá trị xấp xỉ là?",
-    "choices": [
-      "6,022 x 10^22",
-      "6,022 x 10^23",
-      "6,022 x 10^24",
-      "6,022 x 10^21"
+      "46.59 ml",
+      "64.00 ml",
+      "88.90 ml",
+      "37.97 ml"
     ],
     "correct": 1,
     "params": {
-      "a": 0.86,
-      "b": 0.1,
-      "c": 0.18
+      "a": 0.62,
+      "b": 1.39,
+      "c": 0.26
     },
     "content_tags": [
-      "physical",
-      "constants"
+      "Hóa phân tích"
     ],
     "language": "vi"
   },
   {
-    "item_id": "CHEM-GEN-042",
-    "stem": "Thể tích của 1 mol khí ở đktc là?",
+    "item_id": "CHEM-190",
+    "stem": "Kim loại nào sau đây là kim loại kiềm?",
     "choices": [
-      "22,4 lít",
-      "24,79 lít",
-      "22,0 lít",
-      "24,0 lít"
-    ],
-    "correct": 0,
-    "params": {
-      "a": 1.24,
-      "b": 0.2,
-      "c": 0.18
-    },
-    "content_tags": [
-      "physical",
-      "gas_laws"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-ORG-002",
-    "stem": "Hợp chất nào sau đây là ancol?",
-    "choices": [
-      "CH3-CH2-OH",
-      "CH3-CHO",
-      "CH3-COOH",
-      "CH3-O-CH3"
-    ],
-    "correct": 0,
-    "params": {
-      "a": 1.4,
-      "b": 0.3,
-      "c": 0.25
-    },
-    "content_tags": [
-      "organic",
-      "alcohol"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-043",
-    "stem": "Khối lượng mol của H2SO4 là?",
-    "choices": [
-      "98 g/mol",
-      "96 g/mol",
-      "100 g/mol",
-      "80 g/mol"
-    ],
-    "correct": 0,
-    "params": {
-      "a": 1.1,
-      "b": 0.3,
-      "c": 0.22
-    },
-    "content_tags": [
-      "calculation",
-      "molar_mass"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-044",
-    "stem": "Khối lượng mol của CaCO3 là?",
-    "choices": [
-      "98 g/mol",
-      "100 g/mol",
-      "56 g/mol",
-      "74 g/mol"
-    ],
-    "correct": 1,
-    "params": {
-      "a": 1.43,
-      "b": 0.3,
-      "c": 0.21
-    },
-    "content_tags": [
-      "calculation",
-      "molar_mass"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-045",
-    "stem": "Để nhận biết khí CO2 dùng dung dịch nào?",
-    "choices": [
-      "Nước vôi trong",
-      "Nước Brom",
-      "Thuốc tím",
-      "Quỳ tím"
-    ],
-    "correct": 0,
-    "params": {
-      "a": 1.16,
-      "b": 0.4,
-      "c": 0.24
-    },
-    "content_tags": [
-      "identification",
-      "gases"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-046",
-    "stem": "Để nhận biết khí SO2 dùng dung dịch nào?",
-    "choices": [
-      "Nước vôi trong",
-      "Nước Brom",
-      "NaCl",
-      "HCl"
-    ],
-    "correct": 1,
-    "params": {
-      "a": 1.08,
-      "b": 0.4,
-      "c": 0.19
-    },
-    "content_tags": [
-      "identification",
-      "gases"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-047",
-    "stem": "Kim loại nào là kim loại kiềm?",
-    "choices": [
-      "Mg",
+      "Ca",
       "Al",
       "Na",
       "Fe"
     ],
     "correct": 2,
     "params": {
-      "a": 1.07,
-      "b": 0.5,
-      "c": 0.19
+      "a": 1.63,
+      "b": 1.52,
+      "c": 0.28
     },
     "content_tags": [
-      "periodic_table",
-      "groups"
+      "Vô cơ"
     ],
     "language": "vi"
   },
   {
-    "item_id": "CHEM-GEN-048",
-    "stem": "Kim loại nào là kim loại kiềm thổ?",
+    "item_id": "CHEM-191",
+    "stem": "Công thức phân tử của etanol là gì?",
     "choices": [
-      "K",
+      "C3H8O",
+      "C2H4O",
+      "C2H6O",
+      "CH4O"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.11,
+      "b": 2.17,
+      "c": 0.26
+    },
+    "content_tags": [
+      "Hữu cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-192",
+    "stem": "Kim loại nào sau đây là kim loại kiềm?",
+    "choices": [
       "Ca",
+      "Fe",
       "Al",
-      "Zn"
-    ],
-    "correct": 1,
-    "params": {
-      "a": 1.46,
-      "b": 0.5,
-      "c": 0.22
-    },
-    "content_tags": [
-      "periodic_table",
-      "groups"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-049",
-    "stem": "Halogen nào ở thể lỏng?",
-    "choices": [
-      "F2",
-      "Cl2",
-      "Br2",
-      "I2"
-    ],
-    "correct": 2,
-    "params": {
-      "a": 0.96,
-      "b": 0.6,
-      "c": 0.21
-    },
-    "content_tags": [
-      "periodic_table",
-      "halogens"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-050",
-    "stem": "Halogen nào ở thể rắn?",
-    "choices": [
-      "F2",
-      "Cl2",
-      "Br2",
-      "I2"
+      "Na"
     ],
     "correct": 3,
     "params": {
-      "a": 1.48,
-      "b": 0.6,
-      "c": 0.2
+      "a": 0.54,
+      "b": 1.24,
+      "c": 0.23
     },
     "content_tags": [
-      "periodic_table",
-      "halogens"
+      "Vô cơ"
     ],
     "language": "vi"
   },
   {
-    "item_id": "CHEM-GEN-051",
-    "stem": "Liên kết trong phân tử NaCl là liên kết gì?",
+    "item_id": "CHEM-193",
+    "stem": "Công thức phân tử của etanol là gì?",
     "choices": [
-      "Cộng hóa trị",
-      "Ion",
-      "Kim loại",
-      "Hidro"
+      "C2H4O",
+      "C3H8O",
+      "C2H6O",
+      "CH4O"
     ],
-    "correct": 1,
+    "correct": 2,
     "params": {
-      "a": 1.47,
-      "b": 0.7,
-      "c": 0.17
-    },
-    "content_tags": [
-      "bonding",
-      "types"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-052",
-    "stem": "Liên kết trong phân tử H2 là liên kết gì?",
-    "choices": [
-      "Cộng hóa trị không cực",
-      "Cộng hóa trị có cực",
-      "Ion",
-      "Kim loại"
-    ],
-    "correct": 0,
-    "params": {
-      "a": 0.91,
-      "b": 0.7,
-      "c": 0.24
-    },
-    "content_tags": [
-      "bonding",
-      "types"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-053",
-    "stem": "Liên kết trong phân tử HCl là liên kết gì?",
-    "choices": [
-      "Cộng hóa trị không cực",
-      "Cộng hóa trị có cực",
-      "Ion",
-      "Kim loại"
-    ],
-    "correct": 1,
-    "params": {
-      "a": 1.37,
-      "b": 0.7,
+      "a": 0.8,
+      "b": 1.75,
       "c": 0.22
     },
     "content_tags": [
-      "bonding",
-      "types"
+      "Hữu cơ"
     ],
     "language": "vi"
   },
   {
-    "item_id": "CHEM-GEN-054",
-    "stem": "Số oxi hóa của O trong hầu hết hợp chất là?",
+    "item_id": "CHEM-194",
+    "stem": "Công thức phân tử của etanol là gì?",
     "choices": [
-      "-1",
-      "-2",
-      "+2",
-      "0"
-    ],
-    "correct": 1,
-    "params": {
-      "a": 1.45,
-      "b": 0.8,
-      "c": 0.25
-    },
-    "content_tags": [
-      "redox",
-      "oxidation_number"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-055",
-    "stem": "Số oxi hóa của H trong hầu hết hợp chất là?",
-    "choices": [
-      "-1",
-      "+1",
-      "0",
-      "+2"
-    ],
-    "correct": 1,
-    "params": {
-      "a": 1.27,
-      "b": 0.8,
-      "c": 0.18
-    },
-    "content_tags": [
-      "redox",
-      "oxidation_number"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-056",
-    "stem": "Phản ứng nhiệt nhôm dùng để điều chế kim loại nào?",
-    "choices": [
-      "Fe",
-      "Cu",
-      "Al",
-      "Cr"
+      "C2H6O",
+      "CH4O",
+      "C3H8O",
+      "C2H4O"
     ],
     "correct": 0,
     "params": {
       "a": 1.38,
-      "b": 0.9,
-      "c": 0.16
+      "b": 0.92,
+      "c": 0.22
     },
     "content_tags": [
-      "metallurgy",
-      "reaction"
+      "Hữu cơ"
     ],
     "language": "vi"
   },
   {
-    "item_id": "CHEM-GEN-057",
-    "stem": "Quặng Boxit dùng để sản xuất kim loại nào?",
+    "item_id": "CHEM-195",
+    "stem": "Công thức phân tử của etanol là gì?",
     "choices": [
-      "Fe",
-      "Al",
-      "Cu",
-      "Zn"
+      "C2H4O",
+      "C2H6O",
+      "CH4O",
+      "C3H8O"
     ],
     "correct": 1,
     "params": {
-      "a": 1.37,
-      "b": 0.9,
-      "c": 0.17
+      "a": 1.95,
+      "b": 1.68,
+      "c": 0.26
     },
     "content_tags": [
-      "metallurgy",
-      "ores"
+      "Hữu cơ"
     ],
     "language": "vi"
   },
   {
-    "item_id": "CHEM-GEN-058",
-    "stem": "Quặng Hematit chứa thành phần chính là?",
+    "item_id": "CHEM-196",
+    "stem": "Thủy phân hoàn toàn 26.4 gam etyl axetat (CH3COOC2H5) trong môi trường kiềm dư. Khối lượng muối CH3COONa thu được là bao nhiêu? (M_este=88, M_muoi=82)",
     "choices": [
-      "Fe3O4",
-      "Fe2O3",
-      "FeS2",
-      "FeCO3"
+      "15.48 gam",
+      "24.60 gam",
+      "21.62 gam",
+      "13.19 gam"
     ],
     "correct": 1,
     "params": {
-      "a": 0.94,
-      "b": 0.9,
-      "c": 0.25
-    },
-    "content_tags": [
-      "metallurgy",
-      "ores"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-059",
-    "stem": "Gang là hợp kim của Sắt với Cacbon, trong đó C chiếm?",
-    "choices": [
-      "2-5%",
-      "<2%",
-      ">5%",
-      "0.01-2%"
-    ],
-    "correct": 0,
-    "params": {
-      "a": 1.42,
-      "b": 1.0,
+      "a": 1.57,
+      "b": 1.74,
       "c": 0.15
     },
     "content_tags": [
-      "alloys",
-      "composition"
+      "Hữu cơ"
     ],
     "language": "vi"
   },
   {
-    "item_id": "CHEM-GEN-060",
-    "stem": "Thép là hợp kim của Sắt với Cacbon, trong đó C chiếm?",
+    "item_id": "CHEM-197",
+    "stem": "Cho 1.33 mol NaOH tác dụng vừa đủ với dung dịch HCl. Khối lượng muối NaCl thu được là bao nhiêu? (Na=23, Cl=35.5)",
     "choices": [
-      "2-5%",
-      "<2%",
-      ">5%",
-      "5-10%"
+      "115.70 gam",
+      "77.81 gam",
+      "56.67 gam",
+      "101.54 gam"
     ],
     "correct": 1,
     "params": {
-      "a": 1.25,
-      "b": 1.0,
-      "c": 0.19
+      "a": 0.56,
+      "b": 2.15,
+      "c": 0.27
     },
     "content_tags": [
-      "alloys",
-      "composition"
+      "Vô cơ"
     ],
     "language": "vi"
   },
   {
-    "item_id": "CHEM-GEN-061",
-    "stem": "Este có mùi chuối chín là?",
+    "item_id": "CHEM-198",
+    "stem": "Công thức phân tử của etanol là gì?",
     "choices": [
-      "Etyl fomat",
-      "Isoamyl axetat",
-      "Etyl axetat",
-      "Benzyl axetat"
+      "C2H6O",
+      "C2H4O",
+      "CH4O",
+      "C3H8O"
     ],
-    "correct": 1,
+    "correct": 0,
     "params": {
-      "a": 1.48,
-      "b": 1.1,
-      "c": 0.21
+      "a": 1.82,
+      "b": 2.44,
+      "c": 0.13
     },
     "content_tags": [
-      "organic",
-      "esters"
+      "Hữu cơ"
     ],
     "language": "vi"
   },
   {
-    "item_id": "CHEM-GEN-062",
-    "stem": "Este có mùi hoa nhài là?",
+    "item_id": "CHEM-199",
+    "stem": "pH của dung dịch HCl 0.1M là bao nhiêu?",
     "choices": [
-      "Etyl fomat",
-      "Isoamyl axetat",
-      "Etyl axetat",
-      "Benzyl axetat"
-    ],
-    "correct": 3,
-    "params": {
-      "a": 1.35,
-      "b": 1.1,
-      "c": 0.24
-    },
-    "content_tags": [
-      "organic",
-      "esters"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-063",
-    "stem": "Phản ứng xà phòng hóa là phản ứng thủy phân este trong môi trường?",
-    "choices": [
-      "Axit",
-      "Kiềm",
-      "Trung tính",
-      "Không xác định"
-    ],
-    "correct": 1,
-    "params": {
-      "a": 1.28,
-      "b": 1.2,
-      "c": 0.24
-    },
-    "content_tags": [
-      "organic",
-      "reaction"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-064",
-    "stem": "Polime nào dùng làm cao su?",
-    "choices": [
-      "PE",
-      "PVC",
-      "Isopren",
-      "PVA"
+      "0.81",
+      "0.61",
+      "1.00",
+      "1.42"
     ],
     "correct": 2,
     "params": {
       "a": 1.32,
-      "b": 1.3,
-      "c": 0.24
+      "b": 2.17,
+      "c": 0.13
     },
     "content_tags": [
-      "polymers",
-      "types"
+      "Hóa lý"
     ],
     "language": "vi"
   },
   {
-    "item_id": "CHEM-GEN-065",
-    "stem": "Tơ nilon-6,6 thuộc loại tơ nào?",
+    "item_id": "CHEM-200",
+    "stem": "Hòa tan hoàn toàn 16.8 gam Fe bằng dung dịch HCl dư, thu được V lít khí H2 (đktc). Giá trị của V là bao nhiêu? (Fe=56)",
     "choices": [
-      "Tơ nhân tạo",
-      "Tơ tổng hợp",
-      "Tơ thiên nhiên",
-      "Tơ bán tổng hợp"
-    ],
-    "correct": 1,
-    "params": {
-      "a": 1.08,
-      "b": 1.3,
-      "c": 0.18
-    },
-    "content_tags": [
-      "polymers",
-      "classification"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-066",
-    "stem": "Amino axit là hợp chất hữu cơ tạp chức chứa nhóm nào?",
-    "choices": [
-      "-COOH và -OH",
-      "-COOH và -NH2",
-      "-OH và -NH2",
-      "-CHO và -NH2"
-    ],
-    "correct": 1,
-    "params": {
-      "a": 0.86,
-      "b": 1.4,
-      "c": 0.16
-    },
-    "content_tags": [
-      "organic",
-      "amino_acids"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-067",
-    "stem": "Dung dịch lòng trắng trứng phản ứng màu Biure cho màu gì?",
-    "choices": [
-      "Xanh tím",
-      "Vàng",
-      "Đỏ gạch",
-      "Đen"
-    ],
-    "correct": 0,
-    "params": {
-      "a": 1.38,
-      "b": 1.5,
-      "c": 0.2
-    },
-    "content_tags": [
-      "organic",
-      "proteins"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-068",
-    "stem": "Glucozơ tác dụng với AgNO3/NH3 sinh ra kết tủa gì?",
-    "choices": [
-      "AgCl",
-      "Ag",
-      "Ag2O",
-      "AgOH"
-    ],
-    "correct": 1,
-    "params": {
-      "a": 0.84,
-      "b": 1.5,
-      "c": 0.23
-    },
-    "content_tags": [
-      "organic",
-      "reaction"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-069",
-    "stem": "Hiện tượng mưa axit chủ yếu do khí nào gây ra?",
-    "choices": [
-      "CO2, CH4",
-      "SO2, NOx",
-      "NH3, H2S",
-      "O3, CFC"
-    ],
-    "correct": 1,
-    "params": {
-      "a": 1.32,
-      "b": 1.6,
-      "c": 0.19
-    },
-    "content_tags": [
-      "environment",
-      "pollution"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-070",
-    "stem": "Hiệu ứng nhà kính chủ yếu do khí nào?",
-    "choices": [
-      "SO2",
-      "CO2",
-      "NO2",
-      "O3"
-    ],
-    "correct": 1,
-    "params": {
-      "a": 1.47,
-      "b": 1.6,
-      "c": 0.19
-    },
-    "content_tags": [
-      "environment",
-      "pollution"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-071",
-    "stem": "Nguyên tắc Le Chatelier áp dụng cho?",
-    "choices": [
-      "Phản ứng một chiều",
-      "Cân bằng hóa học",
-      "Phản ứng hạt nhân",
-      "Phản ứng oxi hóa khử"
-    ],
-    "correct": 1,
-    "params": {
-      "a": 1.11,
-      "b": 1.7,
-      "c": 0.24
-    },
-    "content_tags": [
-      "physical",
-      "equilibrium"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-072",
-    "stem": "Khi tăng áp suất, cân bằng chuyển dịch theo chiều nào?",
-    "choices": [
-      "Tăng số mol khí",
-      "Giảm số mol khí",
-      "Không đổi",
-      "Tùy nhiệt độ"
-    ],
-    "correct": 1,
-    "params": {
-      "a": 1.42,
-      "b": 1.7,
-      "c": 0.19
-    },
-    "content_tags": [
-      "physical",
-      "equilibrium"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-073",
-    "stem": "Chất điện li mạnh là?",
-    "choices": [
-      "CH3COOH",
-      "H2O",
-      "NaCl",
-      "Mg(OH)2"
+      "7.81 lít",
+      "3.85 lít",
+      "6.72 lít",
+      "7.86 lít"
     ],
     "correct": 2,
     "params": {
-      "a": 0.86,
-      "b": 1.8,
-      "c": 0.21
+      "a": 0.74,
+      "b": 1.26,
+      "c": 0.26
     },
     "content_tags": [
-      "physical",
-      "electrolytes"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-074",
-    "stem": "Chất điện li yếu là?",
-    "choices": [
-      "HCl",
-      "NaOH",
-      "CH3COOH",
-      "NaCl"
-    ],
-    "correct": 2,
-    "params": {
-      "a": 1.07,
-      "b": 1.8,
-      "c": 0.24
-    },
-    "content_tags": [
-      "physical",
-      "electrolytes"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-075",
-    "stem": "Anđehit thể hiện tính khử khi tác dụng với?",
-    "choices": [
-      "H2",
-      "AgNO3/NH3",
-      "Dung dịch Br2",
-      "Cả B và C"
-    ],
-    "correct": 3,
-    "params": {
-      "a": 1.05,
-      "b": 1.9,
-      "c": 0.18
-    },
-    "content_tags": [
-      "organic",
-      "aldehyde"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-076",
-    "stem": "Phenol tác dụng với dung dịch Brom tạo kết tủa màu gì?",
-    "choices": [
-      "Vàng",
-      "Trắng",
-      "Đen",
-      "Đỏ"
-    ],
-    "correct": 1,
-    "params": {
-      "a": 1.04,
-      "b": 1.9,
-      "c": 0.23
-    },
-    "content_tags": [
-      "organic",
-      "phenol"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-077",
-    "stem": "Anilin tác dụng với dung dịch Brom tạo kết tủa màu gì?",
-    "choices": [
-      "Vàng",
-      "Trắng",
-      "Đen",
-      "Đỏ"
-    ],
-    "correct": 1,
-    "params": {
-      "a": 1.03,
-      "b": 1.9,
-      "c": 0.21
-    },
-    "content_tags": [
-      "organic",
-      "amine"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-078",
-    "stem": "Thuốc thử để phân biệt Glucozơ và Fructozơ là?",
-    "choices": [
-      "AgNO3/NH3",
-      "Cu(OH)2",
-      "Dung dịch Brom",
-      "H2"
-    ],
-    "correct": 2,
-    "params": {
-      "a": 1.11,
-      "b": 2.0,
-      "c": 0.16
-    },
-    "content_tags": [
-      "organic",
-      "sugar_distinction"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-079",
-    "stem": "Thủy phân hoàn toàn tinh bột thu được?",
-    "choices": [
-      "Glucozơ",
-      "Fructozơ",
-      "Saccarozơ",
-      "Maltôzơ"
-    ],
-    "correct": 0,
-    "params": {
-      "a": 1.27,
-      "b": 2.0,
-      "c": 0.16
-    },
-    "content_tags": [
-      "organic",
-      "hydrolysis"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-080",
-    "stem": "Thủy phân hoàn toàn xenlulozơ thu được?",
-    "choices": [
-      "Glucozơ",
-      "Fructozơ",
-      "Saccarozơ",
-      "Maltôzơ"
-    ],
-    "correct": 0,
-    "params": {
-      "a": 1.19,
-      "b": 2.0,
-      "c": 0.17
-    },
-    "content_tags": [
-      "organic",
-      "hydrolysis"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-081",
-    "stem": "Số đồng phân cấu tạo của C4H10 là?",
-    "choices": [
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
-    "correct": 1,
-    "params": {
-      "a": 1.46,
-      "b": 2.1,
-      "c": 0.17
-    },
-    "content_tags": [
-      "organic",
-      "isomers"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-082",
-    "stem": "Số đồng phân cấu tạo của C5H12 là?",
-    "choices": [
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "correct": 1,
-    "params": {
-      "a": 1.42,
-      "b": 2.1,
-      "c": 0.22
-    },
-    "content_tags": [
-      "organic",
-      "isomers"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-083",
-    "stem": "Số đồng phân este của C4H8O2 là?",
-    "choices": [
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "correct": 2,
-    "params": {
-      "a": 0.89,
-      "b": 2.2,
-      "c": 0.22
-    },
-    "content_tags": [
-      "organic",
-      "isomers"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-084",
-    "stem": "Dãy điện hóa của kim loại sắp xếp theo chiều?",
-    "choices": [
-      "Tính oxi hóa của ion kim loại tăng dần",
-      "Tính khử của kim loại tăng dần",
-      "Tính oxi hóa của kim loại tăng dần",
-      "Tính khử của ion kim loại tăng dần"
-    ],
-    "correct": 0,
-    "params": {
-      "a": 1.06,
-      "b": 2.3,
-      "c": 0.24
-    },
-    "content_tags": [
-      "electrochemistry",
-      "series"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-085",
-    "stem": "Pin điện hóa chuyển hóa năng lượng nào thành điện năng?",
-    "choices": [
-      "Nhiệt năng",
-      "Hóa năng",
-      "Cơ năng",
-      "Quang năng"
-    ],
-    "correct": 1,
-    "params": {
-      "a": 1.09,
-      "b": 2.4,
-      "c": 0.15
-    },
-    "content_tags": [
-      "electrochemistry",
-      "cells"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-086",
-    "stem": "Định luật Faraday thứ nhất về điện phân có công thức?",
-    "choices": [
-      "m = AIt/nF",
-      "m = kq",
-      "m = D.V",
-      "m = n.M"
-    ],
-    "correct": 1,
-    "params": {
-      "a": 1.47,
-      "b": 2.5,
-      "c": 0.21
-    },
-    "content_tags": [
-      "electrochemistry",
-      "faraday"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-087",
-    "stem": "Trong pin Galvani Zn-Cu, cực dương là?",
-    "choices": [
-      "Zn",
-      "Cu",
-      "Cầu muối",
-      "Dung dịch"
-    ],
-    "correct": 1,
-    "params": {
-      "a": 1.17,
-      "b": 2.6,
-      "c": 0.2
-    },
-    "content_tags": [
-      "electrochemistry",
-      "cells"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-088",
-    "stem": "Trong pin Galvani Zn-Cu, dòng electron di chuyển từ?",
-    "choices": [
-      "Zn sang Cu",
-      "Cu sang Zn",
-      "Dung dịch sang cực",
-      "Cực sang dung dịch"
-    ],
-    "correct": 0,
-    "params": {
-      "a": 1.26,
-      "b": 2.6,
-      "c": 0.23
-    },
-    "content_tags": [
-      "electrochemistry",
-      "cells"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-089",
-    "stem": "Cấu hình electron của Cr (Z=24) là?",
-    "choices": [
-      "[Ar]3d4 4s2",
-      "[Ar]3d5 4s1",
-      "[Ar]3d6",
-      "[Ar]4s2 3d4"
-    ],
-    "correct": 1,
-    "params": {
-      "a": 1.29,
-      "b": 2.7,
-      "c": 0.15
-    },
-    "content_tags": [
-      "atomic",
-      "configuration"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-090",
-    "stem": "Cấu hình electron của Cu (Z=29) là?",
-    "choices": [
-      "[Ar]3d9 4s2",
-      "[Ar]3d10 4s1",
-      "[Ar]3d10 4s2",
-      "[Ar]3d9 4s1"
-    ],
-    "correct": 1,
-    "params": {
-      "a": 1.2,
-      "b": 2.7,
-      "c": 0.21
-    },
-    "content_tags": [
-      "atomic",
-      "configuration"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-091",
-    "stem": "Lai hóa sp3 có góc liên kết khoảng?",
-    "choices": [
-      "180 độ",
-      "120 độ",
-      "109,5 độ",
-      "90 độ"
-    ],
-    "correct": 2,
-    "params": {
-      "a": 1.24,
-      "b": 2.8,
-      "c": 0.22
-    },
-    "content_tags": [
-      "bonding",
-      "hybridization"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-092",
-    "stem": "Lai hóa sp2 có góc liên kết khoảng?",
-    "choices": [
-      "180 độ",
-      "120 độ",
-      "109,5 độ",
-      "90 độ"
-    ],
-    "correct": 1,
-    "params": {
-      "a": 0.97,
-      "b": 2.8,
-      "c": 0.22
-    },
-    "content_tags": [
-      "bonding",
-      "hybridization"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-093",
-    "stem": "Lai hóa sp có góc liên kết khoảng?",
-    "choices": [
-      "180 độ",
-      "120 độ",
-      "109,5 độ",
-      "90 độ"
-    ],
-    "correct": 0,
-    "params": {
-      "a": 1.11,
-      "b": 2.8,
-      "c": 0.24
-    },
-    "content_tags": [
-      "bonding",
-      "hybridization"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-094",
-    "stem": "Quy tắc Mac-cốp-ni-cốp áp dụng cho phản ứng nào?",
-    "choices": [
-      "Cộng H-X vào anken bất đối",
-      "Thế halogen vào ankan",
-      "Tách nước ancol",
-      "Oxi hóa anđehit"
-    ],
-    "correct": 0,
-    "params": {
-      "a": 0.94,
-      "b": 2.9,
-      "c": 0.16
-    },
-    "content_tags": [
-      "organic",
-      "rules"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-095",
-    "stem": "Quy tắc Zai-xép áp dụng cho phản ứng nào?",
-    "choices": [
-      "Cộng H-X vào anken",
-      "Thế halogen vào ankan",
-      "Tách nước/HX khỏi dẫn xuất",
-      "Trùng hợp"
-    ],
-    "correct": 2,
-    "params": {
-      "a": 0.91,
-      "b": 2.9,
-      "c": 0.23
-    },
-    "content_tags": [
-      "organic",
-      "rules"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-096",
-    "stem": "Thuốc thử Lucas dùng để phân biệt?",
-    "choices": [
-      "Ancol bậc 1, 2, 3",
-      "Anđehit và Xeton",
-      "Axit và Este",
-      "Amin bậc 1, 2, 3"
-    ],
-    "correct": 0,
-    "params": {
-      "a": 1.06,
-      "b": 3.0,
-      "c": 0.24
-    },
-    "content_tags": [
-      "organic",
-      "reagents"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-097",
-    "stem": "Phản ứng màu của Iot dùng để nhận biết?",
-    "choices": [
-      "Glucozơ",
-      "Saccarozơ",
-      "Tinh bột",
-      "Xenlulozơ"
-    ],
-    "correct": 2,
-    "params": {
-      "a": 1.42,
-      "b": 3.0,
-      "c": 0.17
-    },
-    "content_tags": [
-      "organic",
-      "identification"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-098",
-    "stem": "Peptit có phản ứng màu Biure phải có ít nhất bao nhiêu liên kết peptit?",
-    "choices": [
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
-    "correct": 1,
-    "params": {
-      "a": 1.12,
-      "b": 3.1,
-      "c": 0.15
-    },
-    "content_tags": [
-      "organic",
-      "peptides"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-099",
-    "stem": "Số mắt xích (hệ số polime hóa) được kí hiệu là?",
-    "choices": [
-      "n",
-      "M",
-      "dp",
-      "k"
-    ],
-    "correct": 0,
-    "params": {
-      "a": 0.91,
-      "b": 3.2,
-      "c": 0.16
-    },
-    "content_tags": [
-      "polymers",
-      "properties"
-    ],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-GEN-100",
-    "stem": "Tên gọi của C6H5-NH2 là?",
-    "choices": [
-      "Phenol",
-      "Anilin",
-      "Toluen",
-      "Benzen"
-    ],
-    "correct": 1,
-    "params": {
-      "a": 1.45,
-      "b": 3.3,
-      "c": 0.18
-    },
-    "content_tags": [
-      "organic",
-      "nomenclature"
+      "Vô cơ"
     ],
     "language": "vi"
   }
