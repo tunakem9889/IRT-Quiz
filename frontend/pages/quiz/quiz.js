@@ -22,6 +22,7 @@
   const finalTotalDesc = el('final-total-desc');
   const reportEl = el('report');
   const questionNumEl = el('question-num');
+  const questionParamsEl = el('question-params');
   const thetaIndicator = el('theta-indicator');
   const thetaBarFill = el('theta-bar-fill');
   const questionGrid = el('question-grid');
@@ -41,6 +42,7 @@
     questionStates: {},
     currentQuestionNum: 0,
     category: null,
+    questionStats: {},
   };
 
   function show(section) {
@@ -73,6 +75,7 @@
     if (!question) {
       if (stemEl) stemEl.textContent = '';
       if (choicesEl) choicesEl.innerHTML = '';
+      if (questionParamsEl) questionParamsEl.textContent = '';
       return;
     }
 
@@ -138,6 +141,12 @@
         console.warn('MathJax typeset invocation failed:', e);
       }
     }
+
+    if (questionParamsEl && question.params) {
+      const { a, b, c } = question.params;
+      const cText = c !== null && c !== undefined ? `, c: ${c}` : '';
+      questionParamsEl.textContent = `(a: ${a}, b: ${b}${cText})`;
+    }
   }
 
   function getSelectedChoice() {
@@ -171,6 +180,12 @@
         item.classList.add('answered');
       }
       state.questionStates[questionNum] = status;
+
+      // Add tooltip listeners
+      if (status !== 'pending' && status !== 'current') {
+        item.addEventListener('mouseenter', (e) => showTooltip(e, questionNum));
+        item.addEventListener('mouseleave', hideTooltip);
+      }
     }
   }
 
@@ -325,6 +340,7 @@
       state.correctCount = 0;
       state.totalQuestions = 0;
       state.questionStates = {};
+      state.questionStats = {};
       state.currentQuestionNum = 1;
 
       createQuestionGrid(state.maxQuestions);
@@ -399,12 +415,29 @@
       }
       
       const previousTheta = state.theta;
+      const previousSe = state.se;
       state.theta = data.theta;
       state.se = data.se ?? null;
       state.qCount = data.q_count;
       state.answeredCount = data.answered_count;
       state.finished = data.finished;
       state.currentQuestion = data.next_question;
+
+      // Store stats for the answered question
+      if (answeredQuestionNum) {
+        const deltaTheta = state.theta - previousTheta;
+        // For SE, we might not have previous SE if it was null (first question)
+        // But usually we can just show current SE. Delta SE might be less useful or we assume prev SE was high.
+        // Let's just show current Theta, Delta Theta, Current SE.
+        
+        state.questionStats[answeredQuestionNum] = {
+          theta: state.theta,
+          deltaTheta: deltaTheta,
+          se: state.se,
+          deltaSe: (state.se !== null && previousSe !== null) ? (state.se - previousSe) : 0,
+          params: state.currentQuestion ? state.currentQuestion.params : null
+        };
+      }
       
       if (data.next_question) {
         state.currentQuestionNum = state.qCount + 1;
@@ -514,6 +547,7 @@
     state.correctCount = 0;
     state.totalQuestions = 0;
     state.questionStates = {};
+    state.questionStats = {};
     state.currentQuestionNum = 0;
     state.category = categorySelect ? categorySelect.value || null : null;
     renderQuestion(null);
@@ -522,6 +556,87 @@
     if (progressFill) progressFill.style.width = '0%';
     if (questionGrid) questionGrid.innerHTML = '';
     show(startScreen);
+  }
+
+  // Tooltip functions
+  function showTooltip(e, questionNum) {
+    const tooltip = document.getElementById('grid-tooltip');
+    if (!tooltip) return;
+
+    const stats = state.questionStats[questionNum];
+    if (!stats) return;
+
+    const rect = e.target.getBoundingClientRect();
+    const deltaThetaClass = stats.deltaTheta > 0 ? 'positive' : (stats.deltaTheta < 0 ? 'negative' : 'neutral');
+    const deltaThetaSign = stats.deltaTheta > 0 ? '+' : '';
+    
+    const deltaSeClass = stats.deltaSe > 0 ? 'negative' : (stats.deltaSe < 0 ? 'positive' : 'neutral'); // Lower SE is better (positive)
+    const deltaSeSign = stats.deltaSe > 0 ? '+' : '';
+
+    let paramsHtml = '';
+    if (stats.params) {
+        const { a, b, c } = stats.params;
+        const cText = c !== null && c !== undefined ? `, c: ${c}` : '';
+        paramsHtml = `
+        <div class="tooltip-row" style="margin-top: 0.5rem; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 0.5rem;">
+            <span class="tooltip-label">Params:</span>
+            <span class="tooltip-value" style="font-size: 0.8em; font-weight: normal;">
+                a: ${a}, b: ${b}${cText}
+            </span>
+        </div>`;
+    }
+
+    tooltip.innerHTML = `
+      <div class="tooltip-row">
+        <span class="tooltip-label">Khả năng (θ):</span>
+        <span class="tooltip-value">
+          ${formatTheta(stats.theta)}
+          <span class="tooltip-change ${deltaThetaClass}">
+            (${deltaThetaSign}${formatTheta(stats.deltaTheta)})
+          </span>
+        </span>
+      </div>
+      <div class="tooltip-row">
+        <span class="tooltip-label">Sai số (SE):</span>
+        <span class="tooltip-value">
+          ${formatSE(stats.se)}
+          <span class="tooltip-change ${deltaSeClass}">
+            (${deltaSeSign}${formatSE(stats.deltaSe)})
+          </span>
+        </span>
+      </div>
+      ${paramsHtml}
+    `;
+
+    tooltip.style.left = `${rect.left + rect.width / 2 - 100}px`; // Center horizontally-ish
+    tooltip.style.top = `${rect.bottom + 10}px`;
+    
+    // Adjust position if off-screen
+    const tooltipRect = tooltip.getBoundingClientRect();
+    if (tooltipRect.right > window.innerWidth) {
+        tooltip.style.left = `${window.innerWidth - tooltipRect.width - 10}px`;
+    }
+    if (tooltipRect.left < 0) {
+        tooltip.style.left = '10px';
+    }
+
+    tooltip.classList.remove('hidden');
+    // Small delay to allow transition
+    requestAnimationFrame(() => {
+      tooltip.classList.add('visible');
+    });
+  }
+
+  function hideTooltip() {
+    const tooltip = document.getElementById('grid-tooltip');
+    if (!tooltip) return;
+    
+    tooltip.classList.remove('visible');
+    setTimeout(() => {
+      if (!tooltip.classList.contains('visible')) {
+        tooltip.classList.add('hidden');
+      }
+    }, 200);
   }
 
   // Event Listeners

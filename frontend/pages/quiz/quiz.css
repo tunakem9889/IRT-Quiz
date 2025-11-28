@@ -603,3 +603,70 @@
     font-size: 0.7rem;
   }
 }
+
+/* ===== Tooltip ===== */
+.grid-tooltip {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  padding: 0.75rem;
+  border-radius: var(--radius-md);
+  font-size: 0.85rem;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  border: 1px solid var(--border-light);
+  min-width: 150px;
+  backdrop-filter: blur(5px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+.grid-tooltip.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.tooltip-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.25rem;
+}
+
+.tooltip-row:last-child {
+  margin-bottom: 0;
+}
+
+.tooltip-label {
+  color: var(--text-muted);
+  margin-right: 1rem;
+}
+
+.tooltip-value {
+  font-weight: 600;
+}
+
+.tooltip-change {
+  font-size: 0.75rem;
+  margin-left: 0.5rem;
+}
+
+.tooltip-change.positive {
+  color: var(--success);
+}
+
+.tooltip-change.negative {
+  color: var(--error);
+}
+
+.tooltip-change.neutral {
+  color: var(--text-muted);
+}
+
+.question-params {
+  font-size: 0.8em;
+  color: var(--text-secondary);
+  margin-left: 0.5rem;
+  font-weight: normal;
+}

@@ -1,56 +1,2226 @@
 [
   {
-    "item_id": "CHEM-ORG-001",
-    "stem": "Nguyên tố nào sau đây là thành phần chính của khí metan?",
-    "choices": ["Hydro", "Nitơ", "Carbon", "Oxy"],
-    "correct": 2,
-    "params": {"a": 1.0, "b": -0.3, "c": 0.18},
-    "content_tags": ["organic", "hydrocarbon"],
-    "language": "vi"
-  },
-  {
-    "item_id": "CHEM-INORG-001",
-    "stem": "Dung dịch nào sau đây có tính bazơ mạnh?",
-    "choices": ["HCl", "NaOH", "H2SO4", "CH3COOH"],
+    "item_id": "CHEM-GEN-001",
+    "stem": "Ký hiệu hóa học của Hidro là gì?",
+    "choices": [
+      "He",
+      "H",
+      "Ho",
+      "Hi"
+    ],
     "correct": 1,
-    "params": {"a": 1.2, "b": -0.2, "c": 0.15},
-    "content_tags": ["base", "solution"],
+    "params": {
+      "a": 0.92,
+      "b": -2.5,
+      "c": 0.24
+    },
+    "content_tags": [
+      "basic",
+      "elements"
+    ],
     "language": "vi"
   },
   {
-    "item_id": "CHEM-PERIOD-001",
-    "stem": "Nguyên tố nào nằm ở chu kỳ 3, nhóm IIA của bảng tuần hoàn?",
-    "choices": ["Magie", "Canxi", "Natri", "Nhôm"],
+    "item_id": "CHEM-GEN-002",
+    "stem": "Ký hiệu hóa học của Oxi là gì?",
+    "choices": [
+      "O",
+      "Ox",
+      "Om",
+      "Oi"
+    ],
     "correct": 0,
-    "params": {"a": 1.1, "b": -0.1, "c": 0.20},
-    "content_tags": ["periodic_table"],
+    "params": {
+      "a": 0.99,
+      "b": -2.4,
+      "c": 0.19
+    },
+    "content_tags": [
+      "basic",
+      "elements"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-003",
+    "stem": "Nước có công thức hóa học là gì?",
+    "choices": [
+      "HO",
+      "H2O",
+      "H2O2",
+      "HO2"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.88,
+      "b": -2.3,
+      "c": 0.21
+    },
+    "content_tags": [
+      "basic",
+      "compounds"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-004",
+    "stem": "Khí nào duy trì sự cháy?",
+    "choices": [
+      "Nitơ",
+      "Oxi",
+      "Cacbonic",
+      "Hidro"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.36,
+      "b": -2.2,
+      "c": 0.21
+    },
+    "content_tags": [
+      "basic",
+      "properties"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-005",
+    "stem": "Kim loại nào ở thể lỏng ở điều kiện thường?",
+    "choices": [
+      "Sắt",
+      "Đồng",
+      "Thủy ngân",
+      "Nhôm"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.01,
+      "b": -2.1,
+      "c": 0.22
+    },
+    "content_tags": [
+      "basic",
+      "metals"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-006",
+    "stem": "Muối ăn có công thức là gì?",
+    "choices": [
+      "NaCl",
+      "KCl",
+      "Na2SO4",
+      "CaCl2"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.48,
+      "b": -2.0,
+      "c": 0.21
+    },
+    "content_tags": [
+      "basic",
+      "compounds"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-007",
+    "stem": "Khí nào làm đục nước vôi trong?",
+    "choices": [
+      "O2",
+      "N2",
+      "CO2",
+      "H2"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.24,
+      "b": -1.9,
+      "c": 0.17
+    },
+    "content_tags": [
+      "inorganic",
+      "reaction"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-008",
+    "stem": "Axit có trong dạ dày người là gì?",
+    "choices": [
+      "H2SO4",
+      "HCl",
+      "HNO3",
+      "CH3COOH"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.81,
+      "b": -1.8,
+      "c": 0.25
+    },
+    "content_tags": [
+      "basic",
+      "acids"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-009",
+    "stem": "pH < 7 môi trường là gì?",
+    "choices": [
+      "Axit",
+      "Bazơ",
+      "Trung tính",
+      "Không xác định"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.9,
+      "b": -1.7,
+      "c": 0.19
+    },
+    "content_tags": [
+      "basic",
+      "ph"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-010",
+    "stem": "pH > 7 môi trường là gì?",
+    "choices": [
+      "Axit",
+      "Bazơ",
+      "Trung tính",
+      "Không xác định"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.03,
+      "b": -1.7,
+      "c": 0.23
+    },
+    "content_tags": [
+      "basic",
+      "ph"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-011",
+    "stem": "pH = 7 môi trường là gì?",
+    "choices": [
+      "Axit",
+      "Bazơ",
+      "Trung tính",
+      "Không xác định"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.27,
+      "b": -1.7,
+      "c": 0.16
+    },
+    "content_tags": [
+      "basic",
+      "ph"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-012",
+    "stem": "Quỳ tím chuyển màu gì trong axit?",
+    "choices": [
+      "Xanh",
+      "Đỏ",
+      "Vàng",
+      "Không màu"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.08,
+      "b": -1.6,
+      "c": 0.25
+    },
+    "content_tags": [
+      "basic",
+      "indicators"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-013",
+    "stem": "Quỳ tím chuyển màu gì trong bazơ?",
+    "choices": [
+      "Xanh",
+      "Đỏ",
+      "Vàng",
+      "Không màu"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.8,
+      "b": -1.6,
+      "c": 0.2
+    },
+    "content_tags": [
+      "basic",
+      "indicators"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-014",
+    "stem": "Kim loại nào dẫn điện tốt nhất?",
+    "choices": [
+      "Vàng",
+      "Bạc",
+      "Đồng",
+      "Nhôm"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.96,
+      "b": -1.5,
+      "c": 0.15
+    },
+    "content_tags": [
+      "metals",
+      "properties"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-015",
+    "stem": "Nguyên tử khối của Cacbon là bao nhiêu?",
+    "choices": [
+      "12",
+      "14",
+      "16",
+      "1"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.91,
+      "b": -1.4,
+      "c": 0.23
+    },
+    "content_tags": [
+      "basic",
+      "atomic_mass"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-016",
+    "stem": "Nguyên tử khối của Oxi là bao nhiêu?",
+    "choices": [
+      "12",
+      "14",
+      "16",
+      "32"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.44,
+      "b": -1.4,
+      "c": 0.16
+    },
+    "content_tags": [
+      "basic",
+      "atomic_mass"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-017",
+    "stem": "Hóa trị của Oxi trong hợp chất thường là?",
+    "choices": [
+      "I",
+      "II",
+      "III",
+      "IV"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.46,
+      "b": -1.3,
+      "c": 0.17
+    },
+    "content_tags": [
+      "basic",
+      "valence"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-018",
+    "stem": "Hóa trị của Hidro trong hợp chất thường là?",
+    "choices": [
+      "I",
+      "II",
+      "III",
+      "IV"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.81,
+      "b": -1.3,
+      "c": 0.19
+    },
+    "content_tags": [
+      "basic",
+      "valence"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-019",
+    "stem": "Khí nhẹ nhất là khí nào?",
+    "choices": [
+      "Oxi",
+      "Metan",
+      "Hidro",
+      "Heli"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.97,
+      "b": -1.2,
+      "c": 0.2
+    },
+    "content_tags": [
+      "basic",
+      "gases"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-020",
+    "stem": "Thành phần chính của không khí là khí nào?",
+    "choices": [
+      "Oxi",
+      "Nitơ",
+      "Cacbonic",
+      "Argon"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.25,
+      "b": -1.1,
+      "c": 0.16
+    },
+    "content_tags": [
+      "basic",
+      "air"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-021",
+    "stem": "Phản ứng giữa axit và bazơ gọi là phản ứng gì?",
+    "choices": [
+      "Oxi hóa khử",
+      "Trung hòa",
+      "Thế",
+      "Phân hủy"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.4,
+      "b": -0.9,
+      "c": 0.22
+    },
+    "content_tags": [
+      "reaction",
+      "types"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-022",
+    "stem": "Sắt tác dụng với HCl sinh ra khí gì?",
+    "choices": [
+      "O2",
+      "Cl2",
+      "H2",
+      "SO2"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.82,
+      "b": -0.8,
+      "c": 0.18
+    },
+    "content_tags": [
+      "inorganic",
+      "reaction"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-023",
+    "stem": "Công thức của axit sunfuric là?",
+    "choices": [
+      "HCl",
+      "HNO3",
+      "H2SO4",
+      "H2S"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.42,
+      "b": -0.7,
+      "c": 0.21
+    },
+    "content_tags": [
+      "acids",
+      "formula"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-024",
+    "stem": "Công thức của axit clohidric là?",
+    "choices": [
+      "HCl",
+      "HNO3",
+      "H2SO4",
+      "H2S"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.29,
+      "b": -0.7,
+      "c": 0.17
+    },
+    "content_tags": [
+      "acids",
+      "formula"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-025",
+    "stem": "Vôi sống có công thức là?",
+    "choices": [
+      "Ca(OH)2",
+      "CaCO3",
+      "CaO",
+      "CaCl2"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.28,
+      "b": -0.6,
+      "c": 0.17
+    },
+    "content_tags": [
+      "inorganic",
+      "compounds"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-026",
+    "stem": "Đá vôi có thành phần chính là?",
+    "choices": [
+      "Ca(OH)2",
+      "CaCO3",
+      "CaO",
+      "CaCl2"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.3,
+      "b": -0.6,
+      "c": 0.22
+    },
+    "content_tags": [
+      "inorganic",
+      "compounds"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-027",
+    "stem": "Kim loại nào không tác dụng với H2SO4 loãng?",
+    "choices": [
+      "Fe",
+      "Zn",
+      "Cu",
+      "Mg"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.42,
+      "b": -0.5,
+      "c": 0.16
+    },
+    "content_tags": [
+      "metals",
+      "reactivity"
+    ],
     "language": "vi"
   },
   {
     "item_id": "CHEM-REACTION-001",
     "stem": "Phản ứng trung hòa giữa axit và bazơ tạo ra sản phẩm chính là?",
-    "choices": ["Muối và nước", "Nước và khí", "Muối và khí", "Chỉ có nước"],
+    "choices": [
+      "Muối và nước",
+      "Nước và khí",
+      "Muối và khí",
+      "Chỉ có nước"
+    ],
     "correct": 0,
-    "params": {"a": 0.9, "b": -0.4, "c": 0.22},
-    "content_tags": ["acid_base", "reaction"],
+    "params": {
+      "a": 0.9,
+      "b": -0.4,
+      "c": 0.22
+    },
+    "content_tags": [
+      "acid_base",
+      "reaction"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-028",
+    "stem": "Dung dịch làm quỳ tím hóa đỏ là?",
+    "choices": [
+      "NaOH",
+      "NaCl",
+      "HCl",
+      "K2SO4"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.42,
+      "b": -0.4,
+      "c": 0.22
+    },
+    "content_tags": [
+      "acids",
+      "indicators"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-029",
+    "stem": "Dung dịch làm quỳ tím hóa xanh là?",
+    "choices": [
+      "NaOH",
+      "NaCl",
+      "HCl",
+      "H2SO4"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.94,
+      "b": -0.4,
+      "c": 0.23
+    },
+    "content_tags": [
+      "bases",
+      "indicators"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-ORG-001",
+    "stem": "Nguyên tố nào sau đây là thành phần chính của khí metan?",
+    "choices": [
+      "Hydro",
+      "Nitơ",
+      "Carbon",
+      "Oxy"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.0,
+      "b": -0.3,
+      "c": 0.18
+    },
+    "content_tags": [
+      "organic",
+      "hydrocarbon"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-030",
+    "stem": "Chất nào sau đây là oxit axit?",
+    "choices": [
+      "CaO",
+      "Na2O",
+      "CO2",
+      "MgO"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.05,
+      "b": -0.3,
+      "c": 0.16
+    },
+    "content_tags": [
+      "oxides",
+      "classification"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-031",
+    "stem": "Chất nào sau đây là oxit bazơ?",
+    "choices": [
+      "SO2",
+      "CO2",
+      "CaO",
+      "P2O5"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.22,
+      "b": -0.3,
+      "c": 0.22
+    },
+    "content_tags": [
+      "oxides",
+      "classification"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-INORG-001",
+    "stem": "Dung dịch nào sau đây có tính bazơ mạnh?",
+    "choices": [
+      "HCl",
+      "NaOH",
+      "H2SO4",
+      "CH3COOH"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.2,
+      "b": -0.2,
+      "c": 0.15
+    },
+    "content_tags": [
+      "base",
+      "solution"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-032",
+    "stem": "Metan có công thức là?",
+    "choices": [
+      "CH4",
+      "C2H4",
+      "C2H2",
+      "C6H6"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.24,
+      "b": -0.2,
+      "c": 0.19
+    },
+    "content_tags": [
+      "organic",
+      "hydrocarbon"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-033",
+    "stem": "Etilen có công thức là?",
+    "choices": [
+      "CH4",
+      "C2H4",
+      "C2H2",
+      "C6H6"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.82,
+      "b": -0.2,
+      "c": 0.21
+    },
+    "content_tags": [
+      "organic",
+      "hydrocarbon"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-034",
+    "stem": "Axetilen có công thức là?",
+    "choices": [
+      "CH4",
+      "C2H4",
+      "C2H2",
+      "C6H6"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.95,
+      "b": -0.2,
+      "c": 0.25
+    },
+    "content_tags": [
+      "organic",
+      "hydrocarbon"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-035",
+    "stem": "Benzen có công thức là?",
+    "choices": [
+      "CH4",
+      "C2H4",
+      "C2H2",
+      "C6H6"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.08,
+      "b": -0.2,
+      "c": 0.16
+    },
+    "content_tags": [
+      "organic",
+      "hydrocarbon"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-PERIOD-001",
+    "stem": "Nguyên tố nào nằm ở chu kỳ 3, nhóm IIA của bảng tuần hoàn?",
+    "choices": [
+      "Magie",
+      "Canxi",
+      "Natri",
+      "Nhôm"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.1,
+      "b": -0.1,
+      "c": 0.2
+    },
+    "content_tags": [
+      "periodic_table"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-036",
+    "stem": "Rượu etylic có công thức là?",
+    "choices": [
+      "CH3OH",
+      "C2H5OH",
+      "CH3COOH",
+      "C6H12O6"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.26,
+      "b": -0.1,
+      "c": 0.25
+    },
+    "content_tags": [
+      "organic",
+      "alcohol"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-037",
+    "stem": "Giấm ăn là dung dịch của axit nào?",
+    "choices": [
+      "HCl",
+      "H2SO4",
+      "CH3COOH",
+      "HNO3"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.88,
+      "b": -0.1,
+      "c": 0.21
+    },
+    "content_tags": [
+      "organic",
+      "acids"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-038",
+    "stem": "Glucozơ có công thức là?",
+    "choices": [
+      "C12H22O11",
+      "C6H12O6",
+      "(C6H10O5)n",
+      "CH3COOH"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.47,
+      "b": 0.0,
+      "c": 0.22
+    },
+    "content_tags": [
+      "organic",
+      "carbohydrates"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-039",
+    "stem": "Saccarozơ có công thức là?",
+    "choices": [
+      "C12H22O11",
+      "C6H12O6",
+      "(C6H10O5)n",
+      "CH3COOH"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.82,
+      "b": 0.0,
+      "c": 0.18
+    },
+    "content_tags": [
+      "organic",
+      "carbohydrates"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-040",
+    "stem": "Tinh bột có công thức là?",
+    "choices": [
+      "C12H22O11",
+      "C6H12O6",
+      "(C6H10O5)n",
+      "CH3COOH"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.46,
+      "b": 0.0,
+      "c": 0.18
+    },
+    "content_tags": [
+      "organic",
+      "carbohydrates"
+    ],
     "language": "vi"
   },
   {
     "item_id": "CHEM-REDOX-001",
     "stem": "Trong phản ứng oxi hóa - khử, chất nào nhận electron?",
-    "choices": ["Chất oxi hóa", "Chất khử", "Dung môi", "Chất xúc tác"],
+    "choices": [
+      "Chất oxi hóa",
+      "Chất khử",
+      "Dung môi",
+      "Chất xúc tác"
+    ],
     "correct": 0,
-    "params": {"a": 1.3, "b": 0.1, "c": 0.18},
-    "content_tags": ["redox"],
+    "params": {
+      "a": 1.3,
+      "b": 0.1,
+      "c": 0.18
+    },
+    "content_tags": [
+      "redox"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-041",
+    "stem": "Số Avogadro có giá trị xấp xỉ là?",
+    "choices": [
+      "6,022 x 10^22",
+      "6,022 x 10^23",
+      "6,022 x 10^24",
+      "6,022 x 10^21"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.86,
+      "b": 0.1,
+      "c": 0.18
+    },
+    "content_tags": [
+      "physical",
+      "constants"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-042",
+    "stem": "Thể tích của 1 mol khí ở đktc là?",
+    "choices": [
+      "22,4 lít",
+      "24,79 lít",
+      "22,0 lít",
+      "24,0 lít"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.24,
+      "b": 0.2,
+      "c": 0.18
+    },
+    "content_tags": [
+      "physical",
+      "gas_laws"
+    ],
     "language": "vi"
   },
   {
     "item_id": "CHEM-ORG-002",
     "stem": "Hợp chất nào sau đây là ancol?",
-    "choices": ["CH3-CH2-OH", "CH3-CHO", "CH3-COOH", "CH3-O-CH3"],
+    "choices": [
+      "CH3-CH2-OH",
+      "CH3-CHO",
+      "CH3-COOH",
+      "CH3-O-CH3"
+    ],
     "correct": 0,
-    "params": {"a": 1.4, "b": 0.3, "c": 0.25},
-    "content_tags": ["organic", "alcohol"],
+    "params": {
+      "a": 1.4,
+      "b": 0.3,
+      "c": 0.25
+    },
+    "content_tags": [
+      "organic",
+      "alcohol"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-043",
+    "stem": "Khối lượng mol của H2SO4 là?",
+    "choices": [
+      "98 g/mol",
+      "96 g/mol",
+      "100 g/mol",
+      "80 g/mol"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.1,
+      "b": 0.3,
+      "c": 0.22
+    },
+    "content_tags": [
+      "calculation",
+      "molar_mass"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-044",
+    "stem": "Khối lượng mol của CaCO3 là?",
+    "choices": [
+      "98 g/mol",
+      "100 g/mol",
+      "56 g/mol",
+      "74 g/mol"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.43,
+      "b": 0.3,
+      "c": 0.21
+    },
+    "content_tags": [
+      "calculation",
+      "molar_mass"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-045",
+    "stem": "Để nhận biết khí CO2 dùng dung dịch nào?",
+    "choices": [
+      "Nước vôi trong",
+      "Nước Brom",
+      "Thuốc tím",
+      "Quỳ tím"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.16,
+      "b": 0.4,
+      "c": 0.24
+    },
+    "content_tags": [
+      "identification",
+      "gases"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-046",
+    "stem": "Để nhận biết khí SO2 dùng dung dịch nào?",
+    "choices": [
+      "Nước vôi trong",
+      "Nước Brom",
+      "NaCl",
+      "HCl"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.08,
+      "b": 0.4,
+      "c": 0.19
+    },
+    "content_tags": [
+      "identification",
+      "gases"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-047",
+    "stem": "Kim loại nào là kim loại kiềm?",
+    "choices": [
+      "Mg",
+      "Al",
+      "Na",
+      "Fe"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.07,
+      "b": 0.5,
+      "c": 0.19
+    },
+    "content_tags": [
+      "periodic_table",
+      "groups"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-048",
+    "stem": "Kim loại nào là kim loại kiềm thổ?",
+    "choices": [
+      "K",
+      "Ca",
+      "Al",
+      "Zn"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.46,
+      "b": 0.5,
+      "c": 0.22
+    },
+    "content_tags": [
+      "periodic_table",
+      "groups"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-049",
+    "stem": "Halogen nào ở thể lỏng?",
+    "choices": [
+      "F2",
+      "Cl2",
+      "Br2",
+      "I2"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.96,
+      "b": 0.6,
+      "c": 0.21
+    },
+    "content_tags": [
+      "periodic_table",
+      "halogens"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-050",
+    "stem": "Halogen nào ở thể rắn?",
+    "choices": [
+      "F2",
+      "Cl2",
+      "Br2",
+      "I2"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.48,
+      "b": 0.6,
+      "c": 0.2
+    },
+    "content_tags": [
+      "periodic_table",
+      "halogens"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-051",
+    "stem": "Liên kết trong phân tử NaCl là liên kết gì?",
+    "choices": [
+      "Cộng hóa trị",
+      "Ion",
+      "Kim loại",
+      "Hidro"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.47,
+      "b": 0.7,
+      "c": 0.17
+    },
+    "content_tags": [
+      "bonding",
+      "types"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-052",
+    "stem": "Liên kết trong phân tử H2 là liên kết gì?",
+    "choices": [
+      "Cộng hóa trị không cực",
+      "Cộng hóa trị có cực",
+      "Ion",
+      "Kim loại"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.91,
+      "b": 0.7,
+      "c": 0.24
+    },
+    "content_tags": [
+      "bonding",
+      "types"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-053",
+    "stem": "Liên kết trong phân tử HCl là liên kết gì?",
+    "choices": [
+      "Cộng hóa trị không cực",
+      "Cộng hóa trị có cực",
+      "Ion",
+      "Kim loại"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.37,
+      "b": 0.7,
+      "c": 0.22
+    },
+    "content_tags": [
+      "bonding",
+      "types"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-054",
+    "stem": "Số oxi hóa của O trong hầu hết hợp chất là?",
+    "choices": [
+      "-1",
+      "-2",
+      "+2",
+      "0"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.45,
+      "b": 0.8,
+      "c": 0.25
+    },
+    "content_tags": [
+      "redox",
+      "oxidation_number"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-055",
+    "stem": "Số oxi hóa của H trong hầu hết hợp chất là?",
+    "choices": [
+      "-1",
+      "+1",
+      "0",
+      "+2"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.27,
+      "b": 0.8,
+      "c": 0.18
+    },
+    "content_tags": [
+      "redox",
+      "oxidation_number"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-056",
+    "stem": "Phản ứng nhiệt nhôm dùng để điều chế kim loại nào?",
+    "choices": [
+      "Fe",
+      "Cu",
+      "Al",
+      "Cr"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.38,
+      "b": 0.9,
+      "c": 0.16
+    },
+    "content_tags": [
+      "metallurgy",
+      "reaction"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-057",
+    "stem": "Quặng Boxit dùng để sản xuất kim loại nào?",
+    "choices": [
+      "Fe",
+      "Al",
+      "Cu",
+      "Zn"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.37,
+      "b": 0.9,
+      "c": 0.17
+    },
+    "content_tags": [
+      "metallurgy",
+      "ores"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-058",
+    "stem": "Quặng Hematit chứa thành phần chính là?",
+    "choices": [
+      "Fe3O4",
+      "Fe2O3",
+      "FeS2",
+      "FeCO3"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.94,
+      "b": 0.9,
+      "c": 0.25
+    },
+    "content_tags": [
+      "metallurgy",
+      "ores"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-059",
+    "stem": "Gang là hợp kim của Sắt với Cacbon, trong đó C chiếm?",
+    "choices": [
+      "2-5%",
+      "<2%",
+      ">5%",
+      "0.01-2%"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.42,
+      "b": 1.0,
+      "c": 0.15
+    },
+    "content_tags": [
+      "alloys",
+      "composition"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-060",
+    "stem": "Thép là hợp kim của Sắt với Cacbon, trong đó C chiếm?",
+    "choices": [
+      "2-5%",
+      "<2%",
+      ">5%",
+      "5-10%"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.25,
+      "b": 1.0,
+      "c": 0.19
+    },
+    "content_tags": [
+      "alloys",
+      "composition"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-061",
+    "stem": "Este có mùi chuối chín là?",
+    "choices": [
+      "Etyl fomat",
+      "Isoamyl axetat",
+      "Etyl axetat",
+      "Benzyl axetat"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.48,
+      "b": 1.1,
+      "c": 0.21
+    },
+    "content_tags": [
+      "organic",
+      "esters"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-062",
+    "stem": "Este có mùi hoa nhài là?",
+    "choices": [
+      "Etyl fomat",
+      "Isoamyl axetat",
+      "Etyl axetat",
+      "Benzyl axetat"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.35,
+      "b": 1.1,
+      "c": 0.24
+    },
+    "content_tags": [
+      "organic",
+      "esters"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-063",
+    "stem": "Phản ứng xà phòng hóa là phản ứng thủy phân este trong môi trường?",
+    "choices": [
+      "Axit",
+      "Kiềm",
+      "Trung tính",
+      "Không xác định"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.28,
+      "b": 1.2,
+      "c": 0.24
+    },
+    "content_tags": [
+      "organic",
+      "reaction"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-064",
+    "stem": "Polime nào dùng làm cao su?",
+    "choices": [
+      "PE",
+      "PVC",
+      "Isopren",
+      "PVA"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.32,
+      "b": 1.3,
+      "c": 0.24
+    },
+    "content_tags": [
+      "polymers",
+      "types"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-065",
+    "stem": "Tơ nilon-6,6 thuộc loại tơ nào?",
+    "choices": [
+      "Tơ nhân tạo",
+      "Tơ tổng hợp",
+      "Tơ thiên nhiên",
+      "Tơ bán tổng hợp"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.08,
+      "b": 1.3,
+      "c": 0.18
+    },
+    "content_tags": [
+      "polymers",
+      "classification"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-066",
+    "stem": "Amino axit là hợp chất hữu cơ tạp chức chứa nhóm nào?",
+    "choices": [
+      "-COOH và -OH",
+      "-COOH và -NH2",
+      "-OH và -NH2",
+      "-CHO và -NH2"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.86,
+      "b": 1.4,
+      "c": 0.16
+    },
+    "content_tags": [
+      "organic",
+      "amino_acids"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-067",
+    "stem": "Dung dịch lòng trắng trứng phản ứng màu Biure cho màu gì?",
+    "choices": [
+      "Xanh tím",
+      "Vàng",
+      "Đỏ gạch",
+      "Đen"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.38,
+      "b": 1.5,
+      "c": 0.2
+    },
+    "content_tags": [
+      "organic",
+      "proteins"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-068",
+    "stem": "Glucozơ tác dụng với AgNO3/NH3 sinh ra kết tủa gì?",
+    "choices": [
+      "AgCl",
+      "Ag",
+      "Ag2O",
+      "AgOH"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.84,
+      "b": 1.5,
+      "c": 0.23
+    },
+    "content_tags": [
+      "organic",
+      "reaction"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-069",
+    "stem": "Hiện tượng mưa axit chủ yếu do khí nào gây ra?",
+    "choices": [
+      "CO2, CH4",
+      "SO2, NOx",
+      "NH3, H2S",
+      "O3, CFC"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.32,
+      "b": 1.6,
+      "c": 0.19
+    },
+    "content_tags": [
+      "environment",
+      "pollution"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-070",
+    "stem": "Hiệu ứng nhà kính chủ yếu do khí nào?",
+    "choices": [
+      "SO2",
+      "CO2",
+      "NO2",
+      "O3"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.47,
+      "b": 1.6,
+      "c": 0.19
+    },
+    "content_tags": [
+      "environment",
+      "pollution"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-071",
+    "stem": "Nguyên tắc Le Chatelier áp dụng cho?",
+    "choices": [
+      "Phản ứng một chiều",
+      "Cân bằng hóa học",
+      "Phản ứng hạt nhân",
+      "Phản ứng oxi hóa khử"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.11,
+      "b": 1.7,
+      "c": 0.24
+    },
+    "content_tags": [
+      "physical",
+      "equilibrium"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-072",
+    "stem": "Khi tăng áp suất, cân bằng chuyển dịch theo chiều nào?",
+    "choices": [
+      "Tăng số mol khí",
+      "Giảm số mol khí",
+      "Không đổi",
+      "Tùy nhiệt độ"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.42,
+      "b": 1.7,
+      "c": 0.19
+    },
+    "content_tags": [
+      "physical",
+      "equilibrium"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-073",
+    "stem": "Chất điện li mạnh là?",
+    "choices": [
+      "CH3COOH",
+      "H2O",
+      "NaCl",
+      "Mg(OH)2"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.86,
+      "b": 1.8,
+      "c": 0.21
+    },
+    "content_tags": [
+      "physical",
+      "electrolytes"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-074",
+    "stem": "Chất điện li yếu là?",
+    "choices": [
+      "HCl",
+      "NaOH",
+      "CH3COOH",
+      "NaCl"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.07,
+      "b": 1.8,
+      "c": 0.24
+    },
+    "content_tags": [
+      "physical",
+      "electrolytes"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-075",
+    "stem": "Anđehit thể hiện tính khử khi tác dụng với?",
+    "choices": [
+      "H2",
+      "AgNO3/NH3",
+      "Dung dịch Br2",
+      "Cả B và C"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.05,
+      "b": 1.9,
+      "c": 0.18
+    },
+    "content_tags": [
+      "organic",
+      "aldehyde"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-076",
+    "stem": "Phenol tác dụng với dung dịch Brom tạo kết tủa màu gì?",
+    "choices": [
+      "Vàng",
+      "Trắng",
+      "Đen",
+      "Đỏ"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.04,
+      "b": 1.9,
+      "c": 0.23
+    },
+    "content_tags": [
+      "organic",
+      "phenol"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-077",
+    "stem": "Anilin tác dụng với dung dịch Brom tạo kết tủa màu gì?",
+    "choices": [
+      "Vàng",
+      "Trắng",
+      "Đen",
+      "Đỏ"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.03,
+      "b": 1.9,
+      "c": 0.21
+    },
+    "content_tags": [
+      "organic",
+      "amine"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-078",
+    "stem": "Thuốc thử để phân biệt Glucozơ và Fructozơ là?",
+    "choices": [
+      "AgNO3/NH3",
+      "Cu(OH)2",
+      "Dung dịch Brom",
+      "H2"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.11,
+      "b": 2.0,
+      "c": 0.16
+    },
+    "content_tags": [
+      "organic",
+      "sugar_distinction"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-079",
+    "stem": "Thủy phân hoàn toàn tinh bột thu được?",
+    "choices": [
+      "Glucozơ",
+      "Fructozơ",
+      "Saccarozơ",
+      "Maltôzơ"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.27,
+      "b": 2.0,
+      "c": 0.16
+    },
+    "content_tags": [
+      "organic",
+      "hydrolysis"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-080",
+    "stem": "Thủy phân hoàn toàn xenlulozơ thu được?",
+    "choices": [
+      "Glucozơ",
+      "Fructozơ",
+      "Saccarozơ",
+      "Maltôzơ"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.19,
+      "b": 2.0,
+      "c": 0.17
+    },
+    "content_tags": [
+      "organic",
+      "hydrolysis"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-081",
+    "stem": "Số đồng phân cấu tạo của C4H10 là?",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.46,
+      "b": 2.1,
+      "c": 0.17
+    },
+    "content_tags": [
+      "organic",
+      "isomers"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-082",
+    "stem": "Số đồng phân cấu tạo của C5H12 là?",
+    "choices": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.42,
+      "b": 2.1,
+      "c": 0.22
+    },
+    "content_tags": [
+      "organic",
+      "isomers"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-083",
+    "stem": "Số đồng phân este của C4H8O2 là?",
+    "choices": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.89,
+      "b": 2.2,
+      "c": 0.22
+    },
+    "content_tags": [
+      "organic",
+      "isomers"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-084",
+    "stem": "Dãy điện hóa của kim loại sắp xếp theo chiều?",
+    "choices": [
+      "Tính oxi hóa của ion kim loại tăng dần",
+      "Tính khử của kim loại tăng dần",
+      "Tính oxi hóa của kim loại tăng dần",
+      "Tính khử của ion kim loại tăng dần"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.06,
+      "b": 2.3,
+      "c": 0.24
+    },
+    "content_tags": [
+      "electrochemistry",
+      "series"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-085",
+    "stem": "Pin điện hóa chuyển hóa năng lượng nào thành điện năng?",
+    "choices": [
+      "Nhiệt năng",
+      "Hóa năng",
+      "Cơ năng",
+      "Quang năng"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.09,
+      "b": 2.4,
+      "c": 0.15
+    },
+    "content_tags": [
+      "electrochemistry",
+      "cells"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-086",
+    "stem": "Định luật Faraday thứ nhất về điện phân có công thức?",
+    "choices": [
+      "m = AIt/nF",
+      "m = kq",
+      "m = D.V",
+      "m = n.M"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.47,
+      "b": 2.5,
+      "c": 0.21
+    },
+    "content_tags": [
+      "electrochemistry",
+      "faraday"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-087",
+    "stem": "Trong pin Galvani Zn-Cu, cực dương là?",
+    "choices": [
+      "Zn",
+      "Cu",
+      "Cầu muối",
+      "Dung dịch"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.17,
+      "b": 2.6,
+      "c": 0.2
+    },
+    "content_tags": [
+      "electrochemistry",
+      "cells"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-088",
+    "stem": "Trong pin Galvani Zn-Cu, dòng electron di chuyển từ?",
+    "choices": [
+      "Zn sang Cu",
+      "Cu sang Zn",
+      "Dung dịch sang cực",
+      "Cực sang dung dịch"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.26,
+      "b": 2.6,
+      "c": 0.23
+    },
+    "content_tags": [
+      "electrochemistry",
+      "cells"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-089",
+    "stem": "Cấu hình electron của Cr (Z=24) là?",
+    "choices": [
+      "[Ar]3d4 4s2",
+      "[Ar]3d5 4s1",
+      "[Ar]3d6",
+      "[Ar]4s2 3d4"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.29,
+      "b": 2.7,
+      "c": 0.15
+    },
+    "content_tags": [
+      "atomic",
+      "configuration"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-090",
+    "stem": "Cấu hình electron của Cu (Z=29) là?",
+    "choices": [
+      "[Ar]3d9 4s2",
+      "[Ar]3d10 4s1",
+      "[Ar]3d10 4s2",
+      "[Ar]3d9 4s1"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.2,
+      "b": 2.7,
+      "c": 0.21
+    },
+    "content_tags": [
+      "atomic",
+      "configuration"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-091",
+    "stem": "Lai hóa sp3 có góc liên kết khoảng?",
+    "choices": [
+      "180 độ",
+      "120 độ",
+      "109,5 độ",
+      "90 độ"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.24,
+      "b": 2.8,
+      "c": 0.22
+    },
+    "content_tags": [
+      "bonding",
+      "hybridization"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-092",
+    "stem": "Lai hóa sp2 có góc liên kết khoảng?",
+    "choices": [
+      "180 độ",
+      "120 độ",
+      "109,5 độ",
+      "90 độ"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.97,
+      "b": 2.8,
+      "c": 0.22
+    },
+    "content_tags": [
+      "bonding",
+      "hybridization"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-093",
+    "stem": "Lai hóa sp có góc liên kết khoảng?",
+    "choices": [
+      "180 độ",
+      "120 độ",
+      "109,5 độ",
+      "90 độ"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.11,
+      "b": 2.8,
+      "c": 0.24
+    },
+    "content_tags": [
+      "bonding",
+      "hybridization"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-094",
+    "stem": "Quy tắc Mac-cốp-ni-cốp áp dụng cho phản ứng nào?",
+    "choices": [
+      "Cộng H-X vào anken bất đối",
+      "Thế halogen vào ankan",
+      "Tách nước ancol",
+      "Oxi hóa anđehit"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.94,
+      "b": 2.9,
+      "c": 0.16
+    },
+    "content_tags": [
+      "organic",
+      "rules"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-095",
+    "stem": "Quy tắc Zai-xép áp dụng cho phản ứng nào?",
+    "choices": [
+      "Cộng H-X vào anken",
+      "Thế halogen vào ankan",
+      "Tách nước/HX khỏi dẫn xuất",
+      "Trùng hợp"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.91,
+      "b": 2.9,
+      "c": 0.23
+    },
+    "content_tags": [
+      "organic",
+      "rules"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-096",
+    "stem": "Thuốc thử Lucas dùng để phân biệt?",
+    "choices": [
+      "Ancol bậc 1, 2, 3",
+      "Anđehit và Xeton",
+      "Axit và Este",
+      "Amin bậc 1, 2, 3"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.06,
+      "b": 3.0,
+      "c": 0.24
+    },
+    "content_tags": [
+      "organic",
+      "reagents"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-097",
+    "stem": "Phản ứng màu của Iot dùng để nhận biết?",
+    "choices": [
+      "Glucozơ",
+      "Saccarozơ",
+      "Tinh bột",
+      "Xenlulozơ"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.42,
+      "b": 3.0,
+      "c": 0.17
+    },
+    "content_tags": [
+      "organic",
+      "identification"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-098",
+    "stem": "Peptit có phản ứng màu Biure phải có ít nhất bao nhiêu liên kết peptit?",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.12,
+      "b": 3.1,
+      "c": 0.15
+    },
+    "content_tags": [
+      "organic",
+      "peptides"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-099",
+    "stem": "Số mắt xích (hệ số polime hóa) được kí hiệu là?",
+    "choices": [
+      "n",
+      "M",
+      "dp",
+      "k"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.91,
+      "b": 3.2,
+      "c": 0.16
+    },
+    "content_tags": [
+      "polymers",
+      "properties"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "CHEM-GEN-100",
+    "stem": "Tên gọi của C6H5-NH2 là?",
+    "choices": [
+      "Phenol",
+      "Anilin",
+      "Toluen",
+      "Benzen"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.45,
+      "b": 3.3,
+      "c": 0.18
+    },
+    "content_tags": [
+      "organic",
+      "nomenclature"
+    ],
     "language": "vi"
   }
 ]
