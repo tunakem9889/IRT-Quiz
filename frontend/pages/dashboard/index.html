@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adaptive Quiz - Dashboard</title>
+    <link rel="stylesheet" href="../../css/global.css">
+    <link rel="stylesheet" href="./dashboard.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="app-header">
+        <div class="header-content">
+            <div class="logo-section">
+                <div class="logo-icon">📊</div>
+                <div>
+                    <h1>Adaptive Quiz</h1>
+                    <p class="subtitle">Bài kiểm tra thích ứng theo năng lực (IRT/CAT)</p>
+                </div>
+            </div>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="../home/index.html" class="nav-link">Trang chủ</a></li>
+                    <li><a href="./index.html" class="nav-link active">Dashboard</a></li>
+                    <li><a href="../quiz/index.html" class="nav-link">Luyện tập</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="container">
+        <!-- Dashboard Screen -->
+        <section id="dashboard-screen" class="screen dashboard-screen">
+            <div class="dashboard-header">
+                <h2>Tổng quan năng lực</h2>
+                <p>Theo dõi quá trình học tập của bạn</p>
+            </div>
+            
+            <div class="stats-overview">
+                <div class="stat-box">
+                    <div class="stat-box-icon">📝</div>
+                    <div class="stat-box-info">
+                        <span class="stat-box-value" id="dash-total-quizzes">0</span>
+                        <span class="stat-box-label">Bài thi đã làm</span>
+                    </div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-box-icon">🧠</div>
+                    <div class="stat-box-info">
+                        <span class="stat-box-value" id="dash-avg-theta">0.00</span>
+                        <span class="stat-box-label">Năng lực trung bình (θ)</span>
+                    </div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-box-icon">✅</div>
+                    <div class="stat-box-info">
+                        <span class="stat-box-value" id="dash-total-correct">0</span>
+                        <span class="stat-box-label">Tổng câu đúng</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recent-activity">
+                <h3>Lịch sử làm bài</h3>
+                <div class="activity-list" id="activity-list">
+                    <!-- Activity items will be injected here -->
+                    <div class="empty-state">Chưa có dữ liệu bài thi nào.</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+        <div class="footer-content">
+            <span>Powered by IRT (2PL/3PL) — Adaptive Testing</span>
+        </div>
+    </footer>
+
+    <script src="../../js/common.js"></script>
+    <script src="./dashboard.js"></script>
+</body>
+</html>
