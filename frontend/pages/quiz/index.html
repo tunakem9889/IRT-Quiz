@@ -18,10 +18,17 @@
             },
             options: {
                 skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+            },
+            startup: {
+                ready: () => {
+                    console.log('MathJax is ready!');
+                    MathJax.startup.defaultReady();
+                    window.MathJaxReady = true;
+                }
             }
         };
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
     <!-- Loading Overlay -->
@@ -31,19 +38,7 @@
     </div>
 
     <!-- Header -->
-    <header class="app-header">
-        <div class="header-content">
-            <div class="logo-section">
-                <div class="logo-icon">📊</div>
-                <div>
-                    <h1>Adaptive Quiz</h1>
-                    <p class="subtitle">Bài kiểm tra thích ứng theo năng lực (IRT/CAT)</p>
-                </div>
-
-                </div>
-            </div>
-        </div>
-    </header>
+    <div id="header-placeholder"></div>
 
     <!-- Main Container -->
     <main class="container">
@@ -123,6 +118,10 @@
                         <button id="btn-skip" class="btn btn-secondary">
                             <span class="btn-icon">⏭️</span>
                             <span class="btn-text">Bỏ qua</span>
+                        </button>
+                        <button id="btn-hint" class="btn btn-hint">
+                            <span class="btn-icon">💡</span>
+                            <span class="btn-text">Gợi ý</span>
                         </button>
                         <button id="btn-submit" class="btn btn-primary" disabled>
                             <span class="btn-text">Nộp đáp án</span>
@@ -256,13 +255,10 @@
     </main>
 
     <!-- Footer -->
-    <footer class="app-footer">
-        <div class="footer-content">
-            <span>Powered by IRT (2PL/3PL) — Adaptive Testing</span>
-        </div>
-    </footer>
+    <div id="footer-placeholder"></div>
 
     <div id="grid-tooltip" class="grid-tooltip hidden"></div>
+    <script src="../../js/components.js"></script>
     <script src="../../js/common.js"></script>
     <script src="./quiz.js"></script>
 </body>

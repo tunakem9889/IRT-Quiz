@@ -6,6 +6,7 @@
   const btnStart = el('btn-start');
   const btnSubmit = el('btn-submit');
   const btnSkip = el('btn-skip');
+  const btnHint = el('btn-hint');
   const btnRestart = el('btn-restart');
   const stemEl = el('stem');
   const choicesEl = el('choices');
@@ -71,7 +72,63 @@
     updateProgress();
   }
 
-  function renderQuestion(question) {
+  // Wait for MathJax to be ready
+  async function waitForMathJax(maxWait = 5000) {
+    const startTime = Date.now();
+    while (!window.MathJax || !window.MathJax.typesetPromise) {
+      if (Date.now() - startTime > maxWait) {
+        console.warn('MathJax not loaded after', maxWait, 'ms');
+        return false;
+      }
+      await new Promise(resolve => setTimeout(resolve, 100));
+    }
+    return true;
+  }
+
+  async function typesetMath(elements) {
+    const ready = await waitForMathJax();
+    if (!ready) {
+      console.warn('MathJax not available, skipping typeset');
+      return;
+    }
+
+    try {
+      await window.MathJax.typesetPromise(elements);
+    } catch (e) {
+      console.warn('MathJax typeset error:', e);
+      // Retry once
+      try {
+        await new Promise(resolve => setTimeout(resolve, 100));
+        await window.MathJax.typesetPromise(elements);
+      } catch (e2) {
+        console.error('MathJax typeset failed after retry:', e2);
+      }
+    }
+  }
+
+  function showHint() {
+    if (!state.currentQuestion) return;
+    
+    const correctIndex = state.currentQuestion.correct;
+    const choiceInput = document.getElementById(`choice_${correctIndex}`);
+    
+    if (choiceInput) {
+      // Select the correct answer
+      choiceInput.checked = true;
+      choiceInput.dispatchEvent(new Event('change'));
+      
+      // Add hint styling
+      const choiceItem = choiceInput.closest('.choice-item');
+      if (choiceItem) {
+        choiceItem.classList.add('hinted');
+      }
+      
+      // Disable hint button after use
+      if (btnHint) btnHint.disabled = true;
+    }
+  }
+
+  async function renderQuestion(question) {
     if (!question) {
       if (stemEl) stemEl.textContent = '';
       if (choicesEl) choicesEl.innerHTML = '';
@@ -81,9 +138,11 @@
 
     if (stemEl) {
         stemEl.style.opacity = '0';
-        setTimeout(() => {
+        setTimeout(async () => {
           stemEl.innerHTML = question.stem;
           stemEl.style.opacity = '1';
+          // Typeset stem immediately after setting innerHTML
+          await typesetMath([stemEl]);
         }, 150);
     }
 
@@ -128,19 +187,26 @@
             choiceItem.style.transform = 'translateY(0)';
           }, 200 + idx * 50);
         });
+
+        // Typeset all choices after they're all added
+        setTimeout(async () => {
+          await typesetMath([choicesEl]);
+        }, 200 + question.choices.length * 50 + 100);
     }
 
     if (btnSubmit) btnSubmit.disabled = true;
-
-    if (window.MathJax && typeof MathJax.typesetPromise === 'function') {
-      try {
-        MathJax.typesetPromise([stemEl, choicesEl]).catch((e) => {
-          console.warn('MathJax typeset error:', e);
+    
+    // Enable hint button for new question
+    if (btnHint) btnHint.disabled = false;
+    
+    // Remove hinted class from previous question
+    setTimeout(() => {
+      if (choicesEl) {
+        choicesEl.querySelectorAll('.choice-item').forEach(item => {
+          item.classList.remove('hinted');
         });
-      } catch (e) {
-        console.warn('MathJax typeset invocation failed:', e);
       }
-    }
+    }, 50);
 
     if (questionParamsEl && question.params) {
       const { a, b, c } = question.params;
@@ -643,6 +709,7 @@
   if (btnStart) btnStart.addEventListener('click', () => startQuiz());
   if (btnSubmit) btnSubmit.addEventListener('click', () => submitAnswer(false));
   if (btnSkip) btnSkip.addEventListener('click', () => submitAnswer(true));
+  if (btnHint) btnHint.addEventListener('click', showHint);
   if (btnRestart) btnRestart.addEventListener('click', restart);
   if (categorySelect) {
     categorySelect.addEventListener('change', (event) => {
