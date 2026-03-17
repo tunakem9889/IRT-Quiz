@@ -1,125 +1,4001 @@
 [
   {
-    "item_id": "PHYS-MECH-001",
-    "stem": "Đơn vị của lực trong hệ SI là?",
+    "item_id": "PHYS-001",
+    "stem": "Một thấu kính hội tụ có tiêu cự 30 cm. Độ tụ của thấu kính là bao nhiêu?",
     "choices": [
-      "Joule",
-      "Pascal",
-      "Newton",
-      "Watt"
+      "3.33 dp",
+      "2.49 dp",
+      "4.48 dp",
+      "4.08 dp"
     ],
-    "correct": 2,
+    "correct": 0,
     "params": {
-      "a": 1.0,
-      "b": -0.5,
-      "c": 0.15
+      "a": 1.06,
+      "b": -1.29,
+      "c": 0.18
     },
     "content_tags": [
-      "mechanics",
-      "unit"
+      "Quang học"
     ],
     "language": "vi"
   },
   {
-    "item_id": "PHYS-MECH-002",
-    "stem": "Vận tốc là đạo hàm theo thời gian của đại lượng nào?",
+    "item_id": "PHYS-002",
+    "stem": "Một sóng cơ có tần số 34 Hz và bước sóng 4.7 m. Tốc độ truyền sóng là bao nhiêu?",
     "choices": [
-      "Gia tốc",
-      "Quãng đường",
-      "Lực",
-      "Khối lượng"
+      "116.52 m/s",
+      "159.80 m/s",
+      "183.06 m/s",
+      "222.30 m/s"
     ],
     "correct": 1,
     "params": {
+      "a": 1.89,
+      "b": -2.42,
+      "c": 0.24
+    },
+    "content_tags": [
+      "Sóng cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-003",
+    "stem": "Một sóng cơ có tần số 17 Hz và bước sóng 3.6 m. Tốc độ truyền sóng là bao nhiêu?",
+    "choices": [
+      "61.20 m/s",
+      "49.73 m/s",
+      "57.31 m/s",
+      "31.50 m/s"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.84,
+      "b": -1.96,
+      "c": 0.12
+    },
+    "content_tags": [
+      "Sóng cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-004",
+    "stem": "Một thấu kính hội tụ có tiêu cự 20 cm. Độ tụ của thấu kính là bao nhiêu?",
+    "choices": [
+      "5.00 dp",
+      "4.50 dp",
+      "6.27 dp",
+      "3.23 dp"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.99,
+      "b": -2.45,
+      "c": 0.27
+    },
+    "content_tags": [
+      "Quang học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-005",
+    "stem": "Một thấu kính hội tụ có tiêu cự 45 cm. Độ tụ của thấu kính là bao nhiêu?",
+    "choices": [
+      "2.58 dp",
+      "2.22 dp",
+      "1.30 dp",
+      "1.40 dp"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.29,
+      "b": -2.13,
+      "c": 0.3
+    },
+    "content_tags": [
+      "Quang học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-006",
+    "stem": "Chu kỳ bán rã của một chất phóng xạ là 5 ngày. Sau 17 ngày, số hạt nhân còn lại bằng bao nhiêu phần trăm số hạt nhân ban đầu?",
+    "choices": [
+      "12.29 %",
+      "9.47 %",
+      "13.26 %",
+      "8.01 %"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.78,
+      "b": -2.5,
+      "c": 0.12
+    },
+    "content_tags": [
+      "Vật lý hạt nhân"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-007",
+    "stem": "Một thấu kính hội tụ có tiêu cự 12 cm. Độ tụ của thấu kính là bao nhiêu?",
+    "choices": [
+      "8.33 dp",
+      "8.71 dp",
+      "6.60 dp",
+      "5.76 dp"
+    ],
+    "correct": 0,
+    "params": {
       "a": 1.2,
+      "b": -2.13,
+      "c": 0.15
+    },
+    "content_tags": [
+      "Quang học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-008",
+    "stem": "Một điện trở 16 Ohm được mắc vào hiệu điện thế 101 V. Cường độ dòng điện là bao nhiêu?",
+    "choices": [
+      "6.31 A",
+      "6.88 A",
+      "4.65 A",
+      "9.42 A"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.75,
+      "b": -1.85,
+      "c": 0.19
+    },
+    "content_tags": [
+      "Điện học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-009",
+    "stem": "Một vật rơi tự do từ độ cao 49 m (g=10m/s^2). Thời gian rơi là bao nhiêu?",
+    "choices": [
+      "2.29 s",
+      "3.48 s",
+      "3.13 s",
+      "4.41 s"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.59,
+      "b": -1.13,
+      "c": 0.26
+    },
+    "content_tags": [
+      "Cơ học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-010",
+    "stem": "Một điện trở 92 Ohm được mắc vào hiệu điện thế 13 V. Cường độ dòng điện là bao nhiêu?",
+    "choices": [
+      "0.57 A",
+      "0.28 A",
+      "0.42 A",
+      "0.14 A"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.41,
+      "b": -1.24,
+      "c": 0.11
+    },
+    "content_tags": [
+      "Điện học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-011",
+    "stem": "Một vật có khối lượng 2 kg chuyển động với gia tốc 17 m/s^2. Lực tác dụng lên vật là bao nhiêu?",
+    "choices": [
+      "48.72 N",
+      "34.00 N",
+      "18.26 N",
+      "29.65 N"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.89,
+      "b": -0.9,
+      "c": 0.1
+    },
+    "content_tags": [
+      "Cơ học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-012",
+    "stem": "Một vật có khối lượng 2 kg chuyển động với gia tốc 10 m/s^2. Lực tác dụng lên vật là bao nhiêu?",
+    "choices": [
+      "20.00 N",
+      "20.95 N",
+      "28.84 N",
+      "26.22 N"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.25,
+      "b": -1.29,
+      "c": 0.2
+    },
+    "content_tags": [
+      "Cơ học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-013",
+    "stem": "Một sóng cơ có tần số 14 Hz và bước sóng 2.0 m. Tốc độ truyền sóng là bao nhiêu?",
+    "choices": [
+      "22.48 m/s",
+      "28.00 m/s",
+      "25.35 m/s",
+      "20.94 m/s"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.86,
+      "b": -0.64,
+      "c": 0.12
+    },
+    "content_tags": [
+      "Sóng cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-014",
+    "stem": "Một điện trở 54 Ohm được mắc vào hiệu điện thế 152 V. Cường độ dòng điện là bao nhiêu?",
+    "choices": [
+      "2.81 A",
+      "3.36 A",
+      "1.75 A",
+      "3.18 A"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.77,
+      "b": -1.62,
+      "c": 0.21
+    },
+    "content_tags": [
+      "Điện học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-015",
+    "stem": "Một thấu kính hội tụ có tiêu cự 38 cm. Độ tụ của thấu kính là bao nhiêu?",
+    "choices": [
+      "2.63 dp",
+      "3.75 dp",
+      "3.14 dp",
+      "1.98 dp"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.48,
+      "b": -2.22,
+      "c": 0.12
+    },
+    "content_tags": [
+      "Quang học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-016",
+    "stem": "Một thấu kính hội tụ có tiêu cự 26 cm. Độ tụ của thấu kính là bao nhiêu?",
+    "choices": [
+      "3.85 dp",
+      "4.52 dp",
+      "5.00 dp",
+      "4.15 dp"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.67,
+      "b": -0.78,
+      "c": 0.19
+    },
+    "content_tags": [
+      "Quang học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-017",
+    "stem": "Chu kỳ bán rã của một chất phóng xạ là 3 ngày. Sau 7 ngày, số hạt nhân còn lại bằng bao nhiêu phần trăm số hạt nhân ban đầu?",
+    "choices": [
+      "15.33 %",
+      "25.70 %",
+      "19.84 %",
+      "28.07 %"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.79,
+      "b": -1.77,
+      "c": 0.21
+    },
+    "content_tags": [
+      "Vật lý hạt nhân"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-018",
+    "stem": "Một thấu kính hội tụ có tiêu cự 48 cm. Độ tụ của thấu kính là bao nhiêu?",
+    "choices": [
+      "1.98 dp",
+      "2.08 dp",
+      "1.79 dp",
+      "2.73 dp"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.45,
+      "b": -1.43,
+      "c": 0.16
+    },
+    "content_tags": [
+      "Quang học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-019",
+    "stem": "Một điện trở 53 Ohm được mắc vào hiệu điện thế 13 V. Cường độ dòng điện là bao nhiêu?",
+    "choices": [
+      "0.25 A",
+      "0.13 A",
+      "0.35 A",
+      "0.36 A"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.18,
+      "b": -1.48,
+      "c": 0.19
+    },
+    "content_tags": [
+      "Điện học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-020",
+    "stem": "Một vật rơi tự do từ độ cao 13 m (g=10m/s^2). Thời gian rơi là bao nhiêu?",
+    "choices": [
+      "1.61 s",
+      "1.33 s",
+      "1.22 s",
+      "2.30 s"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.28,
+      "b": -0.91,
+      "c": 0.11
+    },
+    "content_tags": [
+      "Cơ học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-021",
+    "stem": "Nhiệt lượng cần thiết để đun nóng 4 kg nước từ 23 độ C lên 95 độ C là bao nhiêu? (c=4200 J/kg.K)",
+    "choices": [
+      "1051145.19 J",
+      "965588.44 J",
+      "1209600.00 J",
+      "935609.68 J"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.05,
+      "b": -0.89,
+      "c": 0.25
+    },
+    "content_tags": [
+      "Nhiệt học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-022",
+    "stem": "Một sóng cơ có tần số 50 Hz và bước sóng 4.4 m. Tốc độ truyền sóng là bao nhiêu?",
+    "choices": [
+      "264.97 m/s",
+      "231.92 m/s",
+      "220.00 m/s",
+      "200.53 m/s"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.76,
+      "b": -1.1,
+      "c": 0.3
+    },
+    "content_tags": [
+      "Sóng cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-023",
+    "stem": "Một vật rơi tự do từ độ cao 47 m (g=10m/s^2). Thời gian rơi là bao nhiêu?",
+    "choices": [
+      "2.36 s",
+      "3.64 s",
+      "3.07 s",
+      "1.54 s"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.17,
+      "b": -2.04,
+      "c": 0.19
+    },
+    "content_tags": [
+      "Cơ học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-024",
+    "stem": "Một sóng cơ có tần số 29 Hz và bước sóng 3.6 m. Tốc độ truyền sóng là bao nhiêu?",
+    "choices": [
+      "82.78 m/s",
+      "104.40 m/s",
+      "146.66 m/s",
+      "152.00 m/s"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.76,
+      "b": -1.86,
+      "c": 0.25
+    },
+    "content_tags": [
+      "Sóng cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-025",
+    "stem": "Nhiệt lượng cần thiết để đun nóng 1 kg nước từ 24 độ C lên 100 độ C là bao nhiêu? (c=4200 J/kg.K)",
+    "choices": [
+      "186056.31 J",
+      "301005.03 J",
+      "261272.80 J",
+      "319200.00 J"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.54,
+      "b": -0.59,
+      "c": 0.13
+    },
+    "content_tags": [
+      "Nhiệt học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-026",
+    "stem": "Chu kỳ bán rã của một chất phóng xạ là 8 ngày. Sau 15 ngày, số hạt nhân còn lại bằng bao nhiêu phần trăm số hạt nhân ban đầu?",
+    "choices": [
+      "27.26 %",
+      "16.84 %",
+      "40.70 %",
+      "38.53 %"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.86,
+      "b": -1.46,
+      "c": 0.11
+    },
+    "content_tags": [
+      "Vật lý hạt nhân"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-027",
+    "stem": "Một điện trở 42 Ohm được mắc vào hiệu điện thế 184 V. Cường độ dòng điện là bao nhiêu?",
+    "choices": [
+      "4.38 A",
+      "3.05 A",
+      "2.82 A",
+      "3.69 A"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.4,
+      "b": -2.17,
+      "c": 0.1
+    },
+    "content_tags": [
+      "Điện học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-028",
+    "stem": "Công suất tiêu thụ của một bóng đèn là 80 W khi mắc vào hiệu điện thế 113 V. Cường độ dòng điện chạy qua đèn là?",
+    "choices": [
+      "0.71 A",
+      "1.01 A",
+      "0.55 A",
+      "0.39 A"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.55,
+      "b": -1.33,
+      "c": 0.19
+    },
+    "content_tags": [
+      "Điện học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-029",
+    "stem": "Một vật rơi tự do từ độ cao 46 m (g=10m/s^2). Thời gian rơi là bao nhiêu?",
+    "choices": [
+      "3.36 s",
+      "3.03 s",
+      "2.32 s",
+      "3.82 s"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.56,
+      "b": -1.82,
+      "c": 0.13
+    },
+    "content_tags": [
+      "Cơ học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-030",
+    "stem": "Chu kỳ bán rã của một chất phóng xạ là 6 ngày. Sau 15 ngày, số hạt nhân còn lại bằng bao nhiêu phần trăm số hạt nhân ban đầu?",
+    "choices": [
+      "19.87 %",
+      "14.39 %",
+      "9.40 %",
+      "17.68 %"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.9,
+      "b": -1.44,
+      "c": 0.1
+    },
+    "content_tags": [
+      "Vật lý hạt nhân"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-031",
+    "stem": "Nhiệt lượng cần thiết để đun nóng 4 kg nước từ 28 độ C lên 97 độ C là bao nhiêu? (c=4200 J/kg.K)",
+    "choices": [
+      "1402624.02 J",
+      "1332373.02 J",
+      "1159200.00 J",
+      "1435953.57 J"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.44,
+      "b": -1.07,
+      "c": 0.11
+    },
+    "content_tags": [
+      "Nhiệt học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-032",
+    "stem": "Một sóng cơ có tần số 16 Hz và bước sóng 3.6 m. Tốc độ truyền sóng là bao nhiêu?",
+    "choices": [
+      "42.69 m/s",
+      "57.60 m/s",
+      "57.46 m/s",
+      "70.22 m/s"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.11,
+      "b": -2.17,
+      "c": 0.13
+    },
+    "content_tags": [
+      "Sóng cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-033",
+    "stem": "Một vật rơi tự do từ độ cao 30 m (g=10m/s^2). Thời gian rơi là bao nhiêu?",
+    "choices": [
+      "3.33 s",
+      "2.45 s",
+      "3.41 s",
+      "1.98 s"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.36,
+      "b": -1.34,
+      "c": 0.29
+    },
+    "content_tags": [
+      "Cơ học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-034",
+    "stem": "Nhiệt lượng cần thiết để đun nóng 4 kg nước từ 30 độ C lên 87 độ C là bao nhiêu? (c=4200 J/kg.K)",
+    "choices": [
+      "1203434.59 J",
+      "938738.35 J",
+      "957600.00 J",
+      "947698.64 J"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.23,
+      "b": -1.06,
+      "c": 0.13
+    },
+    "content_tags": [
+      "Nhiệt học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-035",
+    "stem": "Một vật rơi tự do từ độ cao 32 m (g=10m/s^2). Thời gian rơi là bao nhiêu?",
+    "choices": [
+      "2.53 s",
+      "2.81 s",
+      "1.49 s",
+      "1.56 s"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.26,
+      "b": -1.96,
+      "c": 0.16
+    },
+    "content_tags": [
+      "Cơ học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-036",
+    "stem": "Nhiệt lượng cần thiết để đun nóng 1 kg nước từ 22 độ C lên 96 độ C là bao nhiêu? (c=4200 J/kg.K)",
+    "choices": [
+      "310800.00 J",
+      "252129.20 J",
+      "374388.18 J",
+      "287201.91 J"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.24,
+      "b": -0.76,
+      "c": 0.29
+    },
+    "content_tags": [
+      "Nhiệt học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-037",
+    "stem": "Nhiệt lượng cần thiết để đun nóng 4 kg nước từ 30 độ C lên 97 độ C là bao nhiêu? (c=4200 J/kg.K)",
+    "choices": [
+      "1146982.67 J",
+      "1036550.96 J",
+      "757934.11 J",
+      "1125600.00 J"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.88,
+      "b": -2.31,
+      "c": 0.21
+    },
+    "content_tags": [
+      "Nhiệt học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-038",
+    "stem": "Công suất tiêu thụ của một bóng đèn là 61 W khi mắc vào hiệu điện thế 149 V. Cường độ dòng điện chạy qua đèn là?",
+    "choices": [
+      "0.52 A",
+      "0.57 A",
+      "0.41 A",
+      "0.31 A"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.99,
+      "b": -1.09,
+      "c": 0.28
+    },
+    "content_tags": [
+      "Điện học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-039",
+    "stem": "Một vật rơi tự do từ độ cao 68 m (g=10m/s^2). Thời gian rơi là bao nhiêu?",
+    "choices": [
+      "4.72 s",
+      "4.49 s",
+      "5.27 s",
+      "3.69 s"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.26,
+      "b": -2.49,
+      "c": 0.11
+    },
+    "content_tags": [
+      "Cơ học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-040",
+    "stem": "Một vật rơi tự do từ độ cao 45 m (g=10m/s^2). Thời gian rơi là bao nhiêu?",
+    "choices": [
+      "3.00 s",
+      "2.58 s",
+      "3.12 s",
+      "3.85 s"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.95,
+      "b": -2.26,
+      "c": 0.17
+    },
+    "content_tags": [
+      "Cơ học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-041",
+    "stem": "Một sóng cơ có tần số 29 Hz và bước sóng 3.0 m. Tốc độ truyền sóng là bao nhiêu?",
+    "choices": [
+      "129.76 m/s",
+      "61.41 m/s",
+      "86.55 m/s",
+      "87.00 m/s"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.75,
+      "b": -1.84,
+      "c": 0.22
+    },
+    "content_tags": [
+      "Sóng cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-042",
+    "stem": "Công suất tiêu thụ của một bóng đèn là 57 W khi mắc vào hiệu điện thế 183 V. Cường độ dòng điện chạy qua đèn là?",
+    "choices": [
+      "0.31 A",
+      "0.21 A",
+      "0.18 A",
+      "0.43 A"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.64,
+      "b": -0.96,
+      "c": 0.25
+    },
+    "content_tags": [
+      "Điện học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-043",
+    "stem": "Một vật rơi tự do từ độ cao 17 m (g=10m/s^2). Thời gian rơi là bao nhiêu?",
+    "choices": [
+      "2.26 s",
+      "2.30 s",
+      "1.84 s",
+      "2.14 s"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.37,
+      "b": -1.21,
+      "c": 0.25
+    },
+    "content_tags": [
+      "Cơ học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-044",
+    "stem": "Một thấu kính hội tụ có tiêu cự 29 cm. Độ tụ của thấu kính là bao nhiêu?",
+    "choices": [
+      "3.45 dp",
+      "4.51 dp",
+      "2.27 dp",
+      "3.10 dp"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.51,
+      "b": -2.25,
+      "c": 0.26
+    },
+    "content_tags": [
+      "Quang học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-045",
+    "stem": "Một thấu kính hội tụ có tiêu cự 35 cm. Độ tụ của thấu kính là bao nhiêu?",
+    "choices": [
+      "2.86 dp",
+      "3.95 dp",
+      "2.05 dp",
+      "1.67 dp"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.48,
+      "b": -2.41,
+      "c": 0.18
+    },
+    "content_tags": [
+      "Quang học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-046",
+    "stem": "Một vật rơi tự do từ độ cao 27 m (g=10m/s^2). Thời gian rơi là bao nhiêu?",
+    "choices": [
+      "2.95 s",
+      "2.16 s",
+      "2.96 s",
+      "2.32 s"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.68,
+      "b": -1.85,
+      "c": 0.19
+    },
+    "content_tags": [
+      "Cơ học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-047",
+    "stem": "Một điện trở 35 Ohm được mắc vào hiệu điện thế 111 V. Cường độ dòng điện là bao nhiêu?",
+    "choices": [
+      "2.31 A",
+      "4.42 A",
+      "3.17 A",
+      "2.77 A"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.04,
+      "b": -0.57,
+      "c": 0.26
+    },
+    "content_tags": [
+      "Điện học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-048",
+    "stem": "Một vật rơi tự do từ độ cao 76 m (g=10m/s^2). Thời gian rơi là bao nhiêu?",
+    "choices": [
+      "5.42 s",
+      "3.90 s",
+      "4.09 s",
+      "2.56 s"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.94,
+      "b": -2.35,
+      "c": 0.12
+    },
+    "content_tags": [
+      "Cơ học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-049",
+    "stem": "Công suất tiêu thụ của một bóng đèn là 62 W khi mắc vào hiệu điện thế 138 V. Cường độ dòng điện chạy qua đèn là?",
+    "choices": [
+      "0.45 A",
+      "0.31 A",
+      "0.61 A",
+      "0.30 A"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.33,
+      "b": -2.12,
+      "c": 0.2
+    },
+    "content_tags": [
+      "Điện học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-050",
+    "stem": "Một sóng cơ có tần số 17 Hz và bước sóng 1.8 m. Tốc độ truyền sóng là bao nhiêu?",
+    "choices": [
+      "45.30 m/s",
+      "30.60 m/s",
+      "41.27 m/s",
+      "31.97 m/s"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.71,
+      "b": -1.07,
+      "c": 0.14
+    },
+    "content_tags": [
+      "Sóng cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-051",
+    "stem": "Một thấu kính hội tụ có tiêu cự 39 cm. Độ tụ của thấu kính là bao nhiêu?",
+    "choices": [
+      "2.56 dp",
+      "1.46 dp",
+      "3.59 dp",
+      "1.62 dp"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.97,
+      "b": -0.98,
+      "c": 0.21
+    },
+    "content_tags": [
+      "Quang học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-052",
+    "stem": "Một vật có khối lượng 4 kg chuyển động với gia tốc 15 m/s^2. Lực tác dụng lên vật là bao nhiêu?",
+    "choices": [
+      "37.59 N",
+      "43.48 N",
+      "65.90 N",
+      "60.00 N"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 0.85,
+      "b": -0.89,
+      "c": 0.15
+    },
+    "content_tags": [
+      "Cơ học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-053",
+    "stem": "Một vật rơi tự do từ độ cao 55 m (g=10m/s^2). Thời gian rơi là bao nhiêu?",
+    "choices": [
+      "3.32 s",
+      "4.31 s",
+      "4.48 s",
+      "4.38 s"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.31,
+      "b": -1.53,
+      "c": 0.28
+    },
+    "content_tags": [
+      "Cơ học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-054",
+    "stem": "Một vật có khối lượng 4 kg chuyển động với gia tốc 2 m/s^2. Lực tác dụng lên vật là bao nhiêu?",
+    "choices": [
+      "7.41 N",
+      "8.00 N",
+      "6.17 N",
+      "4.74 N"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.92,
+      "b": -0.87,
+      "c": 0.28
+    },
+    "content_tags": [
+      "Cơ học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-055",
+    "stem": "Một thấu kính hội tụ có tiêu cự 40 cm. Độ tụ của thấu kính là bao nhiêu?",
+    "choices": [
+      "1.45 dp",
+      "3.38 dp",
+      "1.73 dp",
+      "2.50 dp"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 0.83,
+      "b": -1.31,
+      "c": 0.13
+    },
+    "content_tags": [
+      "Quang học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-056",
+    "stem": "Một sóng cơ có tần số 26 Hz và bước sóng 4.4 m. Tốc độ truyền sóng là bao nhiêu?",
+    "choices": [
+      "64.75 m/s",
+      "114.40 m/s",
+      "64.73 m/s",
+      "76.73 m/s"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.73,
+      "b": -0.98,
+      "c": 0.29
+    },
+    "content_tags": [
+      "Sóng cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-057",
+    "stem": "Một sóng cơ có tần số 34 Hz và bước sóng 2.7 m. Tốc độ truyền sóng là bao nhiêu?",
+    "choices": [
+      "115.73 m/s",
+      "91.80 m/s",
+      "89.29 m/s",
+      "58.81 m/s"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.72,
+      "b": -1.6,
+      "c": 0.3
+    },
+    "content_tags": [
+      "Sóng cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-058",
+    "stem": "Một sóng cơ có tần số 10 Hz và bước sóng 1.3 m. Tốc độ truyền sóng là bao nhiêu?",
+    "choices": [
+      "7.22 m/s",
+      "13.00 m/s",
+      "16.16 m/s",
+      "15.44 m/s"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.7,
+      "b": -2.31,
+      "c": 0.18
+    },
+    "content_tags": [
+      "Sóng cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-059",
+    "stem": "Một thấu kính hội tụ có tiêu cự 34 cm. Độ tụ của thấu kính là bao nhiêu?",
+    "choices": [
+      "1.64 dp",
+      "3.16 dp",
+      "4.34 dp",
+      "2.94 dp"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.86,
+      "b": -1.93,
+      "c": 0.29
+    },
+    "content_tags": [
+      "Quang học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-060",
+    "stem": "Một thấu kính hội tụ có tiêu cự 41 cm. Độ tụ của thấu kính là bao nhiêu?",
+    "choices": [
+      "3.16 dp",
+      "2.44 dp",
+      "2.80 dp",
+      "1.82 dp"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.58,
+      "b": -2.06,
+      "c": 0.17
+    },
+    "content_tags": [
+      "Quang học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-061",
+    "stem": "Một vật có khối lượng 9 kg chuyển động với gia tốc 5 m/s^2. Lực tác dụng lên vật là bao nhiêu?",
+    "choices": [
+      "28.32 N",
+      "45.23 N",
+      "45.00 N",
+      "35.66 N"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.95,
+      "b": 0.5,
+      "c": 0.18
+    },
+    "content_tags": [
+      "Cơ học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-062",
+    "stem": "Một vật rơi tự do từ độ cao 64 m (g=10m/s^2). Thời gian rơi là bao nhiêu?",
+    "choices": [
+      "5.23 s",
+      "4.17 s",
+      "3.58 s",
+      "3.93 s"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.05,
+      "b": 0.41,
+      "c": 0.27
+    },
+    "content_tags": [
+      "Cơ học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-063",
+    "stem": "Một điện trở 43 Ohm được mắc vào hiệu điện thế 33 V. Cường độ dòng điện là bao nhiêu?",
+    "choices": [
+      "0.41 A",
+      "0.77 A",
+      "0.65 A",
+      "0.98 A"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.08,
+      "b": 0.46,
+      "c": 0.13
+    },
+    "content_tags": [
+      "Điện học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-064",
+    "stem": "Một vật có khối lượng 4 kg chuyển động với gia tốc 9 m/s^2. Lực tác dụng lên vật là bao nhiêu?",
+    "choices": [
+      "39.79 N",
+      "53.09 N",
+      "29.45 N",
+      "36.00 N"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 0.82,
+      "b": 0.3,
+      "c": 0.12
+    },
+    "content_tags": [
+      "Cơ học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-065",
+    "stem": "Công suất tiêu thụ của một bóng đèn là 73 W khi mắc vào hiệu điện thế 200 V. Cường độ dòng điện chạy qua đèn là?",
+    "choices": [
+      "0.25 A",
+      "0.23 A",
+      "0.19 A",
+      "0.36 A"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 0.71,
+      "b": 0.27,
+      "c": 0.22
+    },
+    "content_tags": [
+      "Điện học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-066",
+    "stem": "Chu kỳ bán rã của một chất phóng xạ là 8 ngày. Sau 12 ngày, số hạt nhân còn lại bằng bao nhiêu phần trăm số hạt nhân ban đầu?",
+    "choices": [
+      "35.62 %",
+      "28.50 %",
+      "35.36 %",
+      "37.83 %"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.66,
+      "b": 0.26,
+      "c": 0.28
+    },
+    "content_tags": [
+      "Vật lý hạt nhân"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-067",
+    "stem": "Một thấu kính hội tụ có tiêu cự 17 cm. Độ tụ của thấu kính là bao nhiêu?",
+    "choices": [
+      "6.56 dp",
+      "7.78 dp",
+      "5.88 dp",
+      "5.26 dp"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.87,
+      "b": -0.18,
+      "c": 0.12
+    },
+    "content_tags": [
+      "Quang học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-068",
+    "stem": "Nhiệt lượng cần thiết để đun nóng 3 kg nước từ 30 độ C lên 84 độ C là bao nhiêu? (c=4200 J/kg.K)",
+    "choices": [
+      "962945.87 J",
+      "984991.14 J",
+      "680400.00 J",
+      "644975.41 J"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.36,
+      "b": 0.4,
+      "c": 0.11
+    },
+    "content_tags": [
+      "Nhiệt học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-069",
+    "stem": "Một vật rơi tự do từ độ cao 11 m (g=10m/s^2). Thời gian rơi là bao nhiêu?",
+    "choices": [
+      "1.22 s",
+      "1.48 s",
+      "1.86 s",
+      "0.92 s"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.5,
+      "b": 0.03,
+      "c": 0.11
+    },
+    "content_tags": [
+      "Cơ học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-070",
+    "stem": "Một sóng cơ có tần số 34 Hz và bước sóng 1.2 m. Tốc độ truyền sóng là bao nhiêu?",
+    "choices": [
+      "46.66 m/s",
+      "48.72 m/s",
+      "40.80 m/s",
+      "23.23 m/s"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.53,
+      "b": -0.01,
+      "c": 0.21
+    },
+    "content_tags": [
+      "Sóng cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-071",
+    "stem": "Chu kỳ bán rã của một chất phóng xạ là 6 ngày. Sau 11 ngày, số hạt nhân còn lại bằng bao nhiêu phần trăm số hạt nhân ban đầu?",
+    "choices": [
+      "19.75 %",
+      "28.06 %",
+      "22.74 %",
+      "14.93 %"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.92,
+      "b": -0.19,
+      "c": 0.18
+    },
+    "content_tags": [
+      "Vật lý hạt nhân"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-072",
+    "stem": "Một vật rơi tự do từ độ cao 36 m (g=10m/s^2). Thời gian rơi là bao nhiêu?",
+    "choices": [
+      "2.88 s",
+      "2.08 s",
+      "3.27 s",
+      "2.68 s"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 0.54,
+      "b": -0.09,
+      "c": 0.24
+    },
+    "content_tags": [
+      "Cơ học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-073",
+    "stem": "Một thấu kính hội tụ có tiêu cự 31 cm. Độ tụ của thấu kính là bao nhiêu?",
+    "choices": [
+      "3.23 dp",
+      "2.67 dp",
+      "4.28 dp",
+      "3.67 dp"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.71,
+      "b": -0.04,
+      "c": 0.22
+    },
+    "content_tags": [
+      "Quang học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-074",
+    "stem": "Một vật rơi tự do từ độ cao 20 m (g=10m/s^2). Thời gian rơi là bao nhiêu?",
+    "choices": [
+      "1.63 s",
+      "1.41 s",
+      "2.00 s",
+      "1.18 s"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.54,
+      "b": -0.08,
+      "c": 0.3
+    },
+    "content_tags": [
+      "Cơ học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-075",
+    "stem": "Một sóng cơ có tần số 21 Hz và bước sóng 4.3 m. Tốc độ truyền sóng là bao nhiêu?",
+    "choices": [
+      "116.83 m/s",
+      "49.85 m/s",
+      "91.44 m/s",
+      "90.30 m/s"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.77,
+      "b": -0.24,
+      "c": 0.15
+    },
+    "content_tags": [
+      "Sóng cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-076",
+    "stem": "Một sóng cơ có tần số 45 Hz và bước sóng 1.0 m. Tốc độ truyền sóng là bao nhiêu?",
+    "choices": [
+      "38.27 m/s",
+      "58.82 m/s",
+      "45.00 m/s",
+      "40.36 m/s"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.68,
+      "b": -0.18,
+      "c": 0.18
+    },
+    "content_tags": [
+      "Sóng cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-077",
+    "stem": "Một thấu kính hội tụ có tiêu cự 43 cm. Độ tụ của thấu kính là bao nhiêu?",
+    "choices": [
+      "2.33 dp",
+      "2.48 dp",
+      "2.84 dp",
+      "1.51 dp"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.92,
+      "b": 0.11,
+      "c": 0.27
+    },
+    "content_tags": [
+      "Quang học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-078",
+    "stem": "Một sóng cơ có tần số 33 Hz và bước sóng 0.5 m. Tốc độ truyền sóng là bao nhiêu?",
+    "choices": [
+      "22.45 m/s",
+      "16.50 m/s",
+      "17.41 m/s",
+      "9.73 m/s"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.99,
+      "b": -0.11,
+      "c": 0.26
+    },
+    "content_tags": [
+      "Sóng cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-079",
+    "stem": "Một điện trở 27 Ohm được mắc vào hiệu điện thế 81 V. Cường độ dòng điện là bao nhiêu?",
+    "choices": [
+      "3.35 A",
+      "1.67 A",
+      "1.80 A",
+      "3.00 A"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.35,
+      "b": 0.45,
+      "c": 0.19
+    },
+    "content_tags": [
+      "Điện học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-080",
+    "stem": "Nhiệt lượng cần thiết để đun nóng 4 kg nước từ 22 độ C lên 85 độ C là bao nhiêu? (c=4200 J/kg.K)",
+    "choices": [
+      "669877.69 J",
+      "1058400.00 J",
+      "847771.23 J",
+      "1048455.80 J"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.68,
+      "b": 0.34,
+      "c": 0.21
+    },
+    "content_tags": [
+      "Nhiệt học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-081",
+    "stem": "Một điện trở 64 Ohm được mắc vào hiệu điện thế 96 V. Cường độ dòng điện là bao nhiêu?",
+    "choices": [
+      "1.93 A",
+      "2.12 A",
+      "1.50 A",
+      "1.89 A"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.07,
+      "b": 0.36,
+      "c": 0.22
+    },
+    "content_tags": [
+      "Điện học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-082",
+    "stem": "Một điện trở 18 Ohm được mắc vào hiệu điện thế 12 V. Cường độ dòng điện là bao nhiêu?",
+    "choices": [
+      "0.67 A",
+      "0.43 A",
+      "0.78 A",
+      "0.47 A"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.75,
+      "b": 0.44,
+      "c": 0.17
+    },
+    "content_tags": [
+      "Điện học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-083",
+    "stem": "Một điện trở 25 Ohm được mắc vào hiệu điện thế 211 V. Cường độ dòng điện là bao nhiêu?",
+    "choices": [
+      "8.90 A",
+      "9.07 A",
+      "6.10 A",
+      "8.44 A"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 0.63,
+      "b": -0.12,
+      "c": 0.29
+    },
+    "content_tags": [
+      "Điện học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-084",
+    "stem": "Một điện trở 97 Ohm được mắc vào hiệu điện thế 172 V. Cường độ dòng điện là bao nhiêu?",
+    "choices": [
+      "1.77 A",
+      "0.95 A",
+      "1.18 A",
+      "0.91 A"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.83,
+      "b": 0.37,
+      "c": 0.29
+    },
+    "content_tags": [
+      "Điện học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-085",
+    "stem": "Một sóng cơ có tần số 43 Hz và bước sóng 1.5 m. Tốc độ truyền sóng là bao nhiêu?",
+    "choices": [
+      "64.50 m/s",
+      "46.88 m/s",
+      "42.48 m/s",
+      "62.52 m/s"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.72,
+      "b": -0.26,
+      "c": 0.12
+    },
+    "content_tags": [
+      "Sóng cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-086",
+    "stem": "Nhiệt lượng cần thiết để đun nóng 4 kg nước từ 20 độ C lên 97 độ C là bao nhiêu? (c=4200 J/kg.K)",
+    "choices": [
+      "1249526.26 J",
+      "1293600.00 J",
+      "893277.22 J",
+      "1766480.62 J"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.44,
+      "b": 0.32,
+      "c": 0.29
+    },
+    "content_tags": [
+      "Nhiệt học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-087",
+    "stem": "Một sóng cơ có tần số 31 Hz và bước sóng 0.6 m. Tốc độ truyền sóng là bao nhiêu?",
+    "choices": [
+      "19.54 m/s",
+      "17.68 m/s",
+      "23.42 m/s",
+      "18.60 m/s"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 0.53,
+      "b": -0.11,
+      "c": 0.24
+    },
+    "content_tags": [
+      "Sóng cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-088",
+    "stem": "Công suất tiêu thụ của một bóng đèn là 73 W khi mắc vào hiệu điện thế 124 V. Cường độ dòng điện chạy qua đèn là?",
+    "choices": [
+      "0.75 A",
+      "0.37 A",
+      "0.59 A",
+      "0.70 A"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.72,
+      "b": -0.25,
+      "c": 0.18
+    },
+    "content_tags": [
+      "Điện học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-089",
+    "stem": "Một vật rơi tự do từ độ cao 14 m (g=10m/s^2). Thời gian rơi là bao nhiêu?",
+    "choices": [
+      "1.08 s",
+      "1.67 s",
+      "1.87 s",
+      "1.95 s"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.83,
+      "b": 0.48,
+      "c": 0.29
+    },
+    "content_tags": [
+      "Cơ học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-090",
+    "stem": "Một điện trở 82 Ohm được mắc vào hiệu điện thế 22 V. Cường độ dòng điện là bao nhiêu?",
+    "choices": [
+      "0.27 A",
+      "0.40 A",
+      "0.14 A",
+      "0.37 A"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.81,
+      "b": 0.14,
+      "c": 0.17
+    },
+    "content_tags": [
+      "Điện học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-091",
+    "stem": "Nhiệt lượng cần thiết để đun nóng 2 kg nước từ 30 độ C lên 96 độ C là bao nhiêu? (c=4200 J/kg.K)",
+    "choices": [
+      "554400.00 J",
+      "298645.30 J",
+      "766105.33 J",
+      "505254.59 J"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.97,
+      "b": 0.09,
+      "c": 0.15
+    },
+    "content_tags": [
+      "Nhiệt học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-092",
+    "stem": "Nhiệt lượng cần thiết để đun nóng 3 kg nước từ 26 độ C lên 82 độ C là bao nhiêu? (c=4200 J/kg.K)",
+    "choices": [
+      "705600.00 J",
+      "921194.97 J",
+      "876766.68 J",
+      "573052.12 J"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.9,
+      "b": 0.05,
+      "c": 0.28
+    },
+    "content_tags": [
+      "Nhiệt học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-093",
+    "stem": "Một vật rơi tự do từ độ cao 79 m (g=10m/s^2). Thời gian rơi là bao nhiêu?",
+    "choices": [
+      "3.97 s",
+      "5.41 s",
+      "2.21 s",
+      "5.28 s"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.57,
+      "b": 0.1,
+      "c": 0.16
+    },
+    "content_tags": [
+      "Cơ học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-094",
+    "stem": "Chu kỳ bán rã của một chất phóng xạ là 4 ngày. Sau 20 ngày, số hạt nhân còn lại bằng bao nhiêu phần trăm số hạt nhân ban đầu?",
+    "choices": [
+      "4.66 %",
+      "3.30 %",
+      "3.12 %",
+      "3.50 %"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.2,
+      "b": 0.32,
+      "c": 0.23
+    },
+    "content_tags": [
+      "Vật lý hạt nhân"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-095",
+    "stem": "Chu kỳ bán rã của một chất phóng xạ là 3 ngày. Sau 17 ngày, số hạt nhân còn lại bằng bao nhiêu phần trăm số hạt nhân ban đầu?",
+    "choices": [
+      "2.33 %",
+      "1.97 %",
+      "2.74 %",
+      "1.64 %"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.9,
+      "b": 0.35,
+      "c": 0.19
+    },
+    "content_tags": [
+      "Vật lý hạt nhân"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-096",
+    "stem": "Nhiệt lượng cần thiết để đun nóng 4 kg nước từ 26 độ C lên 88 độ C là bao nhiêu? (c=4200 J/kg.K)",
+    "choices": [
+      "660654.98 J",
+      "832394.56 J",
+      "1041600.00 J",
+      "680792.98 J"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.51,
+      "b": -0.47,
+      "c": 0.19
+    },
+    "content_tags": [
+      "Nhiệt học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-097",
+    "stem": "Công suất tiêu thụ của một bóng đèn là 40 W khi mắc vào hiệu điện thế 130 V. Cường độ dòng điện chạy qua đèn là?",
+    "choices": [
+      "0.31 A",
+      "0.45 A",
+      "0.43 A",
+      "0.41 A"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.97,
+      "b": 0.18,
+      "c": 0.2
+    },
+    "content_tags": [
+      "Điện học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-098",
+    "stem": "Một vật có khối lượng 4 kg chuyển động với gia tốc 14 m/s^2. Lực tác dụng lên vật là bao nhiêu?",
+    "choices": [
+      "58.41 N",
+      "63.54 N",
+      "63.14 N",
+      "56.00 N"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.54,
+      "b": 0.03,
+      "c": 0.12
+    },
+    "content_tags": [
+      "Cơ học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-099",
+    "stem": "Công suất tiêu thụ của một bóng đèn là 41 W khi mắc vào hiệu điện thế 185 V. Cường độ dòng điện chạy qua đèn là?",
+    "choices": [
+      "0.11 A",
+      "0.33 A",
+      "0.12 A",
+      "0.22 A"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 0.59,
+      "b": -0.13,
+      "c": 0.27
+    },
+    "content_tags": [
+      "Điện học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-100",
+    "stem": "Một vật có khối lượng 6 kg chuyển động với gia tốc 1 m/s^2. Lực tác dụng lên vật là bao nhiêu?",
+    "choices": [
+      "3.11 N",
+      "6.00 N",
+      "8.83 N",
+      "5.09 N"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.83,
       "b": -0.2,
       "c": 0.18
     },
     "content_tags": [
-      "kinematics"
+      "Cơ học"
     ],
     "language": "vi"
   },
   {
-    "item_id": "PHYS-ELEC-001",
-    "stem": "Điện trở tương đương của hai điện trở R mắc nối tiếp là?",
+    "item_id": "PHYS-101",
+    "stem": "Chu kỳ bán rã của một chất phóng xạ là 5 ngày. Sau 4 ngày, số hạt nhân còn lại bằng bao nhiêu phần trăm số hạt nhân ban đầu?",
     "choices": [
-      "R/2",
-      "R1 + R2",
-      "R1R2/(R1+R2)",
-      "2R"
+      "31.23 %",
+      "57.43 %",
+      "52.38 %",
+      "78.24 %"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.76,
+      "b": -0.2,
+      "c": 0.15
+    },
+    "content_tags": [
+      "Vật lý hạt nhân"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-102",
+    "stem": "Một vật rơi tự do từ độ cao 45 m (g=10m/s^2). Thời gian rơi là bao nhiêu?",
+    "choices": [
+      "1.91 s",
+      "3.00 s",
+      "1.58 s",
+      "2.57 s"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.03,
+      "b": -0.01,
+      "c": 0.29
+    },
+    "content_tags": [
+      "Cơ học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-103",
+    "stem": "Công suất tiêu thụ của một bóng đèn là 84 W khi mắc vào hiệu điện thế 176 V. Cường độ dòng điện chạy qua đèn là?",
+    "choices": [
+      "0.48 A",
+      "0.28 A",
+      "0.61 A",
+      "0.62 A"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.92,
+      "b": 0.25,
+      "c": 0.17
+    },
+    "content_tags": [
+      "Điện học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-104",
+    "stem": "Công suất tiêu thụ của một bóng đèn là 82 W khi mắc vào hiệu điện thế 178 V. Cường độ dòng điện chạy qua đèn là?",
+    "choices": [
+      "0.62 A",
+      "0.32 A",
+      "0.61 A",
+      "0.46 A"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.97,
+      "b": -0.37,
+      "c": 0.27
+    },
+    "content_tags": [
+      "Điện học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-105",
+    "stem": "Một vật rơi tự do từ độ cao 29 m (g=10m/s^2). Thời gian rơi là bao nhiêu?",
+    "choices": [
+      "3.46 s",
+      "3.02 s",
+      "2.41 s",
+      "2.80 s"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.37,
+      "b": 0.39,
+      "c": 0.18
+    },
+    "content_tags": [
+      "Cơ học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-106",
+    "stem": "Nhiệt lượng cần thiết để đun nóng 1 kg nước từ 26 độ C lên 96 độ C là bao nhiêu? (c=4200 J/kg.K)",
+    "choices": [
+      "364147.94 J",
+      "191415.47 J",
+      "294000.00 J",
+      "200569.12 J"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.74,
+      "b": 0.36,
+      "c": 0.13
+    },
+    "content_tags": [
+      "Nhiệt học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-107",
+    "stem": "Nhiệt lượng cần thiết để đun nóng 4 kg nước từ 29 độ C lên 85 độ C là bao nhiêu? (c=4200 J/kg.K)",
+    "choices": [
+      "990203.84 J",
+      "1292152.31 J",
+      "940800.00 J",
+      "1380635.88 J"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.94,
+      "b": -0.29,
+      "c": 0.27
+    },
+    "content_tags": [
+      "Nhiệt học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-108",
+    "stem": "Một thấu kính hội tụ có tiêu cự 19 cm. Độ tụ của thấu kính là bao nhiêu?",
+    "choices": [
+      "6.98 dp",
+      "3.12 dp",
+      "5.26 dp",
+      "5.37 dp"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.53,
+      "b": -0.05,
+      "c": 0.2
+    },
+    "content_tags": [
+      "Quang học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-109",
+    "stem": "Một thấu kính hội tụ có tiêu cự 20 cm. Độ tụ của thấu kính là bao nhiêu?",
+    "choices": [
+      "6.90 dp",
+      "5.00 dp",
+      "4.61 dp",
+      "6.15 dp"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.92,
+      "b": 0.41,
+      "c": 0.25
+    },
+    "content_tags": [
+      "Quang học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-110",
+    "stem": "Một thấu kính hội tụ có tiêu cự 16 cm. Độ tụ của thấu kính là bao nhiêu?",
+    "choices": [
+      "4.76 dp",
+      "6.25 dp",
+      "8.40 dp",
+      "4.61 dp"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.35,
+      "b": -0.01,
+      "c": 0.26
+    },
+    "content_tags": [
+      "Quang học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-111",
+    "stem": "Một thấu kính hội tụ có tiêu cự 39 cm. Độ tụ của thấu kính là bao nhiêu?",
+    "choices": [
+      "1.96 dp",
+      "2.27 dp",
+      "2.56 dp",
+      "2.34 dp"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.21,
+      "b": 0.23,
+      "c": 0.23
+    },
+    "content_tags": [
+      "Quang học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-112",
+    "stem": "Chu kỳ bán rã của một chất phóng xạ là 6 ngày. Sau 14 ngày, số hạt nhân còn lại bằng bao nhiêu phần trăm số hạt nhân ban đầu?",
+    "choices": [
+      "12.72 %",
+      "26.53 %",
+      "19.84 %",
+      "23.12 %"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.01,
+      "b": -0.2,
+      "c": 0.23
+    },
+    "content_tags": [
+      "Vật lý hạt nhân"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-113",
+    "stem": "Nhiệt lượng cần thiết để đun nóng 4 kg nước từ 21 độ C lên 83 độ C là bao nhiêu? (c=4200 J/kg.K)",
+    "choices": [
+      "716280.36 J",
+      "1041600.00 J",
+      "1106806.97 J",
+      "1189876.52 J"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.98,
+      "b": 0.49,
+      "c": 0.11
+    },
+    "content_tags": [
+      "Nhiệt học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-114",
+    "stem": "Một vật rơi tự do từ độ cao 52 m (g=10m/s^2). Thời gian rơi là bao nhiêu?",
+    "choices": [
+      "3.22 s",
+      "4.24 s",
+      "3.07 s",
+      "4.46 s"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.91,
+      "b": -0.01,
+      "c": 0.13
+    },
+    "content_tags": [
+      "Cơ học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-115",
+    "stem": "Nhiệt lượng cần thiết để đun nóng 2 kg nước từ 21 độ C lên 96 độ C là bao nhiêu? (c=4200 J/kg.K)",
+    "choices": [
+      "631411.67 J",
+      "630000.00 J",
+      "672374.97 J",
+      "896039.04 J"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.35,
+      "b": -0.27,
+      "c": 0.12
+    },
+    "content_tags": [
+      "Nhiệt học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-116",
+    "stem": "Nhiệt lượng cần thiết để đun nóng 3 kg nước từ 25 độ C lên 88 độ C là bao nhiêu? (c=4200 J/kg.K)",
+    "choices": [
+      "793800.00 J",
+      "793761.74 J",
+      "1064440.08 J",
+      "1181303.11 J"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.64,
+      "b": -0.01,
+      "c": 0.23
+    },
+    "content_tags": [
+      "Nhiệt học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-117",
+    "stem": "Một thấu kính hội tụ có tiêu cự 23 cm. Độ tụ của thấu kính là bao nhiêu?",
+    "choices": [
+      "4.65 dp",
+      "4.88 dp",
+      "4.35 dp",
+      "6.01 dp"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.6,
+      "b": 0.25,
+      "c": 0.16
+    },
+    "content_tags": [
+      "Quang học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-118",
+    "stem": "Một sóng cơ có tần số 15 Hz và bước sóng 4.5 m. Tốc độ truyền sóng là bao nhiêu?",
+    "choices": [
+      "98.69 m/s",
+      "62.36 m/s",
+      "67.50 m/s",
+      "89.40 m/s"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.53,
+      "b": -0.14,
+      "c": 0.3
+    },
+    "content_tags": [
+      "Sóng cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-119",
+    "stem": "Một thấu kính hội tụ có tiêu cự 44 cm. Độ tụ của thấu kính là bao nhiêu?",
+    "choices": [
+      "2.59 dp",
+      "1.50 dp",
+      "2.27 dp",
+      "3.08 dp"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.71,
+      "b": -0.45,
+      "c": 0.15
+    },
+    "content_tags": [
+      "Quang học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-120",
+    "stem": "Công suất tiêu thụ của một bóng đèn là 46 W khi mắc vào hiệu điện thế 194 V. Cường độ dòng điện chạy qua đèn là?",
+    "choices": [
+      "0.35 A",
+      "0.24 A",
+      "0.13 A",
+      "0.34 A"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.07,
+      "b": -0.47,
+      "c": 0.22
+    },
+    "content_tags": [
+      "Điện học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-121",
+    "stem": "Một thấu kính hội tụ có tiêu cự 35 cm. Độ tụ của thấu kính là bao nhiêu?",
+    "choices": [
+      "4.22 dp",
+      "2.86 dp",
+      "3.75 dp",
+      "1.71 dp"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.12,
+      "b": 0.33,
+      "c": 0.16
+    },
+    "content_tags": [
+      "Quang học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-122",
+    "stem": "Một vật rơi tự do từ độ cao 71 m (g=10m/s^2). Thời gian rơi là bao nhiêu?",
+    "choices": [
+      "5.52 s",
+      "3.21 s",
+      "3.77 s",
+      "2.87 s"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.92,
+      "b": -0.34,
+      "c": 0.19
+    },
+    "content_tags": [
+      "Cơ học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-123",
+    "stem": "Chu kỳ bán rã của một chất phóng xạ là 10 ngày. Sau 10 ngày, số hạt nhân còn lại bằng bao nhiêu phần trăm số hạt nhân ban đầu?",
+    "choices": [
+      "71.79 %",
+      "50.00 %",
+      "33.37 %",
+      "58.45 %"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.44,
+      "b": 0.47,
+      "c": 0.15
+    },
+    "content_tags": [
+      "Vật lý hạt nhân"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-124",
+    "stem": "Một điện trở 10 Ohm được mắc vào hiệu điện thế 105 V. Cường độ dòng điện là bao nhiêu?",
+    "choices": [
+      "10.04 A",
+      "10.38 A",
+      "10.50 A",
+      "12.45 A"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.44,
+      "b": 0.36,
+      "c": 0.17
+    },
+    "content_tags": [
+      "Điện học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-125",
+    "stem": "Một thấu kính hội tụ có tiêu cự 45 cm. Độ tụ của thấu kính là bao nhiêu?",
+    "choices": [
+      "3.15 dp",
+      "2.22 dp",
+      "2.92 dp",
+      "2.86 dp"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.82,
+      "b": 0.34,
+      "c": 0.25
+    },
+    "content_tags": [
+      "Quang học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-126",
+    "stem": "Một vật rơi tự do từ độ cao 59 m (g=10m/s^2). Thời gian rơi là bao nhiêu?",
+    "choices": [
+      "3.44 s",
+      "2.37 s",
+      "3.30 s",
+      "3.96 s"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.29,
+      "b": -0.19,
+      "c": 0.16
+    },
+    "content_tags": [
+      "Cơ học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-127",
+    "stem": "Một vật có khối lượng 2 kg chuyển động với gia tốc 14 m/s^2. Lực tác dụng lên vật là bao nhiêu?",
+    "choices": [
+      "22.72 N",
+      "28.00 N",
+      "40.50 N",
+      "25.12 N"
     ],
     "correct": 1,
     "params": {
       "a": 1.1,
-      "b": -0.1,
-      "c": 0.20
+      "b": -0.02,
+      "c": 0.3
     },
     "content_tags": [
-      "electricity",
-      "circuit"
+      "Cơ học"
     ],
     "language": "vi"
   },
   {
-    "item_id": "PHYS-OPT-001",
-    "stem": "Tia sáng đi từ môi trường chiết suất nhỏ sang lớn sẽ bị khúc xạ như thế nào?",
+    "item_id": "PHYS-128",
+    "stem": "Một thấu kính hội tụ có tiêu cự 47 cm. Độ tụ của thấu kính là bao nhiêu?",
     "choices": [
-      "Lệch xa pháp tuyến",
-      "Không bị lệch",
-      "Lệch lại gần pháp tuyến",
-      "Biến mất"
+      "1.42 dp",
+      "2.24 dp",
+      "1.49 dp",
+      "2.13 dp"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 0.98,
+      "b": -0.07,
+      "c": 0.12
+    },
+    "content_tags": [
+      "Quang học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-129",
+    "stem": "Một thấu kính hội tụ có tiêu cự 38 cm. Độ tụ của thấu kính là bao nhiêu?",
+    "choices": [
+      "1.34 dp",
+      "2.63 dp",
+      "3.74 dp",
+      "2.26 dp"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.97,
+      "b": -0.09,
+      "c": 0.28
+    },
+    "content_tags": [
+      "Quang học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-130",
+    "stem": "Một sóng cơ có tần số 38 Hz và bước sóng 0.6 m. Tốc độ truyền sóng là bao nhiêu?",
+    "choices": [
+      "33.87 m/s",
+      "26.13 m/s",
+      "22.80 m/s",
+      "15.63 m/s"
     ],
     "correct": 2,
     "params": {
-      "a": 0.9,
-      "b": -0.3,
+      "a": 1.21,
+      "b": -0.04,
+      "c": 0.27
+    },
+    "content_tags": [
+      "Sóng cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-131",
+    "stem": "Một sóng cơ có tần số 23 Hz và bước sóng 4.0 m. Tốc độ truyền sóng là bao nhiêu?",
+    "choices": [
+      "100.97 m/s",
+      "92.00 m/s",
+      "120.00 m/s",
+      "95.21 m/s"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.98,
+      "b": 0.0,
+      "c": 0.15
+    },
+    "content_tags": [
+      "Sóng cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-132",
+    "stem": "Một điện trở 33 Ohm được mắc vào hiệu điện thế 119 V. Cường độ dòng điện là bao nhiêu?",
+    "choices": [
+      "3.61 A",
+      "3.96 A",
+      "4.37 A",
+      "4.90 A"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.3,
+      "b": 0.37,
+      "c": 0.12
+    },
+    "content_tags": [
+      "Điện học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-133",
+    "stem": "Một vật có khối lượng 6 kg chuyển động với gia tốc 1 m/s^2. Lực tác dụng lên vật là bao nhiêu?",
+    "choices": [
+      "5.01 N",
+      "7.80 N",
+      "8.71 N",
+      "6.00 N"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.53,
+      "b": -0.18,
+      "c": 0.26
+    },
+    "content_tags": [
+      "Cơ học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-134",
+    "stem": "Một điện trở 36 Ohm được mắc vào hiệu điện thế 162 V. Cường độ dòng điện là bao nhiêu?",
+    "choices": [
+      "4.50 A",
+      "2.59 A",
+      "5.73 A",
+      "5.21 A"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.64,
+      "b": 0.41,
+      "c": 0.16
+    },
+    "content_tags": [
+      "Điện học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-135",
+    "stem": "Chu kỳ bán rã của một chất phóng xạ là 3 ngày. Sau 10 ngày, số hạt nhân còn lại bằng bao nhiêu phần trăm số hạt nhân ban đầu?",
+    "choices": [
+      "6.57 %",
+      "9.92 %",
+      "11.08 %",
+      "14.01 %"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.57,
+      "b": 0.37,
       "c": 0.22
     },
     "content_tags": [
-      "optics",
-      "refraction"
+      "Vật lý hạt nhân"
     ],
     "language": "vi"
   },
   {
-    "item_id": "PHYS-THERM-001",
-    "stem": "Nhiệt lượng truyền cho một vật bằng tích của khối lượng, nhiệt dung riêng và đại lượng nào?",
+    "item_id": "PHYS-136",
+    "stem": "Chu kỳ bán rã của một chất phóng xạ là 3 ngày. Sau 12 ngày, số hạt nhân còn lại bằng bao nhiêu phần trăm số hạt nhân ban đầu?",
     "choices": [
-      "Thể tích",
-      "Độ tăng nhiệt độ",
-      "Khối lượng riêng",
-      "Áp suất"
+      "5.57 %",
+      "8.25 %",
+      "6.25 %",
+      "8.04 %"
     ],
-    "correct": 1,
+    "correct": 2,
     "params": {
-      "a": 1.3,
-      "b": -0.1,
+      "a": 1.24,
+      "b": 0.06,
+      "c": 0.14
+    },
+    "content_tags": [
+      "Vật lý hạt nhân"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-137",
+    "stem": "Một thấu kính hội tụ có tiêu cự 34 cm. Độ tụ của thấu kính là bao nhiêu?",
+    "choices": [
+      "4.25 dp",
+      "3.48 dp",
+      "2.94 dp",
+      "3.58 dp"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.92,
+      "b": 0.02,
+      "c": 0.17
+    },
+    "content_tags": [
+      "Quang học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-138",
+    "stem": "Nhiệt lượng cần thiết để đun nóng 1 kg nước từ 22 độ C lên 99 độ C là bao nhiêu? (c=4200 J/kg.K)",
+    "choices": [
+      "295849.68 J",
+      "464727.48 J",
+      "236229.83 J",
+      "323400.00 J"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.32,
+      "b": -0.01,
       "c": 0.19
     },
     "content_tags": [
-      "thermodynamics"
+      "Nhiệt học"
     ],
     "language": "vi"
   },
   {
-    "item_id": "PHYS-WAVE-001",
-    "stem": "Biên độ dao động của dao động điều hòa là?",
+    "item_id": "PHYS-139",
+    "stem": "Một vật rơi tự do từ độ cao 35 m (g=10m/s^2). Thời gian rơi là bao nhiêu?",
     "choices": [
-      "Quãng đường vật đi được trong một chu kỳ",
-      "Khoảng cách lớn nhất vật lệch khỏi vị trí cân bằng",
-      "Số dao động vật thực hiện trong một giây",
-      "Chu kỳ dao động"
+      "3.76 s",
+      "3.78 s",
+      "2.65 s",
+      "3.60 s"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.52,
+      "b": -0.35,
+      "c": 0.1
+    },
+    "content_tags": [
+      "Cơ học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-140",
+    "stem": "Một điện trở 38 Ohm được mắc vào hiệu điện thế 21 V. Cường độ dòng điện là bao nhiêu?",
+    "choices": [
+      "0.76 A",
+      "0.36 A",
+      "0.55 A",
+      "0.83 A"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.16,
+      "b": 0.41,
+      "c": 0.15
+    },
+    "content_tags": [
+      "Điện học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-141",
+    "stem": "Nhiệt lượng cần thiết để đun nóng 4 kg nước từ 29 độ C lên 93 độ C là bao nhiêu? (c=4200 J/kg.K)",
+    "choices": [
+      "713719.28 J",
+      "1075200.00 J",
+      "729619.06 J",
+      "1441586.63 J"
     ],
     "correct": 1,
     "params": {
-      "a": 1.4,
-      "b": 0.4,
-      "c": 0.20
+      "a": 1.16,
+      "b": 0.51,
+      "c": 0.25
     },
     "content_tags": [
-      "wave",
-      "oscillation"
+      "Nhiệt học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-142",
+    "stem": "Một vật rơi tự do từ độ cao 6 m (g=10m/s^2). Thời gian rơi là bao nhiêu?",
+    "choices": [
+      "1.44 s",
+      "1.10 s",
+      "1.45 s",
+      "0.64 s"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.55,
+      "b": 1.71,
+      "c": 0.28
+    },
+    "content_tags": [
+      "Cơ học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-143",
+    "stem": "Một thấu kính hội tụ có tiêu cự 23 cm. Độ tụ của thấu kính là bao nhiêu?",
+    "choices": [
+      "3.61 dp",
+      "4.09 dp",
+      "4.35 dp",
+      "4.80 dp"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.25,
+      "b": 1.3,
+      "c": 0.27
+    },
+    "content_tags": [
+      "Quang học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-144",
+    "stem": "Công suất tiêu thụ của một bóng đèn là 54 W khi mắc vào hiệu điện thế 153 V. Cường độ dòng điện chạy qua đèn là?",
+    "choices": [
+      "0.24 A",
+      "0.35 A",
+      "0.47 A",
+      "0.25 A"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.47,
+      "b": 2.21,
+      "c": 0.25
+    },
+    "content_tags": [
+      "Điện học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-145",
+    "stem": "Chu kỳ bán rã của một chất phóng xạ là 5 ngày. Sau 8 ngày, số hạt nhân còn lại bằng bao nhiêu phần trăm số hạt nhân ban đầu?",
+    "choices": [
+      "46.99 %",
+      "26.03 %",
+      "32.99 %",
+      "37.51 %"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.79,
+      "b": 1.34,
+      "c": 0.17
+    },
+    "content_tags": [
+      "Vật lý hạt nhân"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-146",
+    "stem": "Chu kỳ bán rã của một chất phóng xạ là 3 ngày. Sau 8 ngày, số hạt nhân còn lại bằng bao nhiêu phần trăm số hạt nhân ban đầu?",
+    "choices": [
+      "15.75 %",
+      "18.14 %",
+      "18.71 %",
+      "10.24 %"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.07,
+      "b": 1.88,
+      "c": 0.21
+    },
+    "content_tags": [
+      "Vật lý hạt nhân"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-147",
+    "stem": "Nhiệt lượng cần thiết để đun nóng 3 kg nước từ 29 độ C lên 100 độ C là bao nhiêu? (c=4200 J/kg.K)",
+    "choices": [
+      "963766.18 J",
+      "894600.00 J",
+      "1133577.41 J",
+      "1317539.34 J"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.56,
+      "b": 1.58,
+      "c": 0.21
+    },
+    "content_tags": [
+      "Nhiệt học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-148",
+    "stem": "Chu kỳ bán rã của một chất phóng xạ là 4 ngày. Sau 13 ngày, số hạt nhân còn lại bằng bao nhiêu phần trăm số hạt nhân ban đầu?",
+    "choices": [
+      "10.83 %",
+      "12.45 %",
+      "12.04 %",
+      "10.51 %"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.73,
+      "b": 1.68,
+      "c": 0.11
+    },
+    "content_tags": [
+      "Vật lý hạt nhân"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-149",
+    "stem": "Một sóng cơ có tần số 28 Hz và bước sóng 1.0 m. Tốc độ truyền sóng là bao nhiêu?",
+    "choices": [
+      "14.90 m/s",
+      "27.20 m/s",
+      "34.85 m/s",
+      "28.00 m/s"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 0.92,
+      "b": 2.31,
+      "c": 0.28
+    },
+    "content_tags": [
+      "Sóng cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-150",
+    "stem": "Nhiệt lượng cần thiết để đun nóng 4 kg nước từ 22 độ C lên 92 độ C là bao nhiêu? (c=4200 J/kg.K)",
+    "choices": [
+      "1176000.00 J",
+      "1374218.63 J",
+      "1015841.68 J",
+      "780734.82 J"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.64,
+      "b": 1.69,
+      "c": 0.26
+    },
+    "content_tags": [
+      "Nhiệt học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-151",
+    "stem": "Nhiệt lượng cần thiết để đun nóng 5 kg nước từ 21 độ C lên 87 độ C là bao nhiêu? (c=4200 J/kg.K)",
+    "choices": [
+      "1013414.47 J",
+      "715843.76 J",
+      "1386000.00 J",
+      "1280042.68 J"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.45,
+      "b": 0.56,
+      "c": 0.27
+    },
+    "content_tags": [
+      "Nhiệt học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-152",
+    "stem": "Nhiệt lượng cần thiết để đun nóng 3 kg nước từ 29 độ C lên 81 độ C là bao nhiêu? (c=4200 J/kg.K)",
+    "choices": [
+      "526629.83 J",
+      "655200.00 J",
+      "883702.90 J",
+      "936980.50 J"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.18,
+      "b": 0.68,
+      "c": 0.28
+    },
+    "content_tags": [
+      "Nhiệt học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-153",
+    "stem": "Nhiệt lượng cần thiết để đun nóng 5 kg nước từ 21 độ C lên 87 độ C là bao nhiêu? (c=4200 J/kg.K)",
+    "choices": [
+      "1386000.00 J",
+      "2046147.88 J",
+      "1353144.31 J",
+      "2057868.93 J"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.82,
+      "b": 0.94,
+      "c": 0.21
+    },
+    "content_tags": [
+      "Nhiệt học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-154",
+    "stem": "Một vật có khối lượng 3 kg chuyển động với gia tốc 9 m/s^2. Lực tác dụng lên vật là bao nhiêu?",
+    "choices": [
+      "25.59 N",
+      "32.40 N",
+      "25.84 N",
+      "27.00 N"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 0.7,
+      "b": 0.57,
+      "c": 0.11
+    },
+    "content_tags": [
+      "Cơ học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-155",
+    "stem": "Chu kỳ bán rã của một chất phóng xạ là 9 ngày. Sau 20 ngày, số hạt nhân còn lại bằng bao nhiêu phần trăm số hạt nhân ban đầu?",
+    "choices": [
+      "21.43 %",
+      "11.48 %",
+      "18.14 %",
+      "10.99 %"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.95,
+      "b": 2.39,
+      "c": 0.14
+    },
+    "content_tags": [
+      "Vật lý hạt nhân"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-156",
+    "stem": "Một thấu kính hội tụ có tiêu cự 34 cm. Độ tụ của thấu kính là bao nhiêu?",
+    "choices": [
+      "2.94 dp",
+      "1.77 dp",
+      "2.51 dp",
+      "4.21 dp"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.84,
+      "b": 2.35,
+      "c": 0.2
+    },
+    "content_tags": [
+      "Quang học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-157",
+    "stem": "Một thấu kính hội tụ có tiêu cự 46 cm. Độ tụ của thấu kính là bao nhiêu?",
+    "choices": [
+      "2.90 dp",
+      "2.17 dp",
+      "1.51 dp",
+      "1.82 dp"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.41,
+      "b": 1.78,
+      "c": 0.11
+    },
+    "content_tags": [
+      "Quang học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-158",
+    "stem": "Một thấu kính hội tụ có tiêu cự 20 cm. Độ tụ của thấu kính là bao nhiêu?",
+    "choices": [
+      "5.00 dp",
+      "6.43 dp",
+      "4.66 dp",
+      "4.39 dp"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.33,
+      "b": 2.22,
+      "c": 0.17
+    },
+    "content_tags": [
+      "Quang học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-159",
+    "stem": "Một vật rơi tự do từ độ cao 72 m (g=10m/s^2). Thời gian rơi là bao nhiêu?",
+    "choices": [
+      "3.79 s",
+      "5.66 s",
+      "5.52 s",
+      "2.44 s"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.94,
+      "b": 0.85,
+      "c": 0.24
+    },
+    "content_tags": [
+      "Cơ học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-160",
+    "stem": "Công suất tiêu thụ của một bóng đèn là 62 W khi mắc vào hiệu điện thế 110 V. Cường độ dòng điện chạy qua đèn là?",
+    "choices": [
+      "0.76 A",
+      "0.37 A",
+      "0.56 A",
+      "0.45 A"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.45,
+      "b": 2.02,
+      "c": 0.12
+    },
+    "content_tags": [
+      "Điện học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-161",
+    "stem": "Công suất tiêu thụ của một bóng đèn là 97 W khi mắc vào hiệu điện thế 168 V. Cường độ dòng điện chạy qua đèn là?",
+    "choices": [
+      "0.37 A",
+      "0.71 A",
+      "0.58 A",
+      "0.43 A"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.57,
+      "b": 1.67,
+      "c": 0.16
+    },
+    "content_tags": [
+      "Điện học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-162",
+    "stem": "Một thấu kính hội tụ có tiêu cự 30 cm. Độ tụ của thấu kính là bao nhiêu?",
+    "choices": [
+      "3.74 dp",
+      "4.95 dp",
+      "3.33 dp",
+      "1.95 dp"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.88,
+      "b": 1.36,
+      "c": 0.25
+    },
+    "content_tags": [
+      "Quang học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-163",
+    "stem": "Một vật rơi tự do từ độ cao 30 m (g=10m/s^2). Thời gian rơi là bao nhiêu?",
+    "choices": [
+      "2.28 s",
+      "3.00 s",
+      "2.56 s",
+      "2.45 s"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.57,
+      "b": 0.73,
+      "c": 0.19
+    },
+    "content_tags": [
+      "Cơ học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-164",
+    "stem": "Chu kỳ bán rã của một chất phóng xạ là 10 ngày. Sau 8 ngày, số hạt nhân còn lại bằng bao nhiêu phần trăm số hạt nhân ban đầu?",
+    "choices": [
+      "30.69 %",
+      "75.61 %",
+      "57.43 %",
+      "48.35 %"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.4,
+      "b": 2.3,
+      "c": 0.23
+    },
+    "content_tags": [
+      "Vật lý hạt nhân"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-165",
+    "stem": "Công suất tiêu thụ của một bóng đèn là 56 W khi mắc vào hiệu điện thế 159 V. Cường độ dòng điện chạy qua đèn là?",
+    "choices": [
+      "0.24 A",
+      "0.35 A",
+      "0.21 A",
+      "0.25 A"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.94,
+      "b": 1.1,
+      "c": 0.17
+    },
+    "content_tags": [
+      "Điện học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-166",
+    "stem": "Chu kỳ bán rã của một chất phóng xạ là 7 ngày. Sau 8 ngày, số hạt nhân còn lại bằng bao nhiêu phần trăm số hạt nhân ban đầu?",
+    "choices": [
+      "45.29 %",
+      "37.55 %",
+      "48.82 %",
+      "43.81 %"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.67,
+      "b": 2.03,
+      "c": 0.29
+    },
+    "content_tags": [
+      "Vật lý hạt nhân"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-167",
+    "stem": "Một sóng cơ có tần số 46 Hz và bước sóng 1.8 m. Tốc độ truyền sóng là bao nhiêu?",
+    "choices": [
+      "98.31 m/s",
+      "52.17 m/s",
+      "46.88 m/s",
+      "82.80 m/s"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.8,
+      "b": 1.9,
+      "c": 0.2
+    },
+    "content_tags": [
+      "Sóng cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-168",
+    "stem": "Công suất tiêu thụ của một bóng đèn là 79 W khi mắc vào hiệu điện thế 150 V. Cường độ dòng điện chạy qua đèn là?",
+    "choices": [
+      "0.53 A",
+      "0.73 A",
+      "0.34 A",
+      "0.71 A"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.87,
+      "b": 1.34,
+      "c": 0.2
+    },
+    "content_tags": [
+      "Điện học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-169",
+    "stem": "Nhiệt lượng cần thiết để đun nóng 1 kg nước từ 29 độ C lên 81 độ C là bao nhiêu? (c=4200 J/kg.K)",
+    "choices": [
+      "164517.08 J",
+      "218400.00 J",
+      "159282.25 J",
+      "274326.15 J"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.93,
+      "b": 0.99,
+      "c": 0.16
+    },
+    "content_tags": [
+      "Nhiệt học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-170",
+    "stem": "Một vật rơi tự do từ độ cao 10 m (g=10m/s^2). Thời gian rơi là bao nhiêu?",
+    "choices": [
+      "1.41 s",
+      "1.05 s",
+      "1.84 s",
+      "1.65 s"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.48,
+      "b": 2.36,
+      "c": 0.28
+    },
+    "content_tags": [
+      "Cơ học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-171",
+    "stem": "Một điện trở 28 Ohm được mắc vào hiệu điện thế 207 V. Cường độ dòng điện là bao nhiêu?",
+    "choices": [
+      "10.74 A",
+      "7.39 A",
+      "4.49 A",
+      "7.02 A"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.63,
+      "b": 1.55,
+      "c": 0.29
+    },
+    "content_tags": [
+      "Điện học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-172",
+    "stem": "Chu kỳ bán rã của một chất phóng xạ là 8 ngày. Sau 8 ngày, số hạt nhân còn lại bằng bao nhiêu phần trăm số hạt nhân ban đầu?",
+    "choices": [
+      "72.17 %",
+      "72.13 %",
+      "50.00 %",
+      "50.63 %"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.23,
+      "b": 2.22,
+      "c": 0.18
+    },
+    "content_tags": [
+      "Vật lý hạt nhân"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-173",
+    "stem": "Chu kỳ bán rã của một chất phóng xạ là 5 ngày. Sau 19 ngày, số hạt nhân còn lại bằng bao nhiêu phần trăm số hạt nhân ban đầu?",
+    "choices": [
+      "5.30 %",
+      "9.14 %",
+      "7.99 %",
+      "7.18 %"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.61,
+      "b": 1.41,
+      "c": 0.28
+    },
+    "content_tags": [
+      "Vật lý hạt nhân"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-174",
+    "stem": "Một vật có khối lượng 3 kg chuyển động với gia tốc 15 m/s^2. Lực tác dụng lên vật là bao nhiêu?",
+    "choices": [
+      "23.90 N",
+      "38.03 N",
+      "45.00 N",
+      "59.92 N"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.77,
+      "b": 2.07,
+      "c": 0.15
+    },
+    "content_tags": [
+      "Cơ học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-175",
+    "stem": "Một vật rơi tự do từ độ cao 59 m (g=10m/s^2). Thời gian rơi là bao nhiêu?",
+    "choices": [
+      "3.44 s",
+      "2.21 s",
+      "4.06 s",
+      "2.36 s"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.23,
+      "b": 1.38,
+      "c": 0.2
+    },
+    "content_tags": [
+      "Cơ học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-176",
+    "stem": "Một điện trở 99 Ohm được mắc vào hiệu điện thế 125 V. Cường độ dòng điện là bao nhiêu?",
+    "choices": [
+      "1.65 A",
+      "1.26 A",
+      "1.01 A",
+      "1.42 A"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.04,
+      "b": 0.73,
+      "c": 0.18
+    },
+    "content_tags": [
+      "Điện học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-177",
+    "stem": "Một thấu kính hội tụ có tiêu cự 24 cm. Độ tụ của thấu kính là bao nhiêu?",
+    "choices": [
+      "4.17 dp",
+      "5.87 dp",
+      "2.71 dp",
+      "2.15 dp"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.9,
+      "b": 1.67,
+      "c": 0.17
+    },
+    "content_tags": [
+      "Quang học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-178",
+    "stem": "Chu kỳ bán rã của một chất phóng xạ là 3 ngày. Sau 19 ngày, số hạt nhân còn lại bằng bao nhiêu phần trăm số hạt nhân ban đầu?",
+    "choices": [
+      "0.86 %",
+      "1.24 %",
+      "0.98 %",
+      "1.46 %"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.14,
+      "b": 2.26,
+      "c": 0.29
+    },
+    "content_tags": [
+      "Vật lý hạt nhân"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-179",
+    "stem": "Một sóng cơ có tần số 11 Hz và bước sóng 3.1 m. Tốc độ truyền sóng là bao nhiêu?",
+    "choices": [
+      "48.93 m/s",
+      "23.98 m/s",
+      "34.10 m/s",
+      "44.83 m/s"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.67,
+      "b": 1.6,
+      "c": 0.11
+    },
+    "content_tags": [
+      "Sóng cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-180",
+    "stem": "Công suất tiêu thụ của một bóng đèn là 95 W khi mắc vào hiệu điện thế 163 V. Cường độ dòng điện chạy qua đèn là?",
+    "choices": [
+      "0.58 A",
+      "0.29 A",
+      "0.44 A",
+      "0.72 A"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.93,
+      "b": 0.76,
+      "c": 0.29
+    },
+    "content_tags": [
+      "Điện học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-181",
+    "stem": "Một vật có khối lượng 6 kg chuyển động với gia tốc 9 m/s^2. Lực tác dụng lên vật là bao nhiêu?",
+    "choices": [
+      "36.22 N",
+      "29.14 N",
+      "54.00 N",
+      "52.84 N"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.54,
+      "b": 1.39,
+      "c": 0.16
+    },
+    "content_tags": [
+      "Cơ học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-182",
+    "stem": "Một điện trở 42 Ohm được mắc vào hiệu điện thế 59 V. Cường độ dòng điện là bao nhiêu?",
+    "choices": [
+      "0.99 A",
+      "1.99 A",
+      "1.40 A",
+      "1.18 A"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.17,
+      "b": 2.33,
+      "c": 0.26
+    },
+    "content_tags": [
+      "Điện học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-183",
+    "stem": "Một thấu kính hội tụ có tiêu cự 34 cm. Độ tụ của thấu kính là bao nhiêu?",
+    "choices": [
+      "2.94 dp",
+      "2.58 dp",
+      "2.42 dp",
+      "3.91 dp"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.81,
+      "b": 0.8,
+      "c": 0.2
+    },
+    "content_tags": [
+      "Quang học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-184",
+    "stem": "Công suất tiêu thụ của một bóng đèn là 75 W khi mắc vào hiệu điện thế 196 V. Cường độ dòng điện chạy qua đèn là?",
+    "choices": [
+      "0.53 A",
+      "0.19 A",
+      "0.23 A",
+      "0.38 A"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 0.79,
+      "b": 1.36,
+      "c": 0.2
+    },
+    "content_tags": [
+      "Điện học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-185",
+    "stem": "Chu kỳ bán rã của một chất phóng xạ là 8 ngày. Sau 16 ngày, số hạt nhân còn lại bằng bao nhiêu phần trăm số hạt nhân ban đầu?",
+    "choices": [
+      "22.45 %",
+      "36.80 %",
+      "25.00 %",
+      "32.98 %"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.14,
+      "b": 1.53,
+      "c": 0.21
+    },
+    "content_tags": [
+      "Vật lý hạt nhân"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-186",
+    "stem": "Một điện trở 26 Ohm được mắc vào hiệu điện thế 31 V. Cường độ dòng điện là bao nhiêu?",
+    "choices": [
+      "1.54 A",
+      "1.19 A",
+      "0.86 A",
+      "1.03 A"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.63,
+      "b": 1.24,
+      "c": 0.29
+    },
+    "content_tags": [
+      "Điện học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-187",
+    "stem": "Một thấu kính hội tụ có tiêu cự 10 cm. Độ tụ của thấu kính là bao nhiêu?",
+    "choices": [
+      "10.00 dp",
+      "6.93 dp",
+      "6.31 dp",
+      "9.35 dp"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.59,
+      "b": 0.78,
+      "c": 0.15
+    },
+    "content_tags": [
+      "Quang học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-188",
+    "stem": "Chu kỳ bán rã của một chất phóng xạ là 2 ngày. Sau 8 ngày, số hạt nhân còn lại bằng bao nhiêu phần trăm số hạt nhân ban đầu?",
+    "choices": [
+      "7.06 %",
+      "6.25 %",
+      "7.45 %",
+      "7.18 %"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 0.67,
+      "b": 0.92,
+      "c": 0.25
+    },
+    "content_tags": [
+      "Vật lý hạt nhân"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-189",
+    "stem": "Một sóng cơ có tần số 21 Hz và bước sóng 2.0 m. Tốc độ truyền sóng là bao nhiêu?",
+    "choices": [
+      "47.41 m/s",
+      "42.00 m/s",
+      "52.32 m/s",
+      "57.71 m/s"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.7,
+      "b": 0.69,
+      "c": 0.2
+    },
+    "content_tags": [
+      "Sóng cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-190",
+    "stem": "Nhiệt lượng cần thiết để đun nóng 3 kg nước từ 23 độ C lên 93 độ C là bao nhiêu? (c=4200 J/kg.K)",
+    "choices": [
+      "542232.55 J",
+      "882000.00 J",
+      "1123732.65 J",
+      "481947.06 J"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.03,
+      "b": 1.03,
+      "c": 0.15
+    },
+    "content_tags": [
+      "Nhiệt học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-191",
+    "stem": "Một điện trở 66 Ohm được mắc vào hiệu điện thế 76 V. Cường độ dòng điện là bao nhiêu?",
+    "choices": [
+      "0.96 A",
+      "1.15 A",
+      "1.29 A",
+      "1.48 A"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.04,
+      "b": 2.32,
+      "c": 0.28
+    },
+    "content_tags": [
+      "Điện học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-192",
+    "stem": "Một điện trở 99 Ohm được mắc vào hiệu điện thế 44 V. Cường độ dòng điện là bao nhiêu?",
+    "choices": [
+      "0.24 A",
+      "0.29 A",
+      "0.65 A",
+      "0.44 A"
+    ],
+    "correct": 3,
+    "params": {
+      "a": 1.98,
+      "b": 0.82,
+      "c": 0.11
+    },
+    "content_tags": [
+      "Điện học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-193",
+    "stem": "Một sóng cơ có tần số 35 Hz và bước sóng 3.4 m. Tốc độ truyền sóng là bao nhiêu?",
+    "choices": [
+      "121.90 m/s",
+      "119.00 m/s",
+      "124.01 m/s",
+      "125.16 m/s"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.32,
+      "b": 2.06,
+      "c": 0.21
+    },
+    "content_tags": [
+      "Sóng cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-194",
+    "stem": "Công suất tiêu thụ của một bóng đèn là 92 W khi mắc vào hiệu điện thế 199 V. Cường độ dòng điện chạy qua đèn là?",
+    "choices": [
+      "0.46 A",
+      "0.65 A",
+      "0.27 A",
+      "0.62 A"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.75,
+      "b": 1.85,
+      "c": 0.26
+    },
+    "content_tags": [
+      "Điện học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-195",
+    "stem": "Nhiệt lượng cần thiết để đun nóng 2 kg nước từ 23 độ C lên 83 độ C là bao nhiêu? (c=4200 J/kg.K)",
+    "choices": [
+      "547431.53 J",
+      "347261.41 J",
+      "504000.00 J",
+      "710129.80 J"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.64,
+      "b": 1.01,
+      "c": 0.13
+    },
+    "content_tags": [
+      "Nhiệt học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-196",
+    "stem": "Nhiệt lượng cần thiết để đun nóng 2 kg nước từ 26 độ C lên 83 độ C là bao nhiêu? (c=4200 J/kg.K)",
+    "choices": [
+      "478800.00 J",
+      "546277.49 J",
+      "574793.74 J",
+      "519684.94 J"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 1.95,
+      "b": 1.3,
+      "c": 0.16
+    },
+    "content_tags": [
+      "Nhiệt học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-197",
+    "stem": "Một vật có khối lượng 6 kg chuyển động với gia tốc 3 m/s^2. Lực tác dụng lên vật là bao nhiêu?",
+    "choices": [
+      "16.23 N",
+      "18.00 N",
+      "9.95 N",
+      "15.18 N"
+    ],
+    "correct": 1,
+    "params": {
+      "a": 1.64,
+      "b": 1.81,
+      "c": 0.1
+    },
+    "content_tags": [
+      "Cơ học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-198",
+    "stem": "Một sóng cơ có tần số 10 Hz và bước sóng 2.6 m. Tốc độ truyền sóng là bao nhiêu?",
+    "choices": [
+      "26.00 m/s",
+      "37.15 m/s",
+      "26.79 m/s",
+      "38.65 m/s"
+    ],
+    "correct": 0,
+    "params": {
+      "a": 0.92,
+      "b": 2.03,
+      "c": 0.25
+    },
+    "content_tags": [
+      "Sóng cơ"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-199",
+    "stem": "Một thấu kính hội tụ có tiêu cự 21 cm. Độ tụ của thấu kính là bao nhiêu?",
+    "choices": [
+      "3.88 dp",
+      "6.24 dp",
+      "4.76 dp",
+      "4.12 dp"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 0.55,
+      "b": 2.44,
+      "c": 0.27
+    },
+    "content_tags": [
+      "Quang học"
+    ],
+    "language": "vi"
+  },
+  {
+    "item_id": "PHYS-200",
+    "stem": "Công suất tiêu thụ của một bóng đèn là 93 W khi mắc vào hiệu điện thế 161 V. Cường độ dòng điện chạy qua đèn là?",
+    "choices": [
+      "0.69 A",
+      "0.44 A",
+      "0.58 A",
+      "0.74 A"
+    ],
+    "correct": 2,
+    "params": {
+      "a": 1.01,
+      "b": 1.35,
+      "c": 0.1
+    },
+    "content_tags": [
+      "Điện học"
     ],
     "language": "vi"
   }

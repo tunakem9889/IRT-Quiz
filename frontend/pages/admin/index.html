@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý Ngân hàng câu hỏi</title>
+    <link rel="stylesheet" href="../../css/global.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <div id="header-placeholder"></div>
+
+    <div class="container">
+        <div class="page-header">
+            <h2>Quản lý Ngân hàng câu hỏi</h2>
+        </div>
+
+            <div class="actions">
+                <button id="add-btn" class="btn primary">Thêm câu hỏi mới</button>
+                <div class="filter-group">
+                    <label for="category-filter">Lọc theo môn:</label>
+                    <select id="category-filter">
+                        <option value="">Tất cả</option>
+                        <!-- Categories will be populated here -->
+                    </select>
+                </div>
+            </div>
+
+            <div class="table-container">
+                <table id="questions-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nội dung</th>
+                            <th>Môn</th>
+                            <th>Độ khó (b)</th>
+                            <th>Độ phân biệt (a)</th>
+                            <th>Độ đoán mò (c)</th>
+                            <th>Hành động</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Questions will be populated here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <main>
+    </div>
+
+    <!-- Modal for Add/Edit -->
+    <div id="question-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modal-title">Thêm câu hỏi</h2>
+            <form id="question-form">
+                <div class="form-group">
+                    <label for="item_id">ID Câu hỏi (Tự động nếu trống):</label>
+                    <input type="text" id="item_id" name="item_id">
+                </div>
+                <div class="form-group">
+                    <label for="category">Môn học:</label>
+                    <select id="category" name="category" required>
+                        <!-- Categories will be populated here -->
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="stem">Nội dung câu hỏi:</label>
+                    <textarea id="stem" name="stem" rows="3" required></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label>Các lựa chọn:</label>
+                    <div class="choice-input">
+                        <input type="radio" name="correct" value="0" required>
+                        <input type="text" name="choice_0" placeholder="Lựa chọn A" required>
+                    </div>
+                    <div class="choice-input">
+                        <input type="radio" name="correct" value="1">
+                        <input type="text" name="choice_1" placeholder="Lựa chọn B" required>
+                    </div>
+                    <div class="choice-input">
+                        <input type="radio" name="correct" value="2">
+                        <input type="text" name="choice_2" placeholder="Lựa chọn C" required>
+                    </div>
+                    <div class="choice-input">
+                        <input type="radio" name="correct" value="3">
+                        <input type="text" name="choice_3" placeholder="Lựa chọn D" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="params_a">Độ phân biệt (a):</label>
+                        <input type="number" id="params_a" name="params_a" step="0.1" value="1.0" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="params_b">Độ khó (b):</label>
+                        <input type="number" id="params_b" name="params_b" step="0.1" value="0.0" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="params_c">Độ đoán mò (c):</label>
+                        <input type="number" id="params_c" name="params_c" step="0.01" value="0.0">
+                    </div>
+                </div>
+
+                <div class="form-actions">
+                    <button type="submit" class="btn primary">Lưu</button>
+                    <button type="button" class="btn secondary close-btn">Hủy</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+    <script src="../../js/components.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

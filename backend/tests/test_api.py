@@ -15,7 +15,7 @@ def test_start_quiz() -> str:
     response = requests.post(
         f"{BASE_URL}/api/quiz/start",
         json={
-            "category": "toan",
+            "category": "math",
             "config": {
                 "max_questions": 10,
                 "stop_se": 0.35,

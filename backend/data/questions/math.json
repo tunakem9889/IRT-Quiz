@@ -889,5 +889,1357 @@
     "params": {"a": 1.2, "b": 1.5, "c": 0.2},
     "content_tags": ["algebra"],
     "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-037",
+    "stem": "Cho phương trình: x + 4 = 6. Giá trị của x là:",
+    "choices": ["1", "2", "3", "4"],
+    "correct": 1,
+    "params": {"a": 0.8, "b": -1.0, "c": 0.2},
+    "content_tags": ["algebra"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-038",
+    "stem": "Giá trị của 5 - 3 là:",
+    "choices": ["1", "2", "3", "0"],
+    "correct": 1,
+    "params": {"a": 0.8, "b": -1.1, "c": 0.2},
+    "content_tags": ["arithmetic"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-039",
+    "stem": "Tổng 2 + 4 + 6 bằng:",
+    "choices": ["10", "11", "12", "13"],
+    "correct": 2,
+    "params": {"a": 0.8, "b": -1.2, "c": 0.2},
+    "content_tags": ["arithmetic"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-040",
+    "stem": "Nếu x = 3 thì 2x + 1 bằng:",
+    "choices": ["5", "6", "7", "8"],
+    "correct": 2,
+    "params": {"a": 0.8, "b": -1.0, "c": 0.2},
+    "content_tags": ["algebra"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-041",
+    "stem": "Phương trình 4x = 12 có nghiệm x =:",
+    "choices": ["2", "3", "4", "6"],
+    "correct": 1,
+    "params": {"a": 0.8, "b": -1.3, "c": 0.2},
+    "content_tags": ["algebra"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-042",
+    "stem": "Giá trị của 7 × 3 là:",
+    "choices": ["20", "21", "24", "19"],
+    "correct": 1,
+    "params": {"a": 0.8, "b": -1.1, "c": 0.2},
+    "content_tags": ["arithmetic"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-043",
+    "stem": "Rút gọn: (x + 2) - (2 + x) = ?",
+    "choices": ["0", "2", "-2", "x"],
+    "correct": 0,
+    "params": {"a": 0.8, "b": -1.2, "c": 0.2},
+    "content_tags": ["algebra"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-044",
+    "stem": "Tổng các số 1 đến 5 là:",
+    "choices": ["10", "11", "12", "15"],
+    "correct": 3,
+    "params": {"a": 0.8, "b": -1.0, "c": 0.2},
+    "content_tags": ["arithmetic"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-045",
+    "stem": "Giá trị của 2^3 là:",
+    "choices": ["6", "8", "9", "4"],
+    "correct": 1,
+    "params": {"a": 0.8, "b": -1.3, "c": 0.2},
+    "content_tags": ["exponent"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-046",
+    "stem": "Rút gọn phân thức (x^2 - 4)/(x - 2) với x ≠ 2:",
+    "choices": ["x - 2", "x + 2", "x^2 + 2", "2x"],
+    "correct": 1,
+    "params": {"a": 0.8, "b": -1.2, "c": 0.2},
+    "content_tags": ["algebra"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-047",
+    "stem": "Giá trị của √9 là:",
+    "choices": ["2", "3", "-3", "±3"],
+    "correct": 1,
+    "params": {"a": 0.8, "b": -1.1, "c": 0.2},
+    "content_tags": ["arithmetic"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-048",
+    "stem": "Phần trăm của 1/5 là:",
+    "choices": ["10%", "15%", "20%", "25%"],
+    "correct": 2,
+    "params": {"a": 0.8, "b": -1.0, "c": 0.2},
+    "content_tags": ["arithmetic"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-049",
+    "stem": "Nếu tổng hai số là 10 và một số là 4 thì số còn lại là:",
+    "choices": ["6", "5", "4", "7"],
+    "correct": 0,
+    "params": {"a": 0.8, "b": -1.4, "c": 0.2},
+    "content_tags": ["arithmetic"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-050",
+    "stem": "Giải phương trình: 5x - 10 = 0. Nghiệm x là:",
+    "choices": ["1", "2", "3", "4"],
+    "correct": 1,
+    "params": {"a": 0.8, "b": -1.2, "c": 0.2},
+    "content_tags": ["algebra"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-051",
+    "stem": "Tổng 10 + 20 + 30 bằng:",
+    "choices": ["50", "60", "70", "80"],
+    "correct": 1,
+    "params": {"a": 0.8, "b": -1.1, "c": 0.2},
+    "content_tags": ["arithmetic"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-GEO-023",
+    "stem": "Tam giác đều có mỗi góc bằng:",
+    "choices": ["60°", "45°", "90°", "120°"],
+    "correct": 0,
+    "params": {"a": 0.8, "b": -1.0, "c": 0.2},
+    "content_tags": ["geometry"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-GEO-024",
+    "stem": "Diện tích hình chữ nhật có chiều dài 7 và chiều rộng 2 là:",
+    "choices": ["9", "14", "7", "10"],
+    "correct": 1,
+    "params": {"a": 0.8, "b": -1.2, "c": 0.2},
+    "content_tags": ["geometry"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-TRI-010",
+    "stem": "Giá trị của cos 0° là:",
+    "choices": ["0", "1", "-1", "0.5"],
+    "correct": 1,
+    "params": {"a": 0.8, "b": -1.0, "c": 0.2},
+    "content_tags": ["trigonometry"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-PROB-012",
+    "stem": "Xác suất rút 1 quả bóng đỏ từ túi có 2 đỏ và 3 xanh là:",
+    "choices": ["2/5", "3/5", "1/2", "1/3"],
+    "correct": 0,
+    "params": {"a": 0.8, "b": -1.3, "c": 0.2},
+    "content_tags": ["probability"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-052",
+    "stem": "Giá trị của 12 ÷ 3 là:",
+    "choices": ["2", "3", "4", "6"],
+    "correct": 2,
+    "params": {"a": 0.8, "b": -1.1, "c": 0.2},
+    "content_tags": ["arithmetic"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-053",
+    "stem": "Nếu x = -1 thì x^2 = ?",
+    "choices": ["-1", "0", "1", "2"],
+    "correct": 2,
+    "params": {"a": 0.8, "b": -1.2, "c": 0.2},
+    "content_tags": ["algebra"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-054",
+    "stem": "Rút gọn (2x + 3x) = ?",
+    "choices": ["2x + 3", "5x", "x", "6x"],
+    "correct": 1,
+    "params": {"a": 0.8, "b": -1.0, "c": 0.2},
+    "content_tags": ["algebra"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-055",
+    "stem": "Số đối của -7 là:",
+    "choices": ["7", "-7", "0", "1"],
+    "correct": 0,
+    "params": {"a": 0.8, "b": -1.3, "c": 0.2},
+    "content_tags": ["number"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-056",
+    "stem": "Giải phương trình x/3 = 2. x = ?",
+    "choices": ["3", "6", "9", "2"],
+    "correct": 1,
+    "params": {"a": 0.8, "b": -1.2, "c": 0.2},
+    "content_tags": ["algebra"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-GEO-025",
+    "stem": "Độ dài cạnh hình vuông có diện tích 25 là:",
+    "choices": ["5", "25", "10", "√5"],
+    "correct": 0,
+    "params": {"a": 0.8, "b": -1.0, "c": 0.2},
+    "content_tags": ["geometry"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-057",
+    "stem": "Giá trị của 0! (giai thừa 0) bằng:",
+    "choices": ["0", "1", "-1", "Không xác định"],
+    "correct": 1,
+    "params": {"a": 0.8, "b": -1.4, "c": 0.2},
+    "content_tags": ["combinatorics"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-058",
+    "stem": "Tổng 3 + 3 + 3 + 3 bằng:",
+    "choices": ["9", "12", "15", "6"],
+    "correct": 1,
+    "params": {"a": 0.8, "b": -1.1, "c": 0.2},
+    "content_tags": ["arithmetic"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-059",
+    "stem": "Giá trị của 4^0 là:",
+    "choices": ["0", "1", "4", "undefined"],
+    "correct": 1,
+    "params": {"a": 0.8, "b": -1.0, "c": 0.2},
+    "content_tags": ["exponent"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-060",
+    "stem": "Phương trình x - 2 = 5 có nghiệm x =:",
+    "choices": ["3", "6", "7", "5"],
+    "correct": 1,
+    "params": {"a": 0.8, "b": -1.2, "c": 0.2},
+    "content_tags": ["algebra"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-061",
+    "stem": "Tích 6 × 7 là:",
+    "choices": ["42", "36", "40", "48"],
+    "correct": 0,
+    "params": {"a": 0.8, "b": -1.1, "c": 0.2},
+    "content_tags": ["arithmetic"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-062",
+    "stem": "Cho biểu thức (x+1)(x-1) = ?",
+    "choices": ["x^2+1", "x^2-1", "x^2", "x^2-2"],
+    "correct": 1,
+    "params": {"a": 0.8, "b": -1.3, "c": 0.2},
+    "content_tags": ["algebra"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-063",
+    "stem": "Nếu y = 2x và x = 3 thì y bằng:",
+    "choices": ["5", "6", "7", "8"],
+    "correct": 1,
+    "params": {"a": 0.8, "b": -1.0, "c": 0.2},
+    "content_tags": ["algebra"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-064",
+    "stem": "Tổng các số chẵn nhỏ hơn 10 là:",
+    "choices": ["20", "18", "22", "24"],
+    "correct": 0,
+    "params": {"a": 0.8, "b": -1.2, "c": 0.2},
+    "content_tags": ["arithmetic"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-065",
+    "stem": "Giá trị của 15 - 7 là:",
+    "choices": ["6", "7", "8", "9"],
+    "correct": 2,
+    "params": {"a": 0.8, "b": -1.1, "c": 0.2},
+    "content_tags": ["arithmetic"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-066",
+    "stem": "Giải phương trình 2x + 5 = 9. x = ?",
+    "choices": ["2", "3", "4", "1"],
+    "correct": 1,
+    "params": {"a": 0.8, "b": -1.0, "c": 0.2},
+    "content_tags": ["algebra"],
+    "language": "vi"
+  },
+
+  {
+    "item_id": "MATH-ALG-067",
+    "stem": "Giải phương trình 3x + 2 = 11. x = ?",
+    "choices": ["2", "3", "9/3", "3"],
+    "correct": 1,
+    "params": {"a": 1.0, "b": 0.2, "c": 0.2},
+    "content_tags": ["algebra"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-068",
+    "stem": "Tổng 11 + 12 + 13 bằng:",
+    "choices": ["36", "37", "38", "35"],
+    "correct": 0,
+    "params": {"a": 1.0, "b": 0.1, "c": 0.2},
+    "content_tags": ["arithmetic"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-GEO-026",
+    "stem": "Chu vi hình tròn bán kính 2π là (lấy π):",
+    "choices": ["4π^2", "4π", "2π", "8π"],
+    "correct": 0,
+    "params": {"a": 1.0, "b": 0.3, "c": 0.2},
+    "content_tags": ["geometry"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-TRI-011",
+    "stem": "Nếu sin θ = 1/2 và θ góc nhọn, thì θ = ?",
+    "choices": ["30°", "45°", "60°", "90°"],
+    "correct": 0,
+    "params": {"a": 1.0, "b": 0.2, "c": 0.2},
+    "content_tags": ["trigonometry"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-PROB-013",
+    "stem": "Một túi có 4 bi đỏ, 6 bi xanh. Chọn ngẫu nhiên 1 viên. Xác suất rút bi đỏ:",
+    "choices": ["2/5", "4/10", "4/6", "6/10"],
+    "correct": 0,
+    "params": {"a": 1.0, "b": 0.2, "c": 0.2},
+    "content_tags": ["probability"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-CAL-018",
+    "stem": "Đạo hàm của f(x)=x^2 tại x=2 là:",
+    "choices": ["2", "4", "3", "1"],
+    "correct": 1,
+    "params": {"a": 1.0, "b": 0.3, "c": 0.2},
+    "content_tags": ["calculus"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-069",
+    "stem": "Giải phương trình 4x - 4 = 12. x = ?",
+    "choices": ["3", "4", "5", "2"],
+    "correct": 0,
+    "params": {"a": 1.0, "b": 0.4, "c": 0.2},
+    "content_tags": ["algebra"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-070",
+    "stem": "Tổng các số lẻ từ 1 đến 9 là:",
+    "choices": ["25", "20", "30", "35"],
+    "correct": 0,
+    "params": {"a": 1.0, "b": 0.5, "c": 0.2},
+    "content_tags": ["arithmetic"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-GEO-027",
+    "stem": "Tam giác có các cạnh 3,4,5 là tam giác gì?",
+    "choices": ["Vuông", "Cân", "Đều", "Vuông cân"],
+    "correct": 0,
+    "params": {"a": 1.0, "b": 0.4, "c": 0.2},
+    "content_tags": ["geometry"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-071",
+    "stem": "Giá trị của log_10 100 là:",
+    "choices": ["1", "2", "10", "100"],
+    "correct": 1,
+    "params": {"a": 1.0, "b": 0.3, "c": 0.2},
+    "content_tags": ["algebra"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-072",
+    "stem": "Giải phương trình x^2 = 16. Nghiệm dương là:",
+    "choices": ["-4", "4", "±4", "0"],
+    "correct": 1,
+    "params": {"a": 1.0, "b": 0.4, "c": 0.2},
+    "content_tags": ["algebra"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-COMB-004",
+    "stem": "Số cách chọn 3 phần tử từ 5 phần tử là:",
+    "choices": ["10", "5", "20", "15"],
+    "correct": 3,
+    "params": {"a": 1.0, "b": 0.5, "c": 0.2},
+    "content_tags": ["combinatorics"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-PROB-014",
+    "stem": "Từ 3 đồng xu tung 1 lần, xác suất xuất hiện đúng 2 mặt ngửa là:",
+    "choices": ["3/8", "1/4", "1/2", "3/4"],
+    "correct": 0,
+    "params": {"a": 1.0, "b": 0.4, "c": 0.2},
+    "content_tags": ["probability"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-CAL-019",
+    "stem": "∫ 0^1 x dx = ?",
+    "choices": ["1/2", "1", "1/3", "2/3"],
+    "correct": 0,
+    "params": {"a": 1.0, "b": 0.5, "c": 0.2},
+    "content_tags": ["calculus"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-073",
+    "stem": "Cho dãy số u_n = 2n. Giá trị u_5 = ?",
+    "choices": ["8", "9", "10", "11"],
+    "correct": 2,
+    "params": {"a": 1.0, "b": 0.6, "c": 0.2},
+    "content_tags": ["algebra"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-074",
+    "stem": "Giá trị của 18 ÷ 6 là:",
+    "choices": ["2", "3", "4", "6"],
+    "correct": 1,
+    "params": {"a": 1.0, "b": 0.5, "c": 0.2},
+    "content_tags": ["arithmetic"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-GEO-028",
+    "stem": "Chu vi hình chữ nhật có cạnh 3 và 7 là:",
+    "choices": ["14", "20", "10", "21"],
+    "correct": 1,
+    "params": {"a": 1.0, "b": 0.6, "c": 0.2},
+    "content_tags": ["geometry"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-075",
+    "stem": "Giải phương trình 6x = 24. x = ?",
+    "choices": ["2", "3", "4", "5"],
+    "correct": 2,
+    "params": {"a": 1.0, "b": 0.7, "c": 0.2},
+    "content_tags": ["algebra"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-076",
+    "stem": "Tổng 20 + 30 + 40 = ?",
+    "choices": ["80", "90", "70", "60"],
+    "correct": 1,
+    "params": {"a": 1.0, "b": 0.6, "c": 0.2},
+    "content_tags": ["arithmetic"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-GEO-029",
+    "stem": "Diện tích tam giác cân có đáy 8 và chiều cao 5 là:",
+    "choices": ["20", "40", "10", "30"],
+    "correct": 0,
+    "params": {"a": 1.0, "b": 0.7, "c": 0.2},
+    "content_tags": ["geometry"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-077",
+    "stem": "Giá trị 9 - 4 × 2 = ? (theo thứ tự phép toán)",
+    "choices": ["1", "10", "17", "5"],
+    "correct": 0,
+    "params": {"a": 1.0, "b": 0.8, "c": 0.2},
+    "content_tags": ["arithmetic"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-078",
+    "stem": "Nếu f(x) = 2x + 1, f(3) = ?",
+    "choices": ["6", "7", "8", "5"],
+    "correct": 1,
+    "params": {"a": 1.0, "b": 0.8, "c": 0.2},
+    "content_tags": ["algebra","functions"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-079",
+    "stem": "Giải phương trình 2x^2 - 8 = 0. Nghiệm dương:",
+    "choices": ["2", "-2", "±2", "0"],
+    "correct": 0,
+    "params": {"a": 1.0, "b": 0.9, "c": 0.2},
+    "content_tags": ["algebra"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-CAL-020",
+    "stem": "Đạo hàm của f(x)=3x^2 tại x=1 là:",
+    "choices": ["3", "6", "9", "1"],
+    "correct": 1,
+    "params": {"a": 1.0, "b": 0.9, "c": 0.2},
+    "content_tags": ["calculus"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-PROB-015",
+    "stem": "Một túi có 3 bi đỏ, 2 bi xanh. Lấy 1 bi, xác suất bi xanh:",
+    "choices": ["2/5", "3/5", "1/2", "1/3"],
+    "correct": 0,
+    "params": {"a": 1.0, "b": 0.9, "c": 0.2},
+    "content_tags": ["probability"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-080",
+    "stem": "Số nguyên tố tiếp theo sau 13 là:",
+    "choices": ["14", "15", "16", "17"],
+    "correct": 3,
+    "params": {"a": 1.0, "b": 1.0, "c": 0.2},
+    "content_tags": ["number_theory"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-081",
+    "stem": "Giá trị của 2^4 là:",
+    "choices": ["8", "16", "32", "4"],
+    "correct": 1,
+    "params": {"a": 1.0, "b": 1.0, "c": 0.2},
+    "content_tags": ["exponent"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-GEO-030",
+    "stem": "Trong tam giác, nếu hai góc là 50° và 60°, góc thứ ba là:",
+    "choices": ["70°", "60°", "50°", "80°"],
+    "correct": 0,
+    "params": {"a": 1.0, "b": 1.0, "c": 0.2},
+    "content_tags": ["geometry"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-082",
+    "stem": "Giải phương trình log_2 8 = ?",
+    "choices": ["2", "3", "4", "1"],
+    "correct": 1,
+    "params": {"a": 1.0, "b": 1.1, "c": 0.2},
+    "content_tags": ["algebra","logarithm"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-083",
+    "stem": "Tổng các chữ số của 123 là:",
+    "choices": ["6", "5", "7", "8"],
+    "correct": 2,
+    "params": {"a": 1.0, "b": 1.1, "c": 0.2},
+    "content_tags": ["arithmetic"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-084",
+    "stem": "Phương trình 5x + 5 = 30. x = ?",
+    "choices": ["5", "4", "3", "6"],
+    "correct": 1,
+    "params": {"a": 1.0, "b": 1.2, "c": 0.2},
+    "content_tags": ["algebra"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-CAL-021",
+    "stem": "Giới hạn lim_{x→0} (1 - cos x)/x^2 = ?",
+    "choices": ["1/2", "0", "1", "∞"],
+    "correct": 0,
+    "params": {"a": 1.0, "b": 1.2, "c": 0.2},
+    "content_tags": ["calculus","limits"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-085",
+    "stem": "Giá trị của 81^(1/2) là:",
+    "choices": ["9", "8", "81", "18"],
+    "correct": 0,
+    "params": {"a": 1.2, "b": 1.2, "c": 0.2},
+    "content_tags": ["exponent","arithmetic"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-086",
+    "stem": "Nếu f(x)=x^2-1, f(2)=?",
+    "choices": ["2", "3", "4", "1"],
+    "correct": 1,
+    "params": {"a": 1.2, "b": 1.3, "c": 0.2},
+    "content_tags": ["functions","algebra"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-PROB-016",
+    "stem": "Hai đồng xu tung cùng lúc. Xác suất có đúng 1 mặt ngửa là:",
+    "choices": ["1/4", "1/2", "3/4", "1/3"],
+    "correct": 1,
+    "params": {"a": 1.2, "b": 1.3, "c": 0.2},
+    "content_tags": ["probability"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-GEO-031",
+    "stem": "Khoảng cách giữa (0,0) và (0,5) là:",
+    "choices": ["5", "0", "√5", "10"],
+    "correct": 0,
+    "params": {"a": 1.2, "b": 1.3, "c": 0.2},
+    "content_tags": ["geometry","coordinates"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-087",
+    "stem": "Giải phương trình x^2 - 9 = 0. Nghiệm dương:",
+    "choices": ["3", "-3", "±3", "0"],
+    "correct": 0,
+    "params": {"a": 1.2, "b": 1.4, "c": 0.2},
+    "content_tags": ["algebra"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-CAL-022",
+    "stem": "Đạo hàm của ln(x) tại x=e là:",
+    "choices": ["1/e", "1", "e", "0"],
+    "correct": 1,
+    "params": {"a": 1.2, "b": 1.4, "c": 0.2},
+    "content_tags": ["calculus"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-088",
+    "stem": "Tổng các nghiệm của x^2 - 3x + 2 = 0 là:",
+    "choices": ["1", "2", "3", "5"],
+    "correct": 2,
+    "params": {"a": 1.2, "b": 1.4, "c": 0.2},
+    "content_tags": ["algebra"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-089",
+    "stem": "Số trung bình cộng của 4 và 10 là:",
+    "choices": ["6", "7", "8", "9"],
+    "correct": 2,
+    "params": {"a": 1.2, "b": 1.5, "c": 0.2},
+    "content_tags": ["statistics","arithmetic"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-090",
+    "stem": "Giải phương trình (x-2)(x-5)=0 nghiệm dương là:",
+    "choices": ["2", "5", "±2", "7"],
+    "correct": 1,
+    "params": {"a": 1.2, "b": 1.5, "c": 0.2},
+    "content_tags": ["algebra"],
+    "language": "vi"
+  },
+
+  {
+    "item_id": "MATH-ALG-091",
+    "stem": "Tìm đạo hàm của f(x)=x^3 tại x=2:",
+    "choices": ["4", "8", "12", "6"],
+    "correct": 2,
+    "params": {"a": 1.6, "b": 1.6, "c": 0.15},
+    "content_tags": ["calculus"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-GEO-032",
+    "stem": "Trong không gian, đường chéo của hình lập phương cạnh a có độ dài:",
+    "choices": ["a√2", "a√3", "2a", "a"],
+    "correct": 1,
+    "params": {"a": 1.6, "b": 1.6, "c": 0.15},
+    "content_tags": ["geometry","3d"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-092",
+    "stem": "Giải phương trình 2x^2 - 5x + 2 = 0. Một nghiệm là 1/2; nghiệm kia là:",
+    "choices": ["2", "2/1", "4", "1"],
+    "correct": 0,
+    "params": {"a": 1.6, "b": 1.7, "c": 0.15},
+    "content_tags": ["algebra","quadratic"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-PROB-017",
+    "stem": "Có 5 sách khác nhau. Chọn 2 cuốn để đọc. Số cách chọn là:",
+    "choices": ["10", "20", "5", "15"],
+    "correct": 0,
+    "params": {"a": 1.6, "b": 1.7, "c": 0.15},
+    "content_tags": ["combinatorics"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-CAL-023",
+    "stem": "∫ x e^{x} dx = ? (chọn dạng nguyên hàm cơ bản)",
+    "choices": ["(x-1)e^{x} + C", "(x+1)e^{x} + C", "xe^{x} + C", "e^{x} + C"],
+    "correct": 0,
+    "params": {"a": 1.6, "b": 1.8, "c": 0.15},
+    "content_tags": ["calculus","integration"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-093",
+    "stem": "Tìm giới hạn lim_{x→∞} (2x+1)/(x) = ?",
+    "choices": ["2", "1", "∞", "0"],
+    "correct": 0,
+    "params": {"a": 1.6, "b": 1.8, "c": 0.15},
+    "content_tags": ["limits","algebra"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-GEO-033",
+    "stem": "Cho tam giác vuông, cạnh huyền = 13, một cạnh góc vuông = 5. Cạnh góc vuông còn lại là:",
+    "choices": ["12", "10", "8", "11"],
+    "correct": 0,
+    "params": {"a": 1.6, "b": 1.8, "c": 0.15},
+    "content_tags": ["geometry","pythagoras"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-094",
+    "stem": "Tổng vô hạn của dãy địa cấp 1/2 + 1/4 + 1/8 + ... là:",
+    "choices": ["1", "2", "1/2", "3/4"],
+    "correct": 0,
+    "params": {"a": 1.6, "b": 1.9, "c": 0.15},
+    "content_tags": ["series"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-095",
+    "stem": "Giải hệ phương trình: x + y = 4, x - y = 2. x = ?",
+    "choices": ["3", "2", "1", "4"],
+    "correct": 0,
+    "params": {"a": 1.6, "b": 1.9, "c": 0.15},
+    "content_tags": ["algebra","systems"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-CAL-024",
+    "stem": "Đạo hàm của sin x là:",
+    "choices": ["cos x", "-cos x", "sin x", "-sin x"],
+    "correct": 0,
+    "params": {"a": 1.6, "b": 1.9, "c": 0.15},
+    "content_tags": ["calculus","trigonometry"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-096",
+    "stem": "Giá trị căn bậc hai của 0.25 là:",
+    "choices": ["0.25", "0.5", "0.75", "1"],
+    "correct": 1,
+    "params": {"a": 1.6, "b": 2.0, "c": 0.15},
+    "content_tags": ["arithmetic"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-097",
+    "stem": "Tập nghiệm của bất phương trình x^2 ≥ 0 là:",
+    "choices": ["Tất cả các số thực", "x ≥ 0", "x ≤ 0", "Không có"],
+    "correct": 0,
+    "params": {"a": 1.6, "b": 1.8, "c": 0.15},
+    "content_tags": ["algebra","inequalities"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-PROB-018",
+    "stem": "Từ dãy gồm 4 chữ số khác nhau, số cách ghép 4 chữ số là:",
+    "choices": ["24", "16", "12", "20"],
+    "correct": 0,
+    "params": {"a": 1.6, "b": 1.9, "c": 0.15},
+    "content_tags": ["permutations","combinatorics"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-GEO-034",
+    "stem": "Trong tam giác vuông, tỉ số sin góc nhọn α = 3/5. Cos α = ?",
+    "choices": ["4/5", "3/5", "5/3", "1"],
+    "correct": 0,
+    "params": {"a": 1.6, "b": 1.9, "c": 0.15},
+    "content_tags": ["trigonometry","geometry"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-098",
+    "stem": "Cho ma trận A = [[2,0],[0,3]]. det(A) = ?",
+    "choices": ["5", "6", "0", "1"],
+    "correct": 1,
+    "params": {"a": 1.6, "b": 1.9, "c": 0.15},
+    "content_tags": ["algebra","matrices"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-099",
+    "stem": "Giải phương trình x^2 + x - 6 = 0. Một nghiệm là 2; nghiệm kia là:",
+    "choices": ["-3", "3", "-2", "4"],
+    "correct": 0,
+    "params": {"a": 1.6, "b": 1.9, "c": 0.15},
+    "content_tags": ["algebra","quadratic"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-CAL-025",
+    "stem": "Tính đạo hàm của f(x)=e^{2x}:",
+    "choices": ["2e^{2x}", "e^{2x}", "e^{x}", "4e^{2x}"],
+    "correct": 0,
+    "params": {"a": 1.6, "b": 1.9, "c": 0.15},
+    "content_tags": ["calculus","exponential"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-PROB-019",
+    "stem": "Xác suất không lấy được viên đỏ khi rút 1 viên từ túi chứa 3 đỏ và 2 xanh là:",
+    "choices": ["3/5", "2/5", "1/5", "4/5"],
+    "correct": 1,
+    "params": {"a": 1.6, "b": 1.9, "c": 0.15},
+    "content_tags": ["probability"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-100",
+    "stem": "Số cách sắp xếp 3 đối tượng khác nhau là:",
+    "choices": ["3", "6", "9", "12"],
+    "correct": 1,
+    "params": {"a": 1.6, "b": 2.0, "c": 0.15},
+    "content_tags": ["combinatorics"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-GEO-035",
+    "stem": "Độ dài đoạn thẳng nối (1,2) và (4,6) là:",
+    "choices": ["5", "√25", "√20", "√10"],
+    "correct": 2,
+    "params": {"a": 1.6, "b": 2.0, "c": 0.15},
+    "content_tags": ["geometry","coordinates"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-101",
+    "stem": "Giải phương trình ln x = 0. x = ?",
+    "choices": ["0", "1", "e", "ln e"],
+    "correct": 1,
+    "params": {"a": 1.7, "b": 2.0, "c": 0.15},
+    "content_tags": ["algebra","logarithm"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-102",
+    "stem": "Nếu f(x)=1/x, f'(x) = ?",
+    "choices": ["-1/x^2", "1/x^2", "1/x", "-x^2"],
+    "correct": 0,
+    "params": {"a": 1.7, "b": 2.0, "c": 0.15},
+    "content_tags": ["calculus","functions"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-CAL-026",
+    "stem": "Tính ∫ e^{x} dx = ?",
+    "choices": ["e^{x} + C", "xe^{x} + C", "e^{x}x^2 + C", "ln x + C"],
+    "correct": 0,
+    "params": {"a": 1.7, "b": 2.0, "c": 0.15},
+    "content_tags": ["calculus","integration"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-103",
+    "stem": "Cho đa thức x^3 - 1. Phân tích thành nhân tử:",
+    "choices": ["(x-1)(x^2 + x +1)", "(x+1)(x^2 - x +1)", "(x-1)^3", "x^3 -1"],
+    "correct": 0,
+    "params": {"a": 1.7, "b": 2.0, "c": 0.15},
+    "content_tags": ["algebra","polynomial"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-PROB-020",
+    "stem": "Chọn 2 phần tử từ 4 phần tử (không xét thứ tự). Số cách là:",
+    "choices": ["6", "12", "8", "4"],
+    "correct": 0,
+    "params": {"a": 1.7, "b": 2.0, "c": 0.15},
+    "content_tags": ["combinatorics"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-GEO-036",
+    "stem": "Góc giữa hai vectơ (1,0) và (0,1) là:",
+    "choices": ["90°", "0°", "45°", "60°"],
+    "correct": 0,
+    "params": {"a": 1.8, "b": 2.0, "c": 0.15},
+    "content_tags": ["geometry","vectors"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-104",
+    "stem": "Nghiệm của log_3 27 = ?",
+    "choices": ["2", "3", "4", "5"],
+    "correct": 1,
+    "params": {"a": 1.8, "b": 2.0, "c": 0.15},
+    "content_tags": ["logarithm","algebra"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-CAL-027",
+    "stem": "Giới hạn lim_{x→0} (e^{x} - 1)/x = ?",
+    "choices": ["1", "0", "e", "∞"],
+    "correct": 0,
+    "params": {"a": 1.8, "b": 2.0, "c": 0.15},
+    "content_tags": ["calculus","limits"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-105",
+    "stem": "Cho phương trình x^2 + 4x + 4 = 0, nghiệm kép là:",
+    "choices": ["-2", "2", "-4", "4"],
+    "correct": 0,
+    "params": {"a": 1.8, "b": 2.0, "c": 0.15},
+    "content_tags": ["algebra","quadratic"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-GEO-037",
+    "stem": "Diện tích hình thoi với 2 đường chéo 6 và 8 là:",
+    "choices": ["24", "14", "30", "48"],
+    "correct": 0,
+    "params": {"a": 1.8, "b": 2.0, "c": 0.15},
+    "content_tags": ["geometry"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-106",
+    "stem": "Giá trị của sin(π/6) = ?",
+    "choices": ["1/2", "√2/2", "√3/2", "0"],
+    "correct": 0,
+    "params": {"a": 1.8, "b": 2.0, "c": 0.15},
+    "content_tags": ["trigonometry"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-107",
+    "stem": "Tìm đạo hàm của f(x)=ln(x^2) tại x=1:",
+    "choices": ["2", "1", "0", "4"],
+    "correct": 0,
+    "params": {"a": 1.8, "b": 2.0, "c": 0.15},
+    "content_tags": ["calculus","logarithm"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-108",
+    "stem": "Phương trình x^3 = 8 có nghiệm thực là:",
+    "choices": ["2", "4", "-2", "±2"],
+    "correct": 0,
+    "params": {"a": 1.9, "b": 2.0, "c": 0.15},
+    "content_tags": ["algebra","polynomial"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-PROB-021",
+    "stem": "Xác suất rút 1 quân bài đỏ từ bộ 52 lá là:",
+    "choices": ["1/2", "1/4", "1/3", "2/3"],
+    "correct": 0,
+    "params": {"a": 1.9, "b": 2.0, "c": 0.15},
+    "content_tags": ["probability","cards"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-CAL-028",
+    "stem": "Tính ∫ 0^π sin x dx = ?",
+    "choices": ["2", "0", "1", "π"],
+    "correct": 0,
+    "params": {"a": 1.9, "b": 2.0, "c": 0.15},
+    "content_tags": ["calculus","integration","trigonometry"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-109",
+    "stem": "Cho phương trình 3x^2 - 12 = 0. Nghiệm dương là:",
+    "choices": ["2", "√4", "±2", "4"],
+    "correct": 0,
+    "params": {"a": 1.9, "b": 2.0, "c": 0.15},
+    "content_tags": ["algebra","quadratic"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-GEO-038",
+    "stem": "Trong tam giác, nếu góc A=30°, B=60°, thì C = ?",
+    "choices": ["90°", "60°", "30°", "120°"],
+    "correct": 0,
+    "params": {"a": 1.9, "b": 2.0, "c": 0.15},
+    "content_tags": ["geometry"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-110",
+    "stem": "Giải phương trình 1/(x) = 4. x = ?",
+    "choices": ["1/4", "4", "-1/4", "-4"],
+    "correct": 0,
+    "params": {"a": 1.9, "b": 2.0, "c": 0.15},
+    "content_tags": ["algebra"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-111",
+    "stem": "Tổng các nghiệm của x^2 - x - 2 = 0 là:",
+    "choices": ["1", "-1", "2", "0"],
+    "correct": 0,
+    "params": {"a": 1.9, "b": 2.0, "c": 0.15},
+    "content_tags": ["algebra"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-PROB-022",
+    "stem": "Hai sự kiện độc lập A và B, P(A)=1/3, P(B)=1/2. P(A ∩ B) = ?",
+    "choices": ["1/6", "1/5", "1/3", "1/2"],
+    "correct": 0,
+    "params": {"a": 1.9, "b": 2.0, "c": 0.15},
+    "content_tags": ["probability"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-CAL-029",
+    "stem": "Đạo hàm của tan x là:",
+    "choices": ["sec^2 x", "csc^2 x", "cos^2 x", "sin^2 x"],
+    "correct": 0,
+    "params": {"a": 1.9, "b": 2.0, "c": 0.15},
+    "content_tags": ["calculus","trigonometry"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-112",
+    "stem": "Nghiệm của 2^x = 16 là:",
+    "choices": ["2", "3", "4", "5"],
+    "correct": 2,
+    "params": {"a": 2.0, "b": 2.0, "c": 0.15},
+    "content_tags": ["exponent","algebra"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-113",
+    "stem": "Giá trị biểu thức (a+b)^2 - (a-b)^2 bằng:",
+    "choices": ["4ab", "2ab", "a^2-b^2", "0"],
+    "correct": 0,
+    "params": {"a": 2.0, "b": 2.0, "c": 0.15},
+    "content_tags": ["algebra"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-114",
+    "stem": "Tìm giới hạn lim_{x→0} (sin 2x)/(x) = ?",
+    "choices": ["2", "1", "0", "∞"],
+    "correct": 0,
+    "params": {"a": 2.0, "b": 2.0, "c": 0.15},
+    "content_tags": ["limits","trigonometry"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-115",
+    "stem": "Tổng các nghiệm của x^2 - 6x + 9 = 0 là:",
+    "choices": ["6", "3", "9", "0"],
+    "correct": 0,
+    "params": {"a": 2.0, "b": 2.0, "c": 0.15},
+    "content_tags": ["algebra","quadratic"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-GEO-039",
+    "stem": "Trong tam giác vuông, nếu góc một góc nhọn là 37°, góc kia là:",
+    "choices": ["53°", "43°", "53°", "90°"],
+    "correct": 0,
+    "params": {"a": 2.0, "b": 2.0, "c": 0.15},
+    "content_tags": ["geometry","trigonometry"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-116",
+    "stem": "Giá trị của sin 90° là:",
+    "choices": ["0", "1", "1/2", "√2/2"],
+    "correct": 1,
+    "params": {"a": 2.0, "b": 2.0, "c": 0.15},
+    "content_tags": ["trigonometry"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-117",
+    "stem": "Tìm nguyên hàm ∫ 2x dx = ?",
+    "choices": ["x^2 + C", "2x + C", "x + C", "x^2/2 + C"],
+    "correct": 0,
+    "params": {"a": 2.0, "b": 2.0, "c": 0.15},
+    "content_tags": ["calculus","integration"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-118",
+    "stem": "Nếu ma trận A = [[1,1],[0,1]], A^2 = ? (chỉ chọn định dạng trace):",
+    "choices": ["[[1,2],[0,1]]", "[[1,1],[1,1]]", "[[1,1],[0,1]]", "[[2,2],[0,2]]"],
+    "correct": 0,
+    "params": {"a": 2.0, "b": 2.0, "c": 0.15},
+    "content_tags": ["algebra","matrices"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-119",
+    "stem": "Giải phương trình 3x - 7 = 2. x = ?",
+    "choices": ["3", "9/3", "5/3", "4/3"],
+    "correct": 0,
+    "params": {"a": 2.0, "b": 2.0, "c": 0.15},
+    "content_tags": ["algebra"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-120",
+    "stem": "Phương trình x^2 - 2x - 3 = 0 có nghiệm dương là:",
+    "choices": ["3", "-1", "1", "2"],
+    "correct": 0,
+    "params": {"a": 2.0, "b": 2.0, "c": 0.15},
+    "content_tags": ["algebra","quadratic"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-PROB-023",
+    "stem": "Xác suất để khi tung một xúc xắc xuất hiện số lẻ là:",
+    "choices": ["1/2", "1/3", "1/6", "2/3"],
+    "correct": 0,
+    "params": {"a": 2.0, "b": 2.0, "c": 0.15},
+    "content_tags": ["probability"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-CAL-030",
+    "stem": "Giới hạn lim_{x→0} (sin x)/x = ?",
+    "choices": ["1", "0", "∞", "-1"],
+    "correct": 0,
+    "params": {"a": 2.0, "b": 2.0, "c": 0.15},
+    "content_tags": ["calculus","limits"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-121",
+    "stem": "Giá trị của 11 × 11 là:",
+    "choices": ["111", "121", "122", "1210"],
+    "correct": 1,
+    "params": {"a": 2.0, "b": 2.0, "c": 0.15},
+    "content_tags": ["arithmetic"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-122",
+    "stem": "Tổng các số từ 1 đến 100 là:",
+    "choices": ["5050", "5000", "50500", "10000"],
+    "correct": 0,
+    "params": {"a": 2.0, "b": 2.0, "c": 0.15},
+    "content_tags": ["arithmetic","series"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-GEO-040",
+    "stem": "Bán kính đường tròn nội tiếp tam giác vuông có hai cạnh góc vuông 3 và 4 là:",
+    "choices": ["1", "12/ (3+4+5)", " (3+4-5)/2", " (3+4+5)/2"],
+    "correct": 2,
+    "params": {"a": 2.0, "b": 2.0, "c": 0.15},
+    "content_tags": ["geometry","circles"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-123",
+    "stem": "Nếu a = 2, b = 3 thì (a+b)^3 = ?",
+    "choices": ["125", "125", "125", "125"],
+    "correct": 0,
+    "params": {"a": 2.0, "b": 2.0, "c": 0.15},
+    "content_tags": ["algebra","polynomial"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-124",
+    "stem": "Giải phương trình 2x - 3 = 7. x = ?",
+    "choices": ["4", "5", "3", "2"],
+    "correct": 0,
+    "params": {"a": 2.0, "b": 2.0, "c": 0.15},
+    "content_tags": ["algebra"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-125",
+    "stem": "Tổng 2^0 + 2^1 + 2^2 + 2^3 = ?",
+    "choices": ["15", "8", "7", "16"],
+    "correct": 0,
+    "params": {"a": 2.0, "b": 2.0, "c": 0.15},
+    "content_tags": ["exponent","series"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-126",
+    "stem": "Giải phương trình |x| = 3. Một nghiệm là:",
+    "choices": ["3", "-3", "±3", "0"],
+    "correct": 2,
+    "params": {"a": 2.0, "b": 2.0, "c": 0.15},
+    "content_tags": ["absolute","algebra"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-127",
+    "stem": "Giá trị của 1000^(1/3) xấp xỉ:",
+    "choices": ["10", "100", "≈10", "≈9.99"],
+    "correct": 2,
+    "params": {"a": 2.0, "b": 2.0, "c": 0.15},
+    "content_tags": ["exponent","estimation"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-128",
+    "stem": "Tìm nghiệm của x^2 = 0:",
+    "choices": ["0", "±0", "1", "-1"],
+    "correct": 0,
+    "params": {"a": 2.0, "b": 2.0, "c": 0.15},
+    "content_tags": ["algebra"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-PROB-024",
+    "stem": "Rút 1 lá bài từ bộ 52 lá, xác suất rút át (A) là:",
+    "choices": ["4/52", "1/13", "1/52", "2/13"],
+    "correct": 1,
+    "params": {"a": 2.0, "b": 2.0, "c": 0.15},
+    "content_tags": ["probability","cards"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-CAL-031",
+    "stem": "Giá trị đạo hàm của f(x)=cos x tại x=0 là:",
+    "choices": ["0", "-1", "1", "undefined"],
+    "correct": 0,
+    "params": {"a": 2.0, "b": 2.0, "c": 0.15},
+    "content_tags": ["calculus","trigonometry"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-129",
+    "stem": "Tổng nghiệm của x^2 - 5x + 6 = 0 là:",
+    "choices": ["5", "6", "1", "-5"],
+    "correct": 0,
+    "params": {"a": 2.0, "b": 2.0, "c": 0.15},
+    "content_tags": ["algebra"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-GEO-041",
+    "stem": "Một tam giác có độ dài các cạnh 5,5,6. Nó là tam giác gì?",
+    "choices": ["Cân", "Đều", "Vuông", "Không xác định"],
+    "correct": 0,
+    "params": {"a": 2.0, "b": 2.0, "c": 0.15},
+    "content_tags": ["geometry"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-130",
+    "stem": "Giải phương trình 7x = 35. x = ?",
+    "choices": ["4", "5", "6", "7"],
+    "correct": 1,
+    "params": {"a": 2.0, "b": 2.0, "c": 0.15},
+    "content_tags": ["algebra"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-131",
+    "stem": "Số nguyên tố nhỏ hơn 10 là bao nhiêu (liệt kê các số):",
+    "choices": ["2,3,5,7", "1,2,3,5", "2,4,6,8", "3,5,7,9"],
+    "correct": 0,
+    "params": {"a": 2.0, "b": 2.0, "c": 0.15},
+    "content_tags": ["number_theory"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-132",
+    "stem": "Tổng 1/2 + 1/3 = ? (dạng phân số tối giản)",
+    "choices": ["5/6", "2/5", "3/5", "1/6"],
+    "correct": 0,
+    "params": {"a": 2.0, "b": 2.0, "c": 0.15},
+    "content_tags": ["fractions","arithmetic"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-CAL-032",
+    "stem": "Đạo hàm của f(x)=x^n là n x^{n-1}. Với n=4 tại x=1 là:",
+    "choices": ["4", "1", "0", "16"],
+    "correct": 0,
+    "params": {"a": 2.0, "b": 2.0, "c": 0.15},
+    "content_tags": ["calculus","power_rule"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-133",
+    "stem": "Giá trị của 13 + 14 = ?",
+    "choices": ["26", "27", "28", "29"],
+    "correct": 1,
+    "params": {"a": 2.0, "b": 2.0, "c": 0.15},
+    "content_tags": ["arithmetic"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-134",
+    "stem": "Phân tích 12 thành tích hai số nguyên dương (2 số): có bao nhiêu cặp (a,b) với a*b=12?",
+    "choices": ["6", "4", "5", "3"],
+    "correct": 1,
+    "params": {"a": 2.0, "b": 1.0, "c": 0.15},
+    "content_tags": ["number_theory","factors"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-135",
+    "stem": "Giá trị của sin(π/2) bằng:",
+    "choices": ["0", "1", "-1", "1/2"],
+    "correct": 1,
+    "params": {"a": 2.0, "b": -2.0, "c": 0.15},
+    "content_tags": ["trigonometry"],
+    "language": "vi"
+  },
+  {
+    "item_id": "MATH-ALG-136",
+    "stem": "Tổng các chữ số của 999 là:",
+    "choices": ["27", "18", "9", "26"],
+    "correct": 0,
+    "params": {"a": 2.0, "b": -2.0, "c": 0.15},
+    "content_tags": ["arithmetic"],
+    "language": "vi"
   }
 ]
